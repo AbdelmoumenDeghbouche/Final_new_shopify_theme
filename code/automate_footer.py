@@ -5,6 +5,12 @@ import argparse
 from openai import OpenAI
 import os
 
+# Colab environment - no need for dotenv
+# Set your environment variables in a cell before running this script:
+# import os
+# os.environ["OPENAI_API_KEY"] = "your-api-key-here"
+# os.environ["FOOTER_FILE_PATH"] = "/content/footer.json"
+
 # --- 1. CORE UTILITY FUNCTIONS ---
 
 def prompt_gpt(prompt):
@@ -20,7 +26,13 @@ def prompt_gpt(prompt):
             messages=[{"role": "user", "content": prompt}],
             temperature=0.6,
         )
-        return response.choices[0].message.content.replace('"',"")
+        # Clean up response - remove markdown code blocks and quotes
+        content = response.choices[0].message.content
+        content = content.replace('"',"")
+        # Remove markdown code blocks
+        content = re.sub(r'```html\s*', '', content)
+        content = re.sub(r'```\s*', '', content)
+        return content.strip()
     except Exception as e:
         print(f"GPT error: {e}")
         return None
@@ -40,7 +52,13 @@ def translate_text(text, target_language):
             messages=[{"role": "user", "content": prompt}],
             temperature=0.3,
         )
-        return response.choices[0].message.content.strip().replace('"',"")
+        # Clean up response - remove markdown code blocks and quotes
+        content = response.choices[0].message.content
+        content = content.replace('"',"")
+        # Remove markdown code blocks
+        content = re.sub(r'```html\s*', '', content)
+        content = re.sub(r'```\s*', '', content)
+        return content.strip()
     except Exception as e:
         print(f"Translation error: {e}")
         return text
@@ -82,7 +100,7 @@ def prompt_gpt_html_validated(prompt, expected_tags, max_retries=2):
 # --- 2. PROMPT GENERATION FUNCTIONS ---
 
 def generate_brand_slogan_prompt(original_slogan, brand_name, language):
-    return f"The original slogan is: '{original_slogan}'. Generate a new, similar brand slogan for the brand '{brand_name}'. It should be inspiring and concise. Language: {language}. The response must be a valid HTML string with `<p>`, `<strong>`, and `<a>` tags, ending with a call to action like 'Shop now'."
+    return f"The original slogan is: '{original_slogan}'. Generate a new, similar brand slogan for the brand '{brand_name}'. It should be inspiring and concise. Language: {language}. IMPORTANT: Return ONLY the HTML code without any markdown formatting or code blocks. The response must be a valid HTML string with `<p>`, `<strong>`, and `<a>` tags, ending with a call to action like 'Shop now'."
 
 def generate_trust_badge_prompt(original_title, original_text, brand_name, language):
     return f"The original trust badge is '{original_title}' with text '{original_text}'. Generate a new, similar trust badge title and a one-sentence description for the brand '{brand_name}'. The tone should be reassuring and professional. Language: {language}. The response should be in two parts separated by a pipe '|': TITLE|DESCRIPTION. The title must be wrapped in `<strong>` and the description in `<p>`."
