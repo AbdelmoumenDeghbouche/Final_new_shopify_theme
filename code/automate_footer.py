@@ -71,10 +71,13 @@ def validate_html_tags(response, expected_tags):
     print(f"Expected tags: {expected_tags}")
     
     for tag in expected_tags:
-        opening_tag = f"<{tag}>"
+        # For opening tags, we need to be more flexible to allow attributes
+        # Look for <tag> or <tag with attributes>
+        opening_pattern = f"<{tag}(?:\\s|>)"
         closing_tag = f"</{tag}>"
         
-        has_opening = opening_tag in response
+        import re
+        has_opening = bool(re.search(opening_pattern, response))
         has_closing = closing_tag in response
         
         print(f"Tag '{tag}': opening={has_opening}, closing={has_closing}")
