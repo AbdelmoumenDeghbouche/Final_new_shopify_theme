@@ -18,7 +18,6 @@ def prompt_gpt(prompt):
             temperature=0.6,
         )
         content = response.choices[0].message.content
-        content = content.replace('"',"")
         content = re.sub(r'```html\s*', '', content)
         content = re.sub(r'```\s*', '', content)
         return content.strip()
