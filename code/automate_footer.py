@@ -5,14 +5,6 @@ import argparse
 from openai import OpenAI
 import os
 
-# Colab environment - no need for dotenv
-# Set your environment variables in a cell before running this script:
-# import os
-# os.environ["OPENAI_API_KEY"] = "your-api-key-here"
-# os.environ["FOOTER_FILE_PATH"] = "/content/footer.json"
-
-# --- 1. CORE UTILITY FUNCTIONS ---
-
 def prompt_gpt(prompt):
     """Pure GPT prompting function - just send and get response"""
     try:
@@ -86,6 +78,7 @@ def prompt_gpt_html_validated(prompt, expected_tags, max_retries=2):
     for attempt in range(max_retries + 1):
         print(f"Prompting GPT for HTML (Attempt {attempt + 1})...")
         response = prompt_gpt(prompt)
+        print("HTML RESPONSE OF GPT " , response)
         is_valid = all(f"<{tag}>" in response and f"</{tag}>" in response for tag in expected_tags)
         if is_valid:
             print("HTML Validation PASSED.")
