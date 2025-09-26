@@ -72,7 +72,7 @@
                         "icon_size": 20,
                         "heading": "",
                         "heading_size": 20,
-                        "text": "<p>Lockar utan friss som håller hela dagen<\/p>",
+                        "text": "<p>Lockar utan friss som håller hela dagen</p>",
                         "text_size": 12,
                         "padding_top": 12,
                         "padding_bottom": 0
@@ -84,7 +84,7 @@
                         "icon_size": 20,
                         "heading": "",
                         "heading_size": 20,
-                        "text": "<p>Inget skador från extrem värme<\/p>",
+                        "text": "<p>Inget skador från extrem värme</p>",
                         "text_size": 12,
                         "padding_top": 0,
                         "padding_bottom": 0
@@ -96,7 +96,7 @@
                         "icon_size": 20,
                         "heading": "",
                         "heading_size": 20,
-                        "text": "<p>Perfekt för voluminösa lockar<\/p>",
+                        "text": "<p>Perfekt för voluminösa lockar</p>",
                         "text_size": 12,
                         "padding_top": 0,
                         "padding_bottom": 14
@@ -168,7 +168,7 @@
                         "option_3_badge_text": "FLASH SALE — Grab It Before It's Gone",
                         "option_3_unit_label": "12 Months Supply | FREE Shipping",
                         "option_3_save_text": "Save (%) - GET TWO FREE",
-                        "option_3_promo": "<strong>12<\/strong> Months Supply | <strong>FREE Shipping<\/strong>",
+                        "option_3_promo": "<strong>12</strong> Months Supply | <strong>FREE Shipping</strong>",
                         "option_4_show_image": false,
                         "option_4_label": "4 Pack",
                         "option_4_quantity": 0,
@@ -176,7 +176,7 @@
                         "option_4_discount_percentage": 0,
                         "option_4_badge_enable": false,
                         "option_4_badge_text": "Most Popular",
-                        "option_4_unit_label": "($)\/Pcs",
+                        "option_4_unit_label": "($)/Pcs",
                         "option_4_save_text": "Save (%)",
                         "option_4_promo": "",
                         "option_5_show_image": false,
@@ -186,7 +186,7 @@
                         "option_5_discount_percentage": 0,
                         "option_5_badge_enable": false,
                         "option_5_badge_text": "Most Popular",
-                        "option_5_unit_label": "($)\/Pcs",
+                        "option_5_unit_label": "($)/Pcs",
                         "option_5_save_text": "Save (%)",
                         "option_5_promo": "",
                         "option_6_show_image": false,
@@ -196,14 +196,14 @@
                         "option_6_discount_percentage": 0,
                         "option_6_badge_enable": false,
                         "option_6_badge_text": "Most Popular",
-                        "option_6_unit_label": "($)\/Pcs",
+                        "option_6_unit_label": "($)/Pcs",
                         "option_6_save_text": "Save (%)",
                         "option_6_promo": "",
                         "show_quantity_label": true,
                         "hide_lines": false,
                         "show_head_border": false,
                         "title_text_align": "center",
-                        "quantity_title_text": "<h3>Bundle & Save<\/h3>",
+                        "quantity_title_text": "<h3>Bundle & Save</h3>",
                         "quantity_subtitle_text": "",
                         "title_font_size": 1.8,
                         "subtitle_font_size": 1.3,
@@ -278,7 +278,7 @@
                         "hide_img_3": false,
                         "hide_img_4": true,
                         "hide_img_5": true,
-                        "text_block": "<p><strong>50+ certifierade<\/strong> hudläkare rekommenderar detta till sina patienter.<\/p>",
+                        "text_block": "<p><strong>50+ certifierade</strong> hudläkare rekommenderar detta till sina patienter.</p>",
                         "text_size": 10,
                         "text_style": "body"
                     }
@@ -292,7 +292,7 @@
                         "image_ani": "none",
                         "text_size": 10,
                         "text_style": "uppercase",
-                        "text": "Beställ inom <strong>(timer)<\/strong>  och få leveransen före <strong>(date). <\/strong>",
+                        "text": "Beställ inom <strong>(timer)</strong>  och få leveransen före <strong>(date). </strong>",
                         "date_locale": "sv-SE",
                         "ship_bg": "#f6f6f6",
                         "show_border": true,
@@ -310,7 +310,7 @@
                         "open_first_collapsible_row": false,
                         "heading": "Produktdetaljer",
                         "icon": "none",
-                        "content": "<p>Denna multifunktionella locktång har snabb uppvärmning, 6 temperaturinställningar och en anti-bränningsteknologi, vilket garanterar perfekta lockar utan att skada ditt hår. Kompakt och trådlös, den är perfekt för användning hemma eller på resande fot.<\/p>",
+                        "content": "<p>Denna multifunktionella locktång har snabb uppvärmning, 6 temperaturinställningar och en anti-bränningsteknologi, vilket garanterar perfekta lockar utan att skada ditt hår. Kompakt och trådlös, den är perfekt för användning hemma eller på resande fot.</p>",
                         "page": ""
                     }
                 },
@@ -320,7 +320,7 @@
                         "open_first_collapsible_row": false,
                         "heading": "Fördelar och nytta",
                         "icon": "none",
-                        "content": "<ul><li><strong>Perfekta lockar på ett ögonblick<\/strong> tack vare snabb uppvärmning och 6 temperaturinställningar.<\/li><li><strong>Optimal hårskydd<\/strong> med anti-bränningsteknologi, för en säker styling.<\/li><li><strong>Enkel och praktisk användning<\/strong> med en kompakt och trådlös design, perfekt för styling på resande fot.<\/li><li><strong>Hållbara resultat<\/strong> : lockar som håller hela dagen utan friss.<\/li><\/ul>",
+                        "content": "<ul><li><strong>Perfekta lockar på ett ögonblick</strong> tack vare snabb uppvärmning och 6 temperaturinställningar.</li><li><strong>Optimal hårskydd</strong> med anti-bränningsteknologi, för en säker styling.</li><li><strong>Enkel och praktisk användning</strong> med en kompakt och trådlös design, perfekt för styling på resande fot.</li><li><strong>Hållbara resultat</strong> : lockar som håller hela dagen utan friss.</li></ul>",
                         "page": ""
                     }
                 },
@@ -330,7 +330,7 @@
                         "open_first_collapsible_row": false,
                         "heading": "30 dagars pengar tillbaka garanti",
                         "icon": "none",
-                        "content": "<p>Om du inte är nöjd med din upplevelse av våra produkter, skicka tillbaka dem inom 30 dagar för en återbetalning.<\/p>",
+                        "content": "<p>Om du inte är nöjd med din upplevelse av våra produkter, skicka tillbaka dem inom 30 dagar för en återbetalning.</p>",
                         "page": ""
                     }
                 }
@@ -422,35 +422,35 @@
                 "image_EKgWqf": {
                     "type": "image",
                     "settings": {
-                        "logo_image": "shopify:\/\/shop_images\/locktang-natulig-lockar-styling-hemma.webp",
+                        "logo_image": "NEW_IMAGE_BRANDS_VZW8",
                         "logo_image_width": 110
                     }
                 },
                 "image_7BmQUW": {
                     "type": "image",
                     "settings": {
-                        "logo_image": "shopify:\/\/shop_images\/locktang-basta-harkur-for-skadat-har.webp",
+                        "logo_image": "NEW_IMAGE_BRANDS_7VS0",
                         "logo_image_width": 140
                     }
                 },
                 "image_C6Xq4d": {
                     "type": "image",
                     "settings": {
-                        "logo_image": "shopify:\/\/shop_images\/locktang-professionella-resultat.webp",
+                        "logo_image": "NEW_IMAGE_BRANDS_JZKP",
                         "logo_image_width": 130
                     }
                 },
                 "image_LePexr": {
                     "type": "image",
                     "settings": {
-                        "logo_image": "shopify:\/\/shop_images\/locktang-for-korta-och-langa-har.webp",
+                        "logo_image": "NEW_IMAGE_BRANDS_I8UD",
                         "logo_image_width": 120
                     }
                 },
                 "image_QbPbYy": {
                     "type": "image",
                     "settings": {
-                        "logo_image": "shopify:\/\/shop_images\/locktang-harvard-lockigt-har-utan-frizz.webp",
+                        "logo_image": "NEW_IMAGE_BRANDS_1FY4",
                         "logo_image_width": 134
                     }
                 }
@@ -481,7 +481,7 @@
                 "item_Agihiy": {
                     "type": "item",
                     "settings": {
-                        "video": "shopify:\/\/files\/videos\/locktang vit perfekta lockar.mp4",
+                        "video": "NEW_VIDEO_SHOPPABLE-VIDEO-NEW_ENGO",
                         "video_autoplay": true,
                         "badge": "NY",
                         "badge_bg_color": "#f6f6f6",
@@ -498,7 +498,7 @@
                 "item_GhKycQ": {
                     "type": "item",
                     "settings": {
-                        "video": "shopify:\/\/files\/videos\/locktang-tradlos-bucluer-basta-lockar.mp4",
+                        "video": "NEW_VIDEO_SHOPPABLE-VIDEO-NEW_66QM",
                         "video_autoplay": true,
                         "badge": "NY",
                         "badge_bg_color": "#f6f6f6",
@@ -515,7 +515,7 @@
                 "item_YfAYw6": {
                     "type": "item",
                     "settings": {
-                        "video": "shopify:\/\/files\/videos\/locktang-ecologisk-locktang-perfekta-lockar.mp4",
+                        "video": "NEW_VIDEO_SHOPPABLE-VIDEO-NEW_ME00",
                         "video_autoplay": true,
                         "badge": "NY",
                         "badge_bg_color": "#f6f6f6",
@@ -532,7 +532,7 @@
                 "item_HWAFY6": {
                     "type": "item",
                     "settings": {
-                        "video": "shopify:\/\/files\/videos\/locktang-perfekta-lockar-basta-bucluer.mp4",
+                        "video": "NEW_VIDEO_SHOPPABLE-VIDEO-NEW_4GDL",
                         "video_autoplay": true,
                         "badge": "NY",
                         "badge_bg_color": "#f6f6f6",
@@ -557,7 +557,7 @@
             "settings": {
                 "color_scheme": "",
                 "container": true,
-                "heading": "<strong>Se locktång i aktion !<\/strong>",
+                "heading": "<strong>Se locktång i aktion !</strong>",
                 "heading_size": "h1",
                 "description": "",
                 "slider_speed": 300,
@@ -589,14 +589,14 @@
                 "heading_ecFkqP": {
                     "type": "heading",
                     "settings": {
-                        "heading": "<strong>Sublima Lockar med locktång<\/strong>",
+                        "heading": "<strong>Sublima Lockar med locktång</strong>",
                         "heading_size": "h1"
                     }
                 },
                 "text_Wb3i4c": {
                     "type": "text",
                     "settings": {
-                        "text": "<p>Tänk dig att varje morgon börja med perfekta lockar, utan ansträngning. Med <strong>locktång<\/strong> kan du skapa naturliga, vackra och hållbara lockar på ett ögonblick. Slipp stressen av att bränna håret eller att spendera timmar på att återskapa det perfekta utseendet.<\/p><p>Vår revolutionerande locktång ger en smidig och behaglig stylingupplevelse, designad för alla hårtyper – oavsett om ditt hår är fint, tjockt, kort eller långt. Du behöver inte längre kompromissa med hårhälsan för att få en felfri stil. Med <strong>anti-bränn-teknologi<\/strong> och <strong>automatisk avstängning<\/strong> kan du styla i lugn och ro, och få resultat som rivaliserar de största märkena, utan att tumma på kvaliteten.<\/p>",
+                        "text": "<p>Tänk dig att varje morgon börja med perfekta lockar, utan ansträngning. Med <strong>locktång</strong> kan du skapa naturliga, vackra och hållbara lockar på ett ögonblick. Slipp stressen av att bränna håret eller att spendera timmar på att återskapa det perfekta utseendet.</p><p>Vår revolutionerande locktång ger en smidig och behaglig stylingupplevelse, designad för alla hårtyper – oavsett om ditt hår är fint, tjockt, kort eller långt. Du behöver inte längre kompromissa med hårhälsan för att få en felfri stil. Med <strong>anti-bränn-teknologi</strong> och <strong>automatisk avstängning</strong> kan du styla i lugn och ro, och få resultat som rivaliserar de största märkena, utan att tumma på kvaliteten.</p>",
                         "text_style": "body"
                     }
                 }
@@ -609,7 +609,7 @@
             "settings": {
                 "color_scheme_main": "",
                 "full-width": false,
-                "image": "shopify:\/\/shop_images\/locktang-langvariga-lockar.webp",
+                "image": "NEW_IMAGE_LUMIN-MEGA_ZBLM",
                 "height": "adapt",
                 "desktop_image_width": "medium",
                 "layout": "image_first",
@@ -631,37 +631,37 @@
                 "review_image_htnDmr": {
                     "type": "review_image",
                     "settings": {
-                        "review_image": "shopify:\/\/shop_images\/keramisk-locktang-utan-frizz.webp"
+                        "review_image": "NEW_IMAGE_LUMIN-SLIDER-2_F06L"
                     }
                 },
                 "review_image_qyKExn": {
                     "type": "review_image",
                     "settings": {
-                        "review_image": "shopify:\/\/shop_images\/locktang-for-tjockt-och-fint-har.webp"
+                        "review_image": "NEW_IMAGE_LUMIN-SLIDER-2_ZOU8"
                     }
                 },
                 "review_image_nJXbLD": {
                     "type": "review_image",
                     "settings": {
-                        "review_image": "shopify:\/\/shop_images\/locktang-skyddar-mot-varme.webp"
+                        "review_image": "NEW_IMAGE_LUMIN-SLIDER-2_JKMT"
                     }
                 },
                 "review_image_P4BjJj": {
                     "type": "review_image",
                     "settings": {
-                        "review_image": "shopify:\/\/shop_images\/locktang-resa-kompakt.webp"
+                        "review_image": "NEW_IMAGE_LUMIN-SLIDER-2_CW16"
                     }
                 },
                 "review_image_Byggbb": {
                     "type": "review_image",
                     "settings": {
-                        "review_image": "shopify:\/\/shop_images\/locktang-enkelt-att-anvanda.webp"
+                        "review_image": "NEW_IMAGE_LUMIN-SLIDER-2_8FGO"
                     }
                 },
                 "review_image_Rj3yAn": {
                     "type": "review_image",
                     "settings": {
-                        "review_image": "shopify:\/\/shop_images\/locktang-for-tjockt-och-fint-har.webp"
+                        "review_image": "NEW_IMAGE_LUMIN-SLIDER-2_R33R"
                     }
                 }
             },
@@ -681,7 +681,7 @@
                 "subheading": "Äkta recensioner från riktiga människor",
                 "button_text": "Köp din Locktång idag",
                 "button_link": "",
-                "rating_text": "Betygsatt 4,8\/5 av 14 428+ glada kunder",
+                "rating_text": "Betygsatt 4,8/5 av 14 428+ glada kunder",
                 "color_scheme": "",
                 "button_color": "#212121",
                 "star_color": "#ffd700",
@@ -769,7 +769,7 @@
                 "button_style_secondary": false,
                 "layout": "table_second",
                 "color_scheme": "inverse",
-                "logo": "shopify:\/\/shop_images\/logotyp-locktang.webp",
+                "logo": "NEW_IMAGE_COMPARISON-TABLE_7NFP",
                 "logo_width": 90,
                 "mobile_logo_width": 60,
                 "us_label": "",
@@ -800,19 +800,19 @@
                 "image_349JKR": {
                     "type": "image",
                     "settings": {
-                        "image": "shopify:\/\/shop_images\/locktang_rosa_perfekta_lockar.webp"
+                        "image": "NEW_IMAGE_COLLAGE_RE7C"
                     }
                 },
                 "image_JfL9DQ": {
                     "type": "image",
                     "settings": {
-                        "image": "shopify:\/\/shop_images\/locktang_vit.webp"
+                        "image": "NEW_IMAGE_COLLAGE_IVH9"
                     }
                 },
                 "image_gBVz8Y": {
                     "type": "image",
                     "settings": {
-                        "image": "shopify:\/\/shop_images\/locktang_svart_1.webp"
+                        "image": "NEW_IMAGE_COLLAGE_RMPM"
                     }
                 },
                 "product_PCrmNE": {
@@ -854,7 +854,7 @@
                 "text_zFjTwr": {
                     "type": "text",
                     "settings": {
-                        "text": "<p>Vi stödjer ett medvetet och ansvarsfullt förhållningssätt till hårvård, med fokus på högkvalitativa locktänger som är miljövänliga och bra för hårets hälsa.<\/p>"
+                        "text": "<p>Vi stödjer ett medvetet och ansvarsfullt förhållningssätt till hårvård, med fokus på högkvalitativa locktänger som är miljövänliga och bra för hårets hälsa.</p>"
                     }
                 }
             },
@@ -977,7 +977,7 @@
                         "percent_text": 10,
                         "heading": "6 Temperaturinställningar",
                         "heading_size_alt": 16,
-                        "text": "<p>Justera temperaturen för perfekta lockar, oavsett hårtyp, med säkerhet.<\/p>"
+                        "text": "<p>Justera temperaturen för perfekta lockar, oavsett hårtyp, med säkerhet.</p>"
                     }
                 },
                 "percent_nJJhny": {
@@ -989,9 +989,9 @@
                         "percent_border": "#f2f2f2",
                         "circle_value_1": 100,
                         "percent_text": 10,
-                        "heading": "<strong>Justerbar Timer<\/strong>",
+                        "heading": "<strong>Justerbar Timer</strong>",
                         "heading_size_alt": 16,
-                        "text": "<p>Skapa lösa eller täta lockar på några sekunder, precis som du vill.<\/p>"
+                        "text": "<p>Skapa lösa eller täta lockar på några sekunder, precis som du vill.</p>"
                     }
                 },
                 "percent_UUr9wc": {
@@ -1003,9 +1003,9 @@
                         "percent_border": "#f2f2f2",
                         "circle_value_1": 96,
                         "percent_text": 10,
-                        "heading": "<strong>Snabb Laddning<\/strong>",
+                        "heading": "<strong>Snabb Laddning</strong>",
                         "heading_size_alt": 16,
-                        "text": "<p>Ladda på bara 4 timmar för att alltid vara redo när du behöver den.<\/p>"
+                        "text": "<p>Ladda på bara 4 timmar för att alltid vara redo när du behöver den.</p>"
                     }
                 },
                 "percent_A4eLEH": {
@@ -1017,9 +1017,9 @@
                         "percent_border": "#f2f2f2",
                         "circle_value_1": 96,
                         "percent_text": 10,
-                        "heading": "<strong>Lång Batteritid<\/strong>",
+                        "heading": "<strong>Lång Batteritid</strong>",
                         "heading_size_alt": 16,
-                        "text": "<p>Upp till 50 minuters trådlös användning för en snabb och smidig styling, även på resande fot.<\/p>"
+                        "text": "<p>Upp till 50 minuters trådlös användning för en snabb och smidig styling, även på resande fot.</p>"
                     }
                 }
             },
@@ -1033,7 +1033,7 @@
             "settings": {
                 "color_scheme_main": "background-2",
                 "full-width": false,
-                "image": "shopify:\/\/shop_images\/locktang-automatisk-avstangning.webp",
+                "image": "NEW_IMAGE_LUMIN-MEGA_PBXX",
                 "height": "adapt",
                 "desktop_image_width": "medium",
                 "layout": "image_first",
@@ -1055,7 +1055,7 @@
             "settings": {
                 "layout": "full_bleed",
                 "video_border": 0,
-                "video": "shopify:\/\/files\/videos\/locktang-tradlos-basta-2025.mp4",
+                "video": "NEW_VIDEO_VIDEO-WITH-TEXT_BV7G",
                 "video_height": "adapt",
                 "image_overlay_opacity": 0,
                 "desktop_content_position": "middle-center",
@@ -1082,7 +1082,7 @@
                     "settings": {
                         "heading": "Är denna locktång lämplig för alla hårtyper?",
                         "icon": "question_mark",
-                        "row_content": "<p>Absolut! Tack vare sina flera temperaturinställningar passar denna locktång alla hårtyper, från de finaste till de tjockaste. Den garanterar en perfekt slätning utan att skada hårstrået.<\/p>",
+                        "row_content": "<p>Absolut! Tack vare sina flera temperaturinställningar passar denna locktång alla hårtyper, från de finaste till de tjockaste. Den garanterar en perfekt slätning utan att skada hårstrået.</p>",
                         "page": ""
                     }
                 },
@@ -1091,7 +1091,7 @@
                     "settings": {
                         "heading": "Kan man justera temperaturen?",
                         "icon": "question_mark",
-                        "row_content": "<p>Absolut! Den här locktång erbjuder <strong>sex temperaturinställningar<\/strong> från 150 °C till 200 °C, så att den kan anpassas till alla hårtyper: 150 °C för fint hår, 160 °C för något fint hår, 170 °C för normalt hår, 180 °C för tjockt hår, 190 °C för vågigt hår och 200 °C för mycket tjockt eller torrt hår.<\/p>",
+                        "row_content": "<p>Absolut! Den här locktång erbjuder <strong>sex temperaturinställningar</strong> från 150 °C till 200 °C, så att den kan anpassas till alla hårtyper: 150 °C för fint hår, 160 °C för något fint hår, 170 °C för normalt hår, 180 °C för tjockt hår, 190 °C för vågigt hår och 200 °C för mycket tjockt eller torrt hår.</p>",
                         "page": ""
                     }
                 },
@@ -1100,7 +1100,7 @@
                     "settings": {
                         "heading": "Är locktång farlig för håret?",
                         "icon": "question_mark",
-                        "row_content": "<p>Nej, tack vare den <strong>keramiska turmalinen<\/strong> skyddar den hårfibern och minskar överdriven värme.<\/p>",
+                        "row_content": "<p>Nej, tack vare den <strong>keramiska turmalinen</strong> skyddar den hårfibern och minskar överdriven värme.</p>",
                         "page": ""
                     }
                 },
@@ -1109,7 +1109,7 @@
                     "settings": {
                         "heading": "Fungerar det med kort hår?",
                         "icon": "question_mark",
-                        "row_content": "<p>Ja, så länge locken är tillräckligt lång för att kunna rullas.<\/p>",
+                        "row_content": "<p>Ja, så länge locken är tillräckligt lång för att kunna rullas.</p>",
                         "page": ""
                     }
                 },
@@ -1118,7 +1118,7 @@
                     "settings": {
                         "heading": "Hur man rengör järnet?",
                         "icon": "question_mark",
-                        "row_content": "<p>För att rengöra locktång, stäng av den och koppla ur den, låt den sedan svalna helt. Använd en mjuk trasa som är lätt fuktad för att torka av plattorna. Undvik abrasiva eller kemiska produkter som kan skada den keramiska beläggningen. Se till att locktång är helt torr innan du förvarar den eller använder den igen.<\/p>",
+                        "row_content": "<p>För att rengöra locktång, stäng av den och koppla ur den, låt den sedan svalna helt. Använd en mjuk trasa som är lätt fuktad för att torka av plattorna. Undvik abrasiva eller kemiska produkter som kan skada den keramiska beläggningen. Se till att locktång är helt torr innan du förvarar den eller använder den igen.</p>",
                         "page": ""
                     }
                 },
@@ -1127,7 +1127,7 @@
                     "settings": {
                         "heading": "Är locktång transportabel och lätt att ta med?",
                         "icon": "question_mark",
-                        "row_content": "<p>Ja, denna locktång är <strong>transportabel<\/strong> och <strong>tar lite plats<\/strong>. Den är utrustad med ett <strong>batteri som håller i 50 minuter<\/strong>, vilket gör den lätt att ta med för att justera dina lockar även utanför hemmet.<\/p>",
+                        "row_content": "<p>Ja, denna locktång är <strong>transportabel</strong> och <strong>tar lite plats</strong>. Den är utrustad med ett <strong>batteri som håller i 50 minuter</strong>, vilket gör den lätt att ta med för att justera dina lockar även utanför hemmet.</p>",
                         "page": ""
                     }
                 },
@@ -1136,7 +1136,7 @@
                     "settings": {
                         "heading": "Är materialen i locktången verkligen ekologiska?",
                         "icon": "question_mark",
-                        "row_content": "<p>Ja, vår locktång är tillverkad av hållbara och ekologiska material som är noggrant utvalda för att minska miljöpåverkan. Vi strävar efter att erbjuda en produkt som både är effektiv och miljövänlig.<\/p>",
+                        "row_content": "<p>Ja, vår locktång är tillverkad av hållbara och ekologiska material som är noggrant utvalda för att minska miljöpåverkan. Vi strävar efter att erbjuda en produkt som både är effektiv och miljövänlig.</p>",
                         "page": ""
                     }
                 },
@@ -1145,7 +1145,7 @@
                     "settings": {
                         "heading": "Hur fungerar frakt och returer?",
                         "icon": "question_mark",
-                        "row_content": "<p>Vi erbjuder snabb och pålitlig frakt. Din beställning skickas vanligtvis inom 1-2 arbetsdagar. Om du inte är nöjd med din produkt erbjuder vi enkel retur inom 30 dagar. Returavgifter kan tillkomma beroende på din plats. Se vår returpolicy för mer information.<\/p>",
+                        "row_content": "<p>Vi erbjuder snabb och pålitlig frakt. Din beställning skickas vanligtvis inom 1-2 arbetsdagar. Om du inte är nöjd med din produkt erbjuder vi enkel retur inom 30 dagar. Returavgifter kan tillkomma beroende på din plats. Se vår returpolicy för mer information.</p>",
                         "page": ""
                     }
                 }
@@ -1181,8 +1181,8 @@
                 "30900101-e5c8-4c0e-b5bd-0fcf8eea85cf": {
                     "type": "review",
                     "settings": {
-                        "img_block": "shopify:\/\/shop_images\/Locktang_omdome_hallbara_lockar_och_proffsigt_resultat.webp",
-                        "img_block2": "shopify:\/\/shop_images\/Locktang_recension_perfekt_present_och_prisvard.webp",
+                        "img_block": "NEW_IMAGE_LUMIN-REVIEW_2ANU",
+                        "img_block2": "NEW_IMAGE_LUMIN-REVIEW_F6PK",
                         "star_rating": 5,
                         "name_text": "Vivian.D",
                         "date_text": "Maj 2025",
@@ -1196,7 +1196,7 @@
                 "53a5b896-0517-4e05-80fe-b23de703e79b": {
                     "type": "review",
                     "settings": {
-                        "img_block": "shopify:\/\/shop_images\/Locktang_recension_palitlig_och_enkel_att_anvanda.webp",
+                        "img_block": "NEW_IMAGE_LUMIN-REVIEW_1D1P",
                         "star_rating": 5,
                         "name_text": "Lena.W",
                         "date_text": "Januari 2025",
@@ -1210,7 +1210,7 @@
                 "3c322c1a-1e3a-47e6-8d7b-720d506eb595": {
                     "type": "review",
                     "settings": {
-                        "img_block": "shopify:\/\/shop_images\/Locktang_omdome_effektiv_som_kanda_marken.webp",
+                        "img_block": "NEW_IMAGE_LUMIN-REVIEW_WGR0",
                         "star_rating": 5,
                         "name_text": "Sophie.B",
                         "date_text": "Mars 2025",
@@ -1224,7 +1224,7 @@
                 "f57735f1-30a6-4538-8c95-bfe08674506b": {
                     "type": "review",
                     "settings": {
-                        "img_block": "shopify:\/\/shop_images\/Locktang_omdome_IMPRESIONANTE_perfekta_lockar_snabbt.webp",
+                        "img_block": "NEW_IMAGE_LUMIN-REVIEW_7YK2",
                         "star_rating": 5,
                         "name_text": "Petra.B",
                         "date_text": "Juli 2025",
@@ -1238,7 +1238,7 @@
                 "review_jEy9MV": {
                     "type": "review",
                     "settings": {
-                        "img_block": "shopify:\/\/shop_images\/Locktang_recension_latt_att_anvanda_kompakt_och_praktisk.webp",
+                        "img_block": "NEW_IMAGE_LUMIN-REVIEW_CE46",
                         "star_rating": 5,
                         "name_text": "Anna.M",
                         "date_text": "Februari 2025",
@@ -1252,7 +1252,7 @@
                 "review_wjUU4N": {
                     "type": "review",
                     "settings": {
-                        "img_block": "shopify:\/\/shop_images\/Locktang_kundrecension_superprodukt_bra_kvalitet_och_sakerhet.webp",
+                        "img_block": "NEW_IMAGE_LUMIN-REVIEW_CF2V",
                         "star_rating": 5,
                         "name_text": "Clara.S",
                         "date_text": "Juli 2025",
@@ -1266,7 +1266,7 @@
                 "review_tYgyVW": {
                     "type": "review",
                     "settings": {
-                        "img_block": "shopify:\/\/shop_images\/Locktang_recension_glansande_lockar_utan_anstrangning.webp",
+                        "img_block": "NEW_IMAGE_LUMIN-REVIEW_4M61",
                         "star_rating": 5,
                         "name_text": "Julia.F",
                         "date_text": "April 2025",
@@ -1280,8 +1280,8 @@
                 "review_BnzkjC": {
                     "type": "review",
                     "settings": {
-                        "img_block": "shopify:\/\/shop_images\/Locktang_anvandarupplevelse_enkel_snabb_och_miljovanlig.webp",
-                        "img_block2": "shopify:\/\/shop_images\/Locktang_omdomen_nojda_kunder_med_fantastiska_resultat.webp",
+                        "img_block": "NEW_IMAGE_LUMIN-REVIEW_1PXE",
+                        "img_block2": "NEW_IMAGE_LUMIN-REVIEW_QNTD",
                         "star_rating": 5,
                         "name_text": "Miriam.S",
                         "date_text": "Augusti 2024",
@@ -1311,7 +1311,7 @@
                 "rating_text": "4.8",
                 "rating_range": 4.5,
                 "star_size_top": 0.6,
-                "rating_count": "<strong>14428+<\/strong> Verkliga recensioner, verkliga resultat från <strong>människor som du.<\/strong>",
+                "rating_count": "<strong>14428+</strong> Verkliga recensioner, verkliga resultat från <strong>människor som du.</strong>",
                 "review_column_mobile": "2",
                 "review_column_tab": "1",
                 "review_column_desk": "4",
