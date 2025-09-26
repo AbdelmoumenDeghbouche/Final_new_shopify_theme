@@ -6,7 +6,6 @@ from openai import OpenAI
 import os
 
 def prompt_gpt(prompt):
-    """Pure GPT prompting function - just send and get response"""
     try:
         api_key = os.getenv("OPENAI_API_KEY")
         if not api_key:
@@ -18,10 +17,8 @@ def prompt_gpt(prompt):
             messages=[{"role": "user", "content": prompt}],
             temperature=0.6,
         )
-        # Clean up response - remove markdown code blocks and quotes
         content = response.choices[0].message.content
         content = content.replace('"',"")
-        # Remove markdown code blocks
         content = re.sub(r'```html\s*', '', content)
         content = re.sub(r'```\s*', '', content)
         return content.strip()
@@ -30,8 +27,7 @@ def prompt_gpt(prompt):
         return None
 
 def translate_text(text, target_language):
-    """Simple translation function - returns only translated text"""
-    prompt = f"Translate to {target_language}. Return only the translation, no explanations , IF THE THE Input text has HTML tags like <br> or <p> or any keep them and translate the text and return if no html return just the text : {text}"
+    prompt = f"Translate to {target_language}. Return only the translation, no explanations. IF the input text has HTML tags like <br> or <p> or any, keep them and translate the text content only. If no HTML, return just the translated text: {text}"
     
     try:
         api_key = os.getenv("OPENAI_API_KEY")
@@ -44,10 +40,8 @@ def translate_text(text, target_language):
             messages=[{"role": "user", "content": prompt}],
             temperature=0.3,
         )
-        # Clean up response - remove markdown code blocks and quotes
         content = response.choices[0].message.content
         content = content.replace('"',"")
-        # Remove markdown code blocks
         content = re.sub(r'```html\s*', '', content)
         content = re.sub(r'```\s*', '', content)
         return content.strip()
@@ -56,7 +50,6 @@ def translate_text(text, target_language):
         return text
 
 def replace_in_file(json_path, placeholder, replacement_content):
-    """Replace placeholder with content in any file"""
     try:
         with open(json_path, 'r', encoding='utf-8') as f:
             content = f.read()
@@ -66,31 +59,45 @@ def replace_in_file(json_path, placeholder, replacement_content):
         with open(json_path, 'w', encoding='utf-8') as f:
             f.write(updated_content)
 
-        print(f"Replaced {placeholder} in {json_path}")
+        print(f"Replaced {placeholder}")
         return True
 
     except Exception as e:
         print(f"Error updating {json_path}: {e}")
         return False
 
+def fix_html_quotes(html):
+    html = re.sub(r'href=([^\s>]+)', r'href="\1"', html)
+    html = re.sub(r'title=([^\s>]+)', r'title="\1"', html)
+    return html
+
 def prompt_gpt_html_validated(prompt, expected_tags, max_retries=2):
-    """Prompts GPT for an HTML response, validates its structure, and retries if needed."""
+    enhanced_prompt = f"{prompt}\n\nCRITICAL: Return valid HTML with quotes around attributes. Required tags: {', '.join(expected_tags)}"
+    
     for attempt in range(max_retries + 1):
-        print(f"Prompting GPT for HTML (Attempt {attempt + 1})...")
-        response = prompt_gpt(prompt)
-        print("HTML RESPONSE OF GPT " , response)
-        is_valid = all(f"<{tag}>" in response and f"</{tag}>" in response for tag in expected_tags)
-        if is_valid:
-            print("HTML Validation PASSED.")
+        print(f"Prompting GPT (Attempt {attempt + 1})...")
+        response = prompt_gpt(enhanced_prompt)
+        
+        if not response:
+            continue
+            
+        print(f"Response: {response}")
+        
+        response = fix_html_quotes(response)
+        
+        has_all_tags = all(f"<{tag}" in response and f"</{tag}>" in response for tag in expected_tags)
+        
+        if has_all_tags:
+            print("Validation PASSED")
             return response
         else:
-            print("HTML Validation FAILED. Retrying...")
-            prompt += "\n\nCRITICAL: The previous response was invalid. Please ensure the output is a valid HTML string and contains the required tags."
-            time.sleep(1)
-    print("Max retries reached. Returning last invalid response.")
-    return ""
-
-# --- 2. PROMPT GENERATION FUNCTIONS ---
+            print("Validation FAILED")
+            if attempt < max_retries:
+                enhanced_prompt += f"\n\nThe response must contain these tags: {expected_tags}"
+                time.sleep(1)
+    
+    print("Max retries reached")
+    return response or ""
 
 def generate_brand_slogan_prompt(original_slogan, brand_name, language):
     return f"The original slogan is: '{original_slogan}'. Generate a new, similar brand slogan for the brand '{brand_name}'. It should be inspiring and concise. Language: {language}. IMPORTANT: Return ONLY the HTML code without any markdown formatting or code blocks. The response must be a valid HTML string with `<p>`, `<strong>`, and `<a>` tags, ending with a call to action like 'Shop now'."
@@ -101,40 +108,29 @@ def generate_trust_badge_prompt(original_title, original_text, brand_name, langu
 def generate_newsletter_headline_prompt(original_headline, brand_name, language):
     return f"The original newsletter headline is: '{original_headline}'. Generate a new, compelling headline for a newsletter signup for the brand '{brand_name}'. It should offer a clear incentive. Language: {language}. Return only the text."
 
-# --- 3. MAIN EXECUTION SCRIPT ---
-
 def main():
-    # Parse command line arguments
     parser = argparse.ArgumentParser(description='Translate and generate footer content')
     parser.add_argument('--language', '-l', required=True, help='Target language (e.g., fr, es, de)')
     parser.add_argument('--brand', '-b', required=True, help='Brand name (e.g., GlamCurl)')
     
     args = parser.parse_args()
     
-    # Configuration from arguments and environment variables
     FOOTER_JSON_PATH = os.getenv("FOOTER_FILE_PATH")
     language = args.language
     brand_name = args.brand
 
-    # Check if required environment variables are available
     if not os.getenv("OPENAI_API_KEY"):
         print("ERROR: OPENAI_API_KEY environment variable not set!")
-        print("Please set it: export OPENAI_API_KEY='your-key-here'")
         return
         
     if not FOOTER_JSON_PATH:
         print("ERROR: FOOTER_FILE_PATH environment variable not set!")
-        print("Please set it: export FOOTER_FILE_PATH='/path/to/your/footer.json'")
         return
 
     print(f"Starting translation for brand: {brand_name}, language: {language}")
-    print(f"Using file: {FOOTER_JSON_PATH}")
 
-    # =================================================================
-    # =============== 1. TRANSLATION TASKS (Static UI) ================
-    # =================================================================
-    print("\n--- Starting Footer Translation Tasks ---\n")
-
+    print("\n--- Translation Tasks ---")
+    
     translated = translate_text("Information", language)
     replace_in_file(FOOTER_JSON_PATH, "NEW_FOOTER_H8I9_TRANSLATED", translated)
 
@@ -156,18 +152,13 @@ def main():
     translated = translate_text("- Theme by <a href=\"https://lumintheme.com/\" target=\"_blank\" title=\"https://lumintheme.com/\">Lumin<em>Theme</em></a> © 2024", language)
     replace_in_file(FOOTER_JSON_PATH, "NEW_FOOTER_U0V1_TRANSLATED", translated)
 
-    # =================================================================
-    # =========== 2. GENERATION TASKS (Brand-specific) ==============
-    # =================================================================
-    print("\n--- Starting Footer Generation Tasks ---\n")
+    print("\n--- Generation Tasks ---")
 
-    # Scrolling Text Slogans
     prompt = generate_brand_slogan_prompt("<p>Skönheten arbetar till din fördel.<strong> — </strong><a href=\"/pages/vara-produkter\" title=\"Våra produkter\"><strong>Köp nu</strong></a></p>", brand_name, language)
     result = prompt_gpt_html_validated(prompt, expected_tags=['p', 'strong', 'a'])
     replace_in_file(FOOTER_JSON_PATH, "NEW_SCROLLING_TEXT_W2X3_GENERATED", result)
     replace_in_file(FOOTER_JSON_PATH, "NEW_SCROLLING_TEXT_Y4Z5_GENERATED", result)
 
-    # Trust Badges
     trust_badges = [
         {"title": "<strong>100 % TILLFREDSHET</strong>", "text": "<p>Tusentals nöjda kunder, prova utan risk.</p>", "placeholders": ("NEW_TRUST_BADGES_A6B7_GENERATED", "NEW_TRUST_BADGES_C8D9_GENERATED")},
         {"title": "<strong>ENKEL OCH SNABB BYTNING</strong>", "text": "<p>Förenklad retur utan besvär.</p>", "placeholders": ("NEW_TRUST_BADGES_E0F1_GENERATED", "NEW_TRUST_BADGES_G2H3_GENERATED")},
@@ -179,19 +170,16 @@ def main():
         prompt = generate_trust_badge_prompt(badge["title"], badge["text"], brand_name, language)
         result = prompt_gpt(prompt)
         if result and '|' in result:
-            title, desc = result.split('|', 1)  # Split only on first |
+            title, desc = result.split('|', 1)
             replace_in_file(FOOTER_JSON_PATH, badge["placeholders"][0], title.strip())
             replace_in_file(FOOTER_JSON_PATH, badge["placeholders"][1], desc.strip())
-        else:
-            print(f"Warning: Invalid trust badge response: {result}")
 
-    # Newsletter Headline
     prompt = generate_newsletter_headline_prompt("Profiter av 10 % rabatt på din första beställning nu !", brand_name, language)
     result = prompt_gpt(prompt)
     if result:
         replace_in_file(FOOTER_JSON_PATH, "NEW_NEWSLETTER_Q2R3_GENERATED", result)
 
-    print(f"\n--- Completed! Check {FOOTER_JSON_PATH} for results ---")
+    print(f"\nCompleted! Check {FOOTER_JSON_PATH}")
 
 if __name__ == "__main__":
     main()
