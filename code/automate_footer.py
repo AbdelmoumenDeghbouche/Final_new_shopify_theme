@@ -109,11 +109,14 @@ def prompt_gpt_html_validated(prompt, expected_tags, max_retries=2):
     return response if 'response' in locals() else ""
 
 def generate_brand_slogan_prompt(original_slogan, brand_name, language):
-    return f"""The original slogan is: '{original_slogan}'. 
+    return f"""
+    THE TEXT CONTENT MUST BE IN {language}.
+    The original slogan is: '{original_slogan}'. 
 Generate a new, similar brand slogan for the brand '{brand_name}'. 
 It should be inspiring and concise. Language: {language}. 
 
-IMPORTANT: Return ONLY the HTML code without any markdown formatting or code blocks. 
+IMPORTANT: Return ONLY the HTML code without any markdown formatting or code blocks.
+THE TEXT CONTENT MUST BE IN {language}. 
 The response must be a valid HTML string with:
 - A `<p>` tag containing the main text
 - A `<strong>` tag for emphasis 
