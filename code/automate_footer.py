@@ -66,38 +66,21 @@ def replace_in_file(json_path, placeholder, replacement_content):
         print(f"Error updating {json_path}: {e}")
         return False
 
-def fix_html_quotes(html):
-    html = re.sub(r'href=([^\s>]+)', r'href="\1"', html)
-    html = re.sub(r'title=([^\s>]+)', r'title="\1"', html)
-    return html
-
 def prompt_gpt_html_validated(prompt, expected_tags, max_retries=2):
-    enhanced_prompt = f"{prompt}\n\nCRITICAL: Return valid HTML with quotes around attributes. Required tags: {', '.join(expected_tags)}"
-    
     for attempt in range(max_retries + 1):
-        print(f"Prompting GPT (Attempt {attempt + 1})...")
-        response = prompt_gpt(enhanced_prompt)
-        
-        if not response:
-            continue
-            
-        print(f"Response: {response}")
-        
-        response = fix_html_quotes(response)
-        
-        has_all_tags = all(f"<{tag}" in response and f"</{tag}>" in response for tag in expected_tags)
-        
-        if has_all_tags:
-            print("Validation PASSED")
+        print(f"Prompting GPT for HTML (Attempt {attempt + 1})...")
+        response = prompt_gpt(prompt)
+        print("HTML RESPONSE OF GPT " , response)
+        is_valid = all(f"<{tag}>" in response and f"</{tag}>" in response for tag in expected_tags)
+        if is_valid:
+            print("HTML Validation PASSED.")
             return response
         else:
-            print("Validation FAILED")
-            if attempt < max_retries:
-                enhanced_prompt += f"\n\nThe response must contain these tags: {expected_tags}"
-                time.sleep(1)
-    
-    print("Max retries reached")
-    return response or ""
+            print("HTML Validation FAILED. Retrying...")
+            prompt += "\n\nCRITICAL: The previous response was invalid. Please ensure the output is a valid HTML string and contains the required tags."
+            time.sleep(1)
+    print("Max retries reached. Returning last invalid response.")
+    return ""
 
 def generate_brand_slogan_prompt(original_slogan, brand_name, language):
     return f"The original slogan is: '{original_slogan}'. Generate a new, similar brand slogan for the brand '{brand_name}'. It should be inspiring and concise. Language: {language}. IMPORTANT: Return ONLY the HTML code without any markdown formatting or code blocks. The response must be a valid HTML string with `<p>`, `<strong>`, and `<a>` tags, ending with a call to action like 'Shop now'."
