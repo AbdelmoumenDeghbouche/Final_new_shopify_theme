@@ -6,7 +6,7 @@
                 "breadcrumbs_LcnbYa": {
                     "type": "breadcrumbs",
                     "settings": {
-                        "title_home": "Home",
+                        "title_home": "NEW_BREADCRUMBS_A1B2_TRANSLATED",
                         "padding_top": 0,
                         "padding_top_mb": 0,
                         "padding_bottom": 0,
@@ -62,7 +62,7 @@
                 "text_aXxXRM": {
                     "type": "text",
                     "settings": {
-                        "text": "Investera i ett stylingverktyg som kan göra allt !",
+                        "text": "NEW_TEXT_W3X4_GENERATED",
                         "text_style": "body"
                     }
                 },
@@ -72,7 +72,7 @@
                         "icon_size": 20,
                         "heading": "",
                         "heading_size": 20,
-                        "text": "<p>Lockar utan friss som håller hela dagen</p>",
+                        "text": "NEW_FEATURE_Y5Z6_GENERATED",
                         "text_size": 12,
                         "padding_top": 12,
                         "padding_bottom": 0
@@ -84,7 +84,7 @@
                         "icon_size": 20,
                         "heading": "",
                         "heading_size": 20,
-                        "text": "<p>Inget skador från extrem värme</p>",
+                        "text": "NEW_FEATURE_A7B8_GENERATED",
                         "text_size": 12,
                         "padding_top": 0,
                         "padding_bottom": 0
@@ -96,7 +96,7 @@
                         "icon_size": 20,
                         "heading": "",
                         "heading_size": 20,
-                        "text": "<p>Perfekt för voluminösa lockar</p>",
+                        "text": "NEW_FEATURE_C9D0_GENERATED",
                         "text_size": 12,
                         "padding_top": 0,
                         "padding_bottom": 14
@@ -140,7 +140,7 @@
                         "show_per_unit": true,
                         "badge_style": "ribbon top-short",
                         "option_1_show_image": false,
-                        "option_1_label": "1 Pack",
+                        "option_1_label": "NEW_QUANTITY_E1F2_GENERATED",
                         "option_1_quantity": 1,
                         "option_1_fixed_discount": "0",
                         "option_1_discount_percentage": 0,
@@ -150,25 +150,25 @@
                         "option_1_save_text": "Free Shipping",
                         "option_1_promo": "",
                         "option_2_show_image": false,
-                        "option_2_label": "Buy 2, Get 1 FREE",
+                        "option_2_label": "NEW_QUANTITY_G3H4_GENERATED",
                         "option_2_quantity": 3,
                         "option_2_fixed_discount": "44",
                         "option_2_discount_percentage": 20,
                         "option_2_badge_enable": true,
-                        "option_2_badge_text": "SPECIAL OFFER - Limited Time",
-                        "option_2_unit_label": "6 Months Supply | FREE Shipping",
-                        "option_2_save_text": "Save (%) - GET ONE FREE",
+                        "option_2_badge_text": "NEW_QUANTITY_K7L8_GENERATED",
+                        "option_2_unit_label": "NEW_QUANTITY_O1P2_GENERATED",
+                        "option_2_save_text": "NEW_QUANTITY_S5T6_GENERATED",
                         "option_2_promo": "",
                         "option_3_show_image": false,
-                        "option_3_label": "Buy 3, Get 2 FREE",
+                        "option_3_label": "NEW_QUANTITY_I5J6_GENERATED",
                         "option_3_quantity": 5,
                         "option_3_fixed_discount": "88",
                         "option_3_discount_percentage": 30,
                         "option_3_badge_enable": true,
-                        "option_3_badge_text": "FLASH SALE — Grab It Before It's Gone",
-                        "option_3_unit_label": "12 Months Supply | FREE Shipping",
-                        "option_3_save_text": "Save (%) - GET TWO FREE",
-                        "option_3_promo": "<strong>12</strong> Months Supply | <strong>FREE Shipping</strong>",
+                        "option_3_badge_text": "NEW_QUANTITY_M9N0_GENERATED",
+                        "option_3_unit_label": "NEW_QUANTITY_Q3R4_GENERATED",
+                        "option_3_save_text": "NEW_QUANTITY_U7V8_GENERATED",
+                        "option_3_promo": "NEW_QUANTITY_W9X0_GENERATED",
                         "option_4_show_image": false,
                         "option_4_label": "4 Pack",
                         "option_4_quantity": 0,
@@ -203,7 +203,7 @@
                         "hide_lines": false,
                         "show_head_border": false,
                         "title_text_align": "center",
-                        "quantity_title_text": "<h3>Bundle & Save</h3>",
+                        "quantity_title_text": "NEW_QUANTITY_Y1Z2_GENERATED",
                         "quantity_subtitle_text": "",
                         "title_font_size": 1.8,
                         "subtitle_font_size": 1.3,
@@ -278,7 +278,7 @@
                         "hide_img_3": false,
                         "hide_img_4": true,
                         "hide_img_5": true,
-                        "text_block": "<p><strong>50+ certifierade</strong> hudläkare rekommenderar detta till sina patienter.</p>",
+                        "text_block": "NEW_TESTIMONIAL_IMAGES_A3B4_GENERATED",
                         "text_size": 10,
                         "text_style": "body"
                     }
@@ -286,13 +286,11 @@
                 "264e37ac-8ac8-475c-9f10-973d46bb217d": {
                     "type": "shipping",
                     "settings": {
-                        "ship_days": 7,
-                        "cut_off_time": 16,
                         "icon_size": 18,
                         "image_ani": "none",
                         "text_size": 10,
                         "text_style": "uppercase",
-                        "text": "Beställ inom <strong>(timer)</strong>  och få leveransen före <strong>(date). </strong>",
+                        "text": "NEW_SHIPPING_C3D4_TRANSLATED",
                         "date_locale": "sv-SE",
                         "ship_bg": "#f6f6f6",
                         "show_border": true,
@@ -308,9 +306,9 @@
                     "type": "collapsible_tab",
                     "settings": {
                         "open_first_collapsible_row": false,
-                        "heading": "Produktdetaljer",
+                        "heading": "NEW_COLLAPSIBLE_TAB_E5F6_TRANSLATED",
                         "icon": "none",
-                        "content": "<p>Denna multifunktionella locktång har snabb uppvärmning, 6 temperaturinställningar och en anti-bränningsteknologi, vilket garanterar perfekta lockar utan att skada ditt hår. Kompakt och trådlös, den är perfekt för användning hemma eller på resande fot.</p>",
+                        "content": "NEW_COLLAPSIBLE_TAB_E7F8_GENERATED",
                         "page": ""
                     }
                 },
@@ -318,9 +316,9 @@
                     "type": "collapsible_tab",
                     "settings": {
                         "open_first_collapsible_row": false,
-                        "heading": "Fördelar och nytta",
+                        "heading": "NEW_COLLAPSIBLE_TAB_G7H8_TRANSLATED",
                         "icon": "none",
-                        "content": "<ul><li><strong>Perfekta lockar på ett ögonblick</strong> tack vare snabb uppvärmning och 6 temperaturinställningar.</li><li><strong>Optimal hårskydd</strong> med anti-bränningsteknologi, för en säker styling.</li><li><strong>Enkel och praktisk användning</strong> med en kompakt och trådlös design, perfekt för styling på resande fot.</li><li><strong>Hållbara resultat</strong> : lockar som håller hela dagen utan friss.</li></ul>",
+                        "content": "NEW_COLLAPSIBLE_TAB_G9H0_GENERATED",
                         "page": ""
                     }
                 },
@@ -328,9 +326,9 @@
                     "type": "collapsible_tab",
                     "settings": {
                         "open_first_collapsible_row": false,
-                        "heading": "30 dagars pengar tillbaka garanti",
+                        "heading": "NEW_COLLAPSIBLE_TAB_C5D6_GENERATED",
                         "icon": "none",
-                        "content": "<p>Om du inte är nöjd med din upplevelse av våra produkter, skicka tillbaka dem inom 30 dagar för en återbetalning.</p>",
+                        "content": "NEW_COLLAPSIBLE_TAB_I1J2_GENERATED",
                         "page": ""
                     }
                 }
@@ -398,7 +396,7 @@
                 "heading_hdyJPj": {
                     "type": "heading",
                     "settings": {
-                        "heading": "Sett i pressen",
+                        "heading": "NEW_RICH_TEXT_I9J0_TRANSLATED",
                         "heading_size": "h1"
                     }
                 }
@@ -483,7 +481,7 @@
                     "settings": {
                         "video": "NEW_VIDEO_SHOPPABLE-VIDEO-NEW_ENGO",
                         "video_autoplay": true,
-                        "badge": "NY",
+                        "badge": "NEW_SHOPPABLE_VIDEO_K1L2_TRANSLATED",
                         "badge_bg_color": "#f6f6f6",
                         "badge_color": "#000000",
                         "icon": "eye",
@@ -500,7 +498,7 @@
                     "settings": {
                         "video": "NEW_VIDEO_SHOPPABLE-VIDEO-NEW_66QM",
                         "video_autoplay": true,
-                        "badge": "NY",
+                        "badge": "NEW_SHOPPABLE_VIDEO_K1L2_TRANSLATED",
                         "badge_bg_color": "#f6f6f6",
                         "badge_color": "#000000",
                         "icon": "eye",
@@ -517,7 +515,7 @@
                     "settings": {
                         "video": "NEW_VIDEO_SHOPPABLE-VIDEO-NEW_ME00",
                         "video_autoplay": true,
-                        "badge": "NY",
+                        "badge": "NEW_SHOPPABLE_VIDEO_K1L2_TRANSLATED",
                         "badge_bg_color": "#f6f6f6",
                         "badge_color": "#000000",
                         "icon": "eye",
@@ -534,7 +532,7 @@
                     "settings": {
                         "video": "NEW_VIDEO_SHOPPABLE-VIDEO-NEW_4GDL",
                         "video_autoplay": true,
-                        "badge": "NY",
+                        "badge": "NEW_SHOPPABLE_VIDEO_K1L2_TRANSLATED",
                         "badge_bg_color": "#f6f6f6",
                         "badge_color": "#000000",
                         "icon": "eye",
@@ -557,7 +555,7 @@
             "settings": {
                 "color_scheme": "",
                 "container": true,
-                "heading": "<strong>Se locktång i aktion !</strong>",
+                "heading": "NEW_SHOPPABLE_VIDEO_K3L4_GENERATED",
                 "heading_size": "h1",
                 "description": "",
                 "slider_speed": 300,
@@ -589,14 +587,14 @@
                 "heading_ecFkqP": {
                     "type": "heading",
                     "settings": {
-                        "heading": "<strong>Sublima Lockar med locktång</strong>",
+                        "heading": "NEW_LUMIN_MEGA_M5N6_GENERATED",
                         "heading_size": "h1"
                     }
                 },
                 "text_Wb3i4c": {
                     "type": "text",
                     "settings": {
-                        "text": "<p>Tänk dig att varje morgon börja med perfekta lockar, utan ansträngning. Med <strong>locktång</strong> kan du skapa naturliga, vackra och hållbara lockar på ett ögonblick. Slipp stressen av att bränna håret eller att spendera timmar på att återskapa det perfekta utseendet.</p><p>Vår revolutionerande locktång ger en smidig och behaglig stylingupplevelse, designad för alla hårtyper – oavsett om ditt hår är fint, tjockt, kort eller långt. Du behöver inte längre kompromissa med hårhälsan för att få en felfri stil. Med <strong>anti-bränn-teknologi</strong> och <strong>automatisk avstängning</strong> kan du styla i lugn och ro, och få resultat som rivaliserar de största märkena, utan att tumma på kvaliteten.</p>",
+                        "text": "NEW_LUMIN_MEGA_O7P8_GENERATED",
                         "text_style": "body"
                     }
                 }
@@ -677,11 +675,11 @@
             "settings": {
                 "content_alignment": "center",
                 "layout": "1",
-                "heading": "Se hur andra älskar sin Locktång !",
-                "subheading": "Äkta recensioner från riktiga människor",
-                "button_text": "Köp din Locktång idag",
+                "heading": "NEW_LUMIN_SLIDER_Q9R0_GENERATED",
+                "subheading": "NEW_LUMIN_SLIDER_S1T2_GENERATED",
+                "button_text": "NEW_LUMIN_SLIDER_U3V4_GENERATED",
                 "button_link": "",
-                "rating_text": "Betygsatt 4,8/5 av 14 428+ glada kunder",
+                "rating_text": "NEW_LUMIN_SLIDER_W5X6_GENERATED",
                 "color_scheme": "",
                 "button_color": "#212121",
                 "star_color": "#ffd700",
@@ -706,7 +704,7 @@
                 "row_EiHe6y": {
                     "type": "row",
                     "settings": {
-                        "benefit": "Säkerhet (Anti-bränning)",
+                        "benefit": "NEW_COMPARISON_TABLE_C1D2_GENERATED",
                         "us": true,
                         "others": false
                     }
@@ -714,7 +712,7 @@
                 "row_rERJgf": {
                     "type": "row",
                     "settings": {
-                        "benefit": "Användarvänlighet (Lätt, trådlös)",
+                        "benefit": "NEW_COMPARISON_TABLE_C1D2_GENERATED_1",
                         "us": true,
                         "others": false
                     }
@@ -722,7 +720,7 @@
                 "row_yK9Aef": {
                     "type": "row",
                     "settings": {
-                        "benefit": "Förberedelse & Autonomi (Snabb uppvärmning)",
+                        "benefit": "NEW_COMPARISON_TABLE_C1D2_GENERATED_2",
                         "us": true,
                         "others": false
                     }
@@ -730,7 +728,7 @@
                 "row_GTdKwH": {
                     "type": "row",
                     "settings": {
-                        "benefit": "Mångsidighet (Temperaturinställning)",
+                        "benefit": "NEW_COMPARISON_TABLE_C1D2_GENERATED_3",
                         "us": true,
                         "others": false
                     }
@@ -738,7 +736,7 @@
                 "row_Mexmbk": {
                     "type": "row",
                     "settings": {
-                        "benefit": "Ekonomi (Ingen frisörbesök)",
+                        "benefit": "NEW_COMPARISON_TABLE_C1D2_GENERATED_4",
                         "us": true,
                         "others": false
                     }
@@ -746,7 +744,7 @@
                 "row_E8zVdq": {
                     "type": "row",
                     "settings": {
-                        "benefit": "Hållbarhet (Lockar som håller)",
+                        "benefit": "NEW_COMPARISON_TABLE_C1D2_GENERATED_5",
                         "us": true,
                         "others": false
                     }
@@ -761,7 +759,7 @@
                 "row_E8zVdq"
             ],
             "settings": {
-                "title": "Kvalitet som du inte hittar någon annanstans !",
+                "title": "NEW_COMPARISON_TABLE_Y7Z8_GENERATED",
                 "heading_size": "h1",
                 "text": "",
                 "button_label": "",
@@ -773,7 +771,7 @@
                 "logo_width": 90,
                 "mobile_logo_width": 60,
                 "us_label": "",
-                "others_label": "Ledande konkurrent",
+                "others_label": "NEW_COMPARISON_TABLE_A9B0_GENERATED",
                 "benefit_color_scheme": "background-1",
                 "icon_cells_color_scheme": "background-1",
                 "checkmark_color": "#008763",
@@ -831,7 +829,7 @@
             ],
             "name": "t:sections.collage.presets.name",
             "settings": {
-                "heading": "Varje morgon, perfekta lockar",
+                "heading": "NEW_COLLAGE_E3F4_GENERATED",
                 "heading_size": "h1",
                 "desktop_layout": "left",
                 "mobile_layout": "collage",
@@ -847,14 +845,14 @@
                 "heading_mVfaBV": {
                     "type": "heading",
                     "settings": {
-                        "heading": "#MEDVETENLOCKTÅNG",
+                        "heading": "NEW_RICH_TEXT_G5H6_GENERATED",
                         "heading_size": "h1"
                     }
                 },
                 "text_zFjTwr": {
                     "type": "text",
                     "settings": {
-                        "text": "<p>Vi stödjer ett medvetet och ansvarsfullt förhållningssätt till hårvård, med fokus på högkvalitativa locktänger som är miljövänliga och bra för hårets hälsa.</p>"
+                        "text": "NEW_RICH_TEXT_I7J8_GENERATED"
                     }
                 }
             },
@@ -945,7 +943,7 @@
                 "heading_8XLtDy": {
                     "type": "heading",
                     "settings": {
-                        "heading": "Varför locktång?",
+                        "heading": "NEW_RICH_TEXT_K9L0_GENERATED",
                         "heading_size": "h1"
                     }
                 }
@@ -975,9 +973,9 @@
                         "percent_border": "#f2f2f2",
                         "circle_value_1": 100,
                         "percent_text": 10,
-                        "heading": "6 Temperaturinställningar",
+                        "heading": "NEW_LUMIN_MEGA_FEATURE_1_GENERATED_TITLE",
                         "heading_size_alt": 16,
-                        "text": "<p>Justera temperaturen för perfekta lockar, oavsett hårtyp, med säkerhet.</p>"
+                        "text": "NEW_LUMIN_MEGA_FEATURE_1_GENERATED_TEXT"
                     }
                 },
                 "percent_nJJhny": {
@@ -989,9 +987,9 @@
                         "percent_border": "#f2f2f2",
                         "circle_value_1": 100,
                         "percent_text": 10,
-                        "heading": "<strong>Justerbar Timer</strong>",
+                        "heading": "NEW_LUMIN_MEGA_FEATURE_2_GENERATED_TITLE",
                         "heading_size_alt": 16,
-                        "text": "<p>Skapa lösa eller täta lockar på några sekunder, precis som du vill.</p>"
+                        "text": "NEW_LUMIN_MEGA_FEATURE_2_GENERATED_TEXT"
                     }
                 },
                 "percent_UUr9wc": {
@@ -1003,9 +1001,9 @@
                         "percent_border": "#f2f2f2",
                         "circle_value_1": 96,
                         "percent_text": 10,
-                        "heading": "<strong>Snabb Laddning</strong>",
+                        "heading": "NEW_LUMIN_MEGA_FEATURE_3_GENERATED_TITLE",
                         "heading_size_alt": 16,
-                        "text": "<p>Ladda på bara 4 timmar för att alltid vara redo när du behöver den.</p>"
+                        "text": "NEW_LUMIN_MEGA_FEATURE_3_GENERATED_TEXT"
                     }
                 },
                 "percent_A4eLEH": {
@@ -1017,9 +1015,9 @@
                         "percent_border": "#f2f2f2",
                         "circle_value_1": 96,
                         "percent_text": 10,
-                        "heading": "<strong>Lång Batteritid</strong>",
+                        "heading": "NEW_LUMIN_MEGA_FEATURE_4_GENERATED_TITLE",
                         "heading_size_alt": 16,
-                        "text": "<p>Upp till 50 minuters trådlös användning för en snabb och smidig styling, även på resande fot.</p>"
+                        "text": "NEW_LUMIN_MEGA_FEATURE_4_GENERATED_TEXT"
                     }
                 }
             },
@@ -1064,7 +1062,7 @@
                 "mobile_content_position": "middle",
                 "color_scheme": "background-1",
                 "desktop_content_alignment": "center",
-                "heading": "Skäm bort ditt hår med mjukhet",
+                "heading": "NEW_VIDEO_WITH_TEXT_M1N2_GENERATED",
                 "heading_size": "h1",
                 "text": "",
                 "button_label_1": "",
@@ -1080,72 +1078,72 @@
                 "template--15124688076883__c0ef23cf-5481-4b47-9b78-3c28134c079a-collapsible_row-1": {
                     "type": "collapsible_row",
                     "settings": {
-                        "heading": "Är denna locktång lämplig för alla hårtyper?",
+                        "heading": "NEW_FAQ_1_GENERATED_QUESTION",
                         "icon": "question_mark",
-                        "row_content": "<p>Absolut! Tack vare sina flera temperaturinställningar passar denna locktång alla hårtyper, från de finaste till de tjockaste. Den garanterar en perfekt slätning utan att skada hårstrået.</p>",
+                        "row_content": "NEW_FAQ_1_GENERATED_ANSWER",
                         "page": ""
                     }
                 },
                 "template--15124688076883__c0ef23cf-5481-4b47-9b78-3c28134c079a-collapsible_row-2": {
                     "type": "collapsible_row",
                     "settings": {
-                        "heading": "Kan man justera temperaturen?",
+                        "heading": "NEW_FAQ_2_GENERATED_QUESTION",
                         "icon": "question_mark",
-                        "row_content": "<p>Absolut! Den här locktång erbjuder <strong>sex temperaturinställningar</strong> från 150 °C till 200 °C, så att den kan anpassas till alla hårtyper: 150 °C för fint hår, 160 °C för något fint hår, 170 °C för normalt hår, 180 °C för tjockt hår, 190 °C för vågigt hår och 200 °C för mycket tjockt eller torrt hår.</p>",
+                        "row_content": "NEW_FAQ_2_GENERATED_ANSWER",
                         "page": ""
                     }
                 },
                 "template--15124688076883__c0ef23cf-5481-4b47-9b78-3c28134c079a-collapsible_row-3": {
                     "type": "collapsible_row",
                     "settings": {
-                        "heading": "Är locktång farlig för håret?",
+                        "heading": "NEW_FAQ_3_GENERATED_QUESTION",
                         "icon": "question_mark",
-                        "row_content": "<p>Nej, tack vare den <strong>keramiska turmalinen</strong> skyddar den hårfibern och minskar överdriven värme.</p>",
+                        "row_content": "NEW_FAQ_3_GENERATED_ANSWER",
                         "page": ""
                     }
                 },
                 "template--15124688076883__c0ef23cf-5481-4b47-9b78-3c28134c079a-collapsible_row-4": {
                     "type": "collapsible_row",
                     "settings": {
-                        "heading": "Fungerar det med kort hår?",
+                        "heading": "NEW_FAQ_4_GENERATED_QUESTION",
                         "icon": "question_mark",
-                        "row_content": "<p>Ja, så länge locken är tillräckligt lång för att kunna rullas.</p>",
+                        "row_content": "NEW_FAQ_4_GENERATED_ANSWER",
                         "page": ""
                     }
                 },
                 "collapsible_row_t3yhUa": {
                     "type": "collapsible_row",
                     "settings": {
-                        "heading": "Hur man rengör järnet?",
+                        "heading": "NEW_FAQ_5_GENERATED_QUESTION",
                         "icon": "question_mark",
-                        "row_content": "<p>För att rengöra locktång, stäng av den och koppla ur den, låt den sedan svalna helt. Använd en mjuk trasa som är lätt fuktad för att torka av plattorna. Undvik abrasiva eller kemiska produkter som kan skada den keramiska beläggningen. Se till att locktång är helt torr innan du förvarar den eller använder den igen.</p>",
+                        "row_content": "NEW_FAQ_5_GENERATED_ANSWER",
                         "page": ""
                     }
                 },
                 "collapsible_row_BMHKaN": {
                     "type": "collapsible_row",
                     "settings": {
-                        "heading": "Är locktång transportabel och lätt att ta med?",
+                        "heading": "NEW_FAQ_6_GENERATED_QUESTION",
                         "icon": "question_mark",
-                        "row_content": "<p>Ja, denna locktång är <strong>transportabel</strong> och <strong>tar lite plats</strong>. Den är utrustad med ett <strong>batteri som håller i 50 minuter</strong>, vilket gör den lätt att ta med för att justera dina lockar även utanför hemmet.</p>",
+                        "row_content": "NEW_FAQ_6_GENERATED_ANSWER",
                         "page": ""
                     }
                 },
                 "collapsible_row_nAhDf7": {
                     "type": "collapsible_row",
                     "settings": {
-                        "heading": "Är materialen i locktången verkligen ekologiska?",
+                        "heading": "NEW_FAQ_7_GENERATED_QUESTION",
                         "icon": "question_mark",
-                        "row_content": "<p>Ja, vår locktång är tillverkad av hållbara och ekologiska material som är noggrant utvalda för att minska miljöpåverkan. Vi strävar efter att erbjuda en produkt som både är effektiv och miljövänlig.</p>",
+                        "row_content": "NEW_FAQ_7_GENERATED_ANSWER",
                         "page": ""
                     }
                 },
                 "collapsible_row_GiDN9z": {
                     "type": "collapsible_row",
                     "settings": {
-                        "heading": "Hur fungerar frakt och returer?",
+                        "heading": "NEW_FAQ_8_GENERATED_QUESTION",
                         "icon": "question_mark",
-                        "row_content": "<p>Vi erbjuder snabb och pålitlig frakt. Din beställning skickas vanligtvis inom 1-2 arbetsdagar. Om du inte är nöjd med din produkt erbjuder vi enkel retur inom 30 dagar. Returavgifter kan tillkomma beroende på din plats. Se vår returpolicy för mer information.</p>",
+                        "row_content": "NEW_FAQ_8_GENERATED_ANSWER",
                         "page": ""
                     }
                 }
@@ -1162,7 +1160,7 @@
             ],
             "settings": {
                 "caption": "",
-                "heading": "FAQ",
+                "heading": "NEW_FAQ_M3N4_TRANSLATED",
                 "heading_size": "h0",
                 "heading_alignment": "center",
                 "layout": "row",
@@ -1186,8 +1184,8 @@
                         "star_rating": 5,
                         "name_text": "Vivian.D",
                         "date_text": "Maj 2025",
-                        "review_head": "Val av temperatur för att inte bränna håret",
-                        "review_text": "Locktång fyller perfekt sin mission för att den gör att jag kan locka mitt hår snabbt i ett enkelt steg. Man behöver bara stoppa in en hårslinga i den storlek man vill i apparaten och den lockar direkt. Det bästa är att kunna välja värme så man inte bränner håret. Jag väntar några sekunder och rullar ut. Det är lätt, praktiskt och apparaten är kompakt för att förvaras.",
+                        "review_head": "NEW_REVIEW_1_GENERATED_HEAD",
+                        "review_text": "NEW_REVIEW_1_GENERATED_TEXT",
                         "like_size": 63,
                         "dislike_size": 1,
                         "feature_font_size": 16
@@ -1200,8 +1198,8 @@
                         "star_rating": 5,
                         "name_text": "Lena.W",
                         "date_text": "Januari 2025",
-                        "review_head": "IMPRESIONANTE !",
-                        "review_text": "Jag har rakt hår och min dröm är att ha lockigt, så jag har köpt tänger, plattänger, koner… och nu har jag hittat den rätta. Jag älskar den. Väldigt lätt att använda. Ger lockar som håller länge. Jag använde 180 grader och 10 sekunder, men alla måste anpassa efter sin hårtyp. Man kan vrida åt vänster eller höger för att välja lockens riktning. Behöver inte vara inkopplad, så den är praktisk, jag gick ut på gården med mer ljus. Helt rekomenderad.",
+                        "review_head": "NEW_REVIEW_2_GENERATED_HEAD",
+                        "review_text": "NEW_REVIEW_2_GENERATED_TEXT",
                         "like_size": 42,
                         "dislike_size": 0,
                         "feature_font_size": 16
@@ -1214,8 +1212,8 @@
                         "star_rating": 5,
                         "name_text": "Sophie.B",
                         "date_text": "Mars 2025",
-                        "review_head": "Pålitlig locktång med enkel hantering",
-                        "review_text": "Jag har använt den automatiska locktången ett tag nu och jag är väldigt nöjd. Enheten är kompakt och ligger bra i handen. Displayen är tydlig och de olika temperaturerna är praktiska för att välja mellan stora eller små lockar. Uppvärmningstiden är kort och lockarna håller hela dagen.Väldigt positivt också att den är sladdlös och laddas med USB – perfekt för resor. Kvaliteten känns stabil och tillbehören (kam, klämmor, väska) är bra. Totalt sett ett bra prisvärde och uppfyller mina förväntningar.",
+                        "review_head": "NEW_REVIEW_3_GENERATED_HEAD",
+                        "review_text": "NEW_REVIEW_3_GENERATED_TEXT",
                         "like_size": 49,
                         "dislike_size": 0,
                         "feature_font_size": 16
@@ -1228,8 +1226,8 @@
                         "star_rating": 5,
                         "name_text": "Petra.B",
                         "date_text": "Juli 2025",
-                        "review_head": "Fantastisk produkt, bra kvalitet",
-                        "review_text": "Jag är supernöjd med denna sladdlösa locktång! Väldigt enkel att använda, även för någon som jag som inte är så bra på styling. De 6 temperaturerna (150–200°C) och timern gör det lätt att skapa precis de lockar jag vill – från mjuka vågor till definierade lockar. Keramisk beläggning och negativ jon-teknologi gör håret glänsande och mjukt utan frizz. Batteriet räcker länge nog för en hel session och USB-laddning är praktiskt ute. Jag gillar verkligen den kompakta designen och automatisk avstängning efter 10 minuter – tryggt! Absolut rekommenderad för alla som vill ha fina lockar utan ansträngning.",
+                        "review_head": "NEW_REVIEW_4_GENERATED_HEAD",
+                        "review_text": "NEW_REVIEW_4_GENERATED_TEXT",
                         "like_size": 66,
                         "dislike_size": 0,
                         "feature_font_size": 16
@@ -1242,8 +1240,8 @@
                         "star_rating": 5,
                         "name_text": "Anna.M",
                         "date_text": "Februari 2025",
-                        "review_head": "Ottimo… lika effektiv som de stora märkena",
-                        "review_text": "Presterar bra… systemet är väldigt enkelt och intuitivt! Har liknande resultat som kända märken… jag rekomenderar verkligen…",
+                        "review_head": "NEW_REVIEW_5_GENERATED_HEAD",
+                        "review_text": "NEW_REVIEW_5_GENERATED_TEXT",
                         "like_size": 33,
                         "dislike_size": 0,
                         "feature_font_size": 16
@@ -1256,8 +1254,8 @@
                         "star_rating": 5,
                         "name_text": "Clara.S",
                         "date_text": "Juli 2025",
-                        "review_head": "Lätt att använda",
-                        "review_text": "Fyller sin funktion, en lätt apparat som är enkel att hantera. Bara trycka på knappen och den gör allt själv. Dessutom är den liten, man kan ta med den i väskan utan problem.",
+                        "review_head": "NEW_REVIEW_6_GENERATED_HEAD",
+                        "review_text": "NEW_REVIEW_6_GENERATED_TEXT",
                         "like_size": 7,
                         "dislike_size": 0,
                         "feature_font_size": 16
@@ -1270,8 +1268,8 @@
                         "star_rating": 5,
                         "name_text": "Julia.F",
                         "date_text": "April 2025",
-                        "review_head": "Super locktång",
-                        "review_text": "Liten och smidig – perfekt hemma och på resa.Redo snabbt – kort laddtid för spontana stylingar.Lång batteritid – räcker för många stylingar.Enkel användning – lätt att sätta i håret och starta.Top resultat – definierade lockar som håller hela dagen.Bra kvalitet – skönt och stadigt material.",
+                        "review_head": "NEW_REVIEW_7_GENERATED_HEAD",
+                        "review_text": "NEW_REVIEW_7_GENERATED_TEXT",
                         "like_size": 53,
                         "dislike_size": 0,
                         "feature_font_size": 16
@@ -1285,8 +1283,8 @@
                         "star_rating": 5,
                         "name_text": "Miriam.S",
                         "date_text": "Augusti 2024",
-                        "review_head": "🎁 Perfekt present… och billig",
-                        "review_text": "Jag behövde en liten present till min tonåriga systerdotter och tänkte på denna automatiska locktång. Det blev en succé direkt, hon älskade den! Den är praktisk, modern och väldigt enkel att använda, även för den som inte har erfarenhet med plattänger eller vanliga locktänger. Hon gillar verkligen de 6 temperaturerna och timern från 8 till 18 sekunder, som gör att hon kan välja mellan täta lockar eller mjuka vågor beroende på tillfälle. Keramisk turmalinbeläggning gör håret mjukt och glänsande, och det att den är sladdlös gör den superpraktisk att ta med. Väldigt bra också med LED-display och automatisk avstängning som gör den säker och enkel. Dessutom hittade jag den på en kampanj, man får inte missa. Rekommenderad.",
+                        "review_head": "NEW_REVIEW_8_GENERATED_HEAD",
+                        "review_text": "NEW_REVIEW_8_GENERATED_TEXT",
                         "like_size": 78,
                         "dislike_size": 0,
                         "feature_font_size": 16
@@ -1306,12 +1304,12 @@
             "settings": {
                 "editing": true,
                 "color_scheme": "inverse",
-                "header_text": "Kundrecensioner",
+                "header_text": "NEW_REVIEW_O5P6_TRANSLATED",
                 "show_top": true,
                 "rating_text": "4.8",
                 "rating_range": 4.5,
                 "star_size_top": 0.6,
-                "rating_count": "<strong>14428+</strong> Verkliga recensioner, verkliga resultat från <strong>människor som du.</strong>",
+                "rating_count": "NEW_REVIEW_O3P4_GENERATED",
                 "review_column_mobile": "2",
                 "review_column_tab": "1",
                 "review_column_desk": "4",
@@ -1333,14 +1331,14 @@
                 "border_radius": 6,
                 "section_bg3": "#96cebb",
                 "section_bg2": "#96cebb",
-                "verify_text": "Verifierat köp",
+                "verify_text": "NEW_REVIEW_Q7R8_TRANSLATED",
                 "review_bg": "#ffffff",
                 "feature_acc_color": "#008763",
                 "review_pd": 16,
                 "review_pd_m": 26,
                 "show_footer": true,
                 "show_product": true,
-                "like_text": "Var detta till hjälp för dig?",
+                "like_text": "NEW_REVIEW_S9T0_TRANSLATED",
                 "rw_margin": 52,
                 "padding_top": 32,
                 "padding_bottom": 68
@@ -1350,7 +1348,7 @@
             "type": "related-products",
             "disabled": true,
             "settings": {
-                "heading": "You may also like",
+                "heading": "NEW_RELATED_PRODUCTS_U1V2_TRANSLATED",
                 "heading_size": "h2",
                 "collection_text_alignment": "left",
                 "products_to_show": 4,
