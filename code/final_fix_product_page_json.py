@@ -17,30 +17,25 @@ def fix_json_data(data):
             cleaned = re.sub(r"</?p>", "", value)
             return cleaned.strip()
 
-        elif key == "text" and isinstance(value, str):
-            if value.startswith("'") and value.endswith("'"):
-                value = value[1:-1]
-            if key.startswith("percent_") and not value.startswith("<p>"):
-                return f"<p>{value}</p>"
-            return value
+        # Remove the automatic <p> wrapping for "text" fields
+        # elif key == "text" and isinstance(value, str):
+        #     return clean_and_wrap_content(value)
 
         elif key == "row_content" and isinstance(value, str):
+            # Remove outer quotes if present
             if value.startswith("'") and value.endswith("'"):
                 value = value[1:-1]
-            if not value.startswith("<p>"):
-                return f"<p>{value}</p>"
             return value
 
         elif key in [
             "percent_TBmnaV",
-            "percent_nJJhny",
+            "percent_nJJhny", 
             "percent_UUr9wc",
             "percent_A4eLEH",
         ] and isinstance(value, str):
+            # Remove outer quotes if present
             if value.startswith("'") and value.endswith("'"):
                 value = value[1:-1]
-            if not value.startswith("<p>"):
-                return f"<p>{value}</p>"
             return value
 
         return value
@@ -68,17 +63,15 @@ def fix_json_data(data):
                 if key in [
                     "percent_TBmnaV",
                     "percent_nJJhny",
-                    "percent_UUr9wc",
+                    "percent_UUr9wc", 
                     "percent_A4eLEH",
                 ] and isinstance(value, dict):
                     if "settings" in value and "text" in value["settings"]:
                         text_value = value["settings"]["text"]
                         if isinstance(text_value, str):
+                            # Just remove quotes, don't wrap with <p> tags
                             if text_value.startswith("'") and text_value.endswith("'"):
-                                text_value = text_value[1:-1]
-                            if not text_value.startswith("<p>"):
-                                text_value = f"<p>{text_value}</p>"
-                            value["settings"]["text"] = text_value
+                                value["settings"]["text"] = text_value[1:-1]
 
                 if isinstance(value, dict):
                     result[key] = process_percent_blocks(value)
