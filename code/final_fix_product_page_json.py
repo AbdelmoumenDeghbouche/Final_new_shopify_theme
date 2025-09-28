@@ -5,22 +5,6 @@ import shutil
 
 
 def fix_json_data(data):
-    def clean_and_wrap_content(value):
-        """Clean content and wrap with <p> tags if needed, avoiding double wrapping"""
-        if not isinstance(value, str):
-            return value
-        
-        # Remove outer quotes if present
-        if value.startswith("'") and value.endswith("'"):
-            value = value[1:-1]
-        
-        # Check if content already has <p> tags
-        if value.strip().startswith("<p>") and value.strip().endswith("</p>"):
-            return value.strip()
-        
-        # If no <p> tags, wrap with them
-        return f"<p>{value}</p>"
-
     def process_value(key, value):
         if key == "rating_text" and isinstance(value, (int, float)):
             return str(value)
@@ -34,11 +18,18 @@ def fix_json_data(data):
             return cleaned.strip()
 
         elif key == "text" and isinstance(value, str):
-            # For text fields that should have <p> tags
-            return clean_and_wrap_content(value)
+            if value.startswith("'") and value.endswith("'"):
+                value = value[1:-1]
+            if key.startswith("percent_") and not value.startswith("<p>"):
+                return f"<p>{value}</p>"
+            return value
 
         elif key == "row_content" and isinstance(value, str):
-            return clean_and_wrap_content(value)
+            if value.startswith("'") and value.endswith("'"):
+                value = value[1:-1]
+            if not value.startswith("<p>"):
+                return f"<p>{value}</p>"
+            return value
 
         elif key in [
             "percent_TBmnaV",
@@ -46,7 +37,11 @@ def fix_json_data(data):
             "percent_UUr9wc",
             "percent_A4eLEH",
         ] and isinstance(value, str):
-            return clean_and_wrap_content(value)
+            if value.startswith("'") and value.endswith("'"):
+                value = value[1:-1]
+            if not value.startswith("<p>"):
+                return f"<p>{value}</p>"
+            return value
 
         return value
 
@@ -79,8 +74,11 @@ def fix_json_data(data):
                     if "settings" in value and "text" in value["settings"]:
                         text_value = value["settings"]["text"]
                         if isinstance(text_value, str):
-                            # Use the same clean_and_wrap_content function
-                            value["settings"]["text"] = clean_and_wrap_content(text_value)
+                            if text_value.startswith("'") and text_value.endswith("'"):
+                                text_value = text_value[1:-1]
+                            if not text_value.startswith("<p>"):
+                                text_value = f"<p>{text_value}</p>"
+                            value["settings"]["text"] = text_value
 
                 if isinstance(value, dict):
                     result[key] = process_percent_blocks(value)
