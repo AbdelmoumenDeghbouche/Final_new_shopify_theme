@@ -22,7 +22,7 @@ def main(input_file):
     
     # Create timestamp for backups
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    backup_file = f'test/test_backup_{timestamp}.json'
+    backup_file = f'/content/drive/MyDrive/theme-automation-2/test_backup_{timestamp}.json'
     
     try:
         # Create backup of original file
