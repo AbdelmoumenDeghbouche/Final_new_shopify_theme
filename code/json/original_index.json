@@ -1,0 +1,1231 @@
+{
+    "sections": {
+        "3a5233be-52a6-4aad-9337-d3037c87a1a7": {
+            "type": "slideshow",
+            "blocks": {
+                "template--15221093367891__3a5233be-52a6-4aad-9337-d3037c87a1a7-slide-1": {
+                    "type": "slide",
+                    "settings": {
+                        "image": "shopify:\/\/shop_images\/locktang-vit-svart-rosa.webp",
+                        "image_mob": "shopify:\/\/shop_images\/locktang-vit-svart-rosa_1.webp",
+                        "caption": "",
+                        "block_cap_size": 20,
+                        "cap_color": "#000000",
+                        "heading": "Perfekta lockar, utan besvär",
+                        "block_head_size-2": 33,
+                        "block_head_size-mobile": 31,
+                        "block_head_line": 0.9,
+                        "heading_size": "h1",
+                        "subheading": "",
+                        "button_label": "UPPTÄCKA",
+                        "link": "shopify:\/\/products\/locktang",
+                        "link-2": "",
+                        "button_style_secondary": false,
+                        "box_align": "middle-right",
+                        "show_text_box": true,
+                        "text_alignment": "center",
+                        "image_overlay_opacity": 0,
+                        "color_scheme": "background-1",
+                        "text_alignment_mobile": "center",
+                        "mobile_box_align": "center",
+                        "mobile_text_spacing": 0
+                    }
+                }
+            },
+            "block_order": [
+                "template--15221093367891__3a5233be-52a6-4aad-9337-d3037c87a1a7-slide-1"
+            ],
+            "settings": {
+                "layout": "full_bleed",
+                "banner_border": 8,
+                "slide_height": "medium",
+                "slider_visual": "dots",
+                "auto_rotate": false,
+                "hide_navigation": false,
+                "change_slides_speed": 5,
+                "show_text_below": true,
+                "accessibility_info": "Slideshow about our brand"
+            }
+        },
+        "featured_collection_LHDawE": {
+            "type": "featured-collection",
+            "name": "t:sections.featured-collection.presets.name",
+            "settings": {
+                "title": "",
+                "description": "",
+                "collection_text_alignment": "left",
+                "show_description": false,
+                "description_style": "body",
+                "collection": "frontpage",
+                "show_collection_image": false,
+                "products_to_show": 4,
+                "columns_desktop": 4,
+                "full_width": false,
+                "show_view_all": true,
+                "view_all_style": "solid",
+                "enable_desktop_slider": false,
+                "navigation_on_desk": true,
+                "color_scheme": "",
+                "image_ratio": "adapt",
+                "image_no_crop": true,
+                "show_secondary_image": false,
+                "show_vendor": false,
+                "show_rating": false,
+                "show_scroll_tags": false,
+                "enable_quick_desc": false,
+                "quick_desc_legth": 90,
+                "quick_desc_size": 14,
+                "enable_quick_add": false,
+                "show_secondary_add": false,
+                "columns_mobile": "2",
+                "swipe_on_mobile": false,
+                "navigation_on_mobile": true,
+                "padding_top": 36,
+                "padding_bottom": 36
+            }
+        },
+        "rich_text_WLCUrB": {
+            "type": "rich-text",
+            "blocks": {
+                "heading_iBPirp": {
+                    "type": "heading",
+                    "settings": {
+                        "heading": "Sett i pressen",
+                        "heading_size": "h1"
+                    }
+                }
+            },
+            "block_order": [
+                "heading_iBPirp"
+            ],
+            "name": "t:sections.rich-text.presets.name",
+            "settings": {
+                "desktop_content_position": "left",
+                "content_alignment": "left",
+                "color_scheme": "",
+                "full_width": true,
+                "padding_top": 40,
+                "padding_bottom": 0
+            }
+        },
+        "brands_Y9NhHL": {
+            "type": "brands",
+            "blocks": {
+                "image_aVNkXg": {
+                    "type": "image",
+                    "settings": {
+                        "logo_image": "shopify:\/\/shop_images\/locktang-natulig-lockar-styling-hemma.webp",
+                        "logo_image_width": 110
+                    }
+                },
+                "image_3HNtAh": {
+                    "type": "image",
+                    "settings": {
+                        "logo_image": "shopify:\/\/shop_images\/locktang-basta-harkur-for-skadat-har.webp",
+                        "logo_image_width": 152
+                    }
+                },
+                "image_gXcxtt": {
+                    "type": "image",
+                    "settings": {
+                        "logo_image": "shopify:\/\/shop_images\/locktang-professionella-resultat.webp",
+                        "logo_image_width": 130
+                    }
+                },
+                "image_gyP9xK": {
+                    "type": "image",
+                    "settings": {
+                        "logo_image": "shopify:\/\/shop_images\/locktang-for-korta-och-langa-har.webp",
+                        "logo_image_width": 130
+                    }
+                },
+                "image_T4fb6V": {
+                    "type": "image",
+                    "settings": {
+                        "logo_image": "shopify:\/\/shop_images\/locktang-harvard-lockigt-har-utan-frizz.webp",
+                        "logo_image_width": 130
+                    }
+                }
+            },
+            "block_order": [
+                "image_aVNkXg",
+                "image_3HNtAh",
+                "image_gXcxtt",
+                "image_gyP9xK",
+                "image_T4fb6V"
+            ],
+            "name": "LOGO Slider",
+            "settings": {
+                "scroll_speed": 15,
+                "fade": false,
+                "color_scheme": "",
+                "padding_desktop": 16,
+                "padding_mobile": 8,
+                "padding_item_desktop": 36,
+                "padding_item_mobile": 24,
+                "padding_top": 0,
+                "padding_bottom": 0
+            }
+        },
+        "shoppable_video_new_dU797a": {
+            "type": "shoppable-video-new",
+            "blocks": {
+                "item_B4W8ee": {
+                    "type": "item",
+                    "settings": {
+                        "video": "shopify:\/\/files\/videos\/locktang vit perfekta lockar.mp4",
+                        "video_autoplay": true,
+                        "badge": "NY",
+                        "badge_bg_color": "#f6f6f6",
+                        "badge_color": "#000000",
+                        "icon": "eye",
+                        "views": "",
+                        "views_bg_color": "#fff7f9",
+                        "views_color": "#d50000",
+                        "product": "",
+                        "product_bg_color": "#ffffff",
+                        "product_text_color": "#000000"
+                    }
+                },
+                "item_3HxLiT": {
+                    "type": "item",
+                    "settings": {
+                        "video": "shopify:\/\/files\/videos\/locktang-tradlos-bucluer-basta-lockar.mp4",
+                        "video_autoplay": true,
+                        "badge": "NY",
+                        "badge_bg_color": "#f6f6f6",
+                        "badge_color": "#000000",
+                        "icon": "eye",
+                        "views": "",
+                        "views_bg_color": "#fff7f9",
+                        "views_color": "#d50000",
+                        "product": "",
+                        "product_bg_color": "#ffffff",
+                        "product_text_color": "#000000"
+                    }
+                },
+                "item_Rc44GY": {
+                    "type": "item",
+                    "settings": {
+                        "video": "shopify:\/\/files\/videos\/locktang-ecologisk-locktang-perfekta-lockar.mp4",
+                        "video_autoplay": true,
+                        "badge": "NY",
+                        "badge_bg_color": "#f6f6f6",
+                        "badge_color": "#000000",
+                        "icon": "eye",
+                        "views": "",
+                        "views_bg_color": "#fff7f9",
+                        "views_color": "#d50000",
+                        "product": "",
+                        "product_bg_color": "#ffffff",
+                        "product_text_color": "#000000"
+                    }
+                },
+                "item_RdcedB": {
+                    "type": "item",
+                    "settings": {
+                        "video": "shopify:\/\/files\/videos\/locktang-perfekta-lockar-basta-bucluer.mp4",
+                        "video_autoplay": true,
+                        "badge": "NY",
+                        "badge_bg_color": "#f6f6f6",
+                        "badge_color": "#000000",
+                        "icon": "eye",
+                        "views": "",
+                        "views_bg_color": "#fff7f9",
+                        "views_color": "#d50000",
+                        "product": "",
+                        "product_bg_color": "#ffffff",
+                        "product_text_color": "#000000"
+                    }
+                }
+            },
+            "block_order": [
+                "item_B4W8ee",
+                "item_3HxLiT",
+                "item_Rc44GY",
+                "item_RdcedB"
+            ],
+            "name": "Shoppable videos",
+            "settings": {
+                "color_scheme": "",
+                "container": true,
+                "heading": "<strong>Se locktång i aktion !<\/strong>",
+                "heading_size": "h1",
+                "description": "",
+                "slider_speed": 300,
+                "slider_nav": true,
+                "slider_pagination": true,
+                "slider_pagination_type": "bullets",
+                "slider_scrollbar": true,
+                "slider_partial_slides_mobile": true,
+                "slider_autoplay": 4,
+                "gap": 10,
+                "card_border_width": 1,
+                "card_border_radius": 16,
+                "badge_border_radius": 3,
+                "card_box_shadow": false,
+                "card_equal_height": true,
+                "breakpoint_xs": 1,
+                "breakpoint_sm": 2,
+                "breakpoint_md": 3,
+                "breakpoint_lg": 3,
+                "breakpoint_xl": 4,
+                "breakpoint_xxl": 4,
+                "padding_top": 36,
+                "padding_bottom": 80
+            }
+        },
+        "lumin_cards_3aJzVd": {
+            "type": "lumin-cards",
+            "blocks": {
+                "card_pq4htH": {
+                    "type": "card",
+                    "settings": {
+                        "large_up_hide": false,
+                        "grid_width_desktop": "33.3333333",
+                        "medium_hide": false,
+                        "grid_width_tablet": "33.3333333",
+                        "small_hide": false,
+                        "grid_width_mobile": "100",
+                        "desktop_card_height": "auto",
+                        "padding_size": 30,
+                        "padding_size_mobile": 30,
+                        "padding_left_mobile": 30,
+                        "text_border": 0,
+                        "icon": "shopify:\/\/shop_images\/locktang-certifierad-av-lakare.webp",
+                        "use_video": false,
+                        "media_ratio": "100%",
+                        "icon_size": 100,
+                        "icon_corner": 0,
+                        "head": "Ekologisk Locktång, Certifierad för Vackra Hår",
+                        "use_body_font": false,
+                        "head_size_d": 30,
+                        "head_size_m": 24,
+                        "margin_bottom": 15,
+                        "subtitle": "<p>Vår ekologiska locktång skapar perfekta lockar och respekterar miljön. Certifierad av experter, garanterar den professionella resultat och skyddar hårets hälsa.<\/p>",
+                        "text_size_d": 16,
+                        "text_size_m": 14,
+                        "button-text": "Utforska locktång",
+                        "button_link": "shopify:\/\/products\/locktang",
+                        "show_secondary": false,
+                        "desktop_content_alignment": "center",
+                        "show_border": true,
+                        "border_color": "#eeeeee",
+                        "bg_color": "#ffffff",
+                        "head_color": "#212121",
+                        "text_color": "#212121"
+                    }
+                },
+                "card_EUCLHY": {
+                    "type": "card",
+                    "settings": {
+                        "large_up_hide": false,
+                        "grid_width_desktop": "33.3333333",
+                        "medium_hide": false,
+                        "grid_width_tablet": "33.3333333",
+                        "small_hide": false,
+                        "grid_width_mobile": "100",
+                        "desktop_card_height": "auto",
+                        "padding_size": 30,
+                        "padding_size_mobile": 30,
+                        "padding_left_mobile": 30,
+                        "text_border": 0,
+                        "icon": "shopify:\/\/shop_images\/kvinna-locktang-elegant-frisyr.webp",
+                        "use_video": false,
+                        "media_ratio": "100%",
+                        "icon_size": 100,
+                        "icon_corner": 0,
+                        "head": "<strong>Snabb Uppvärmning: Omedelbara Lockar utan Väntan<\/strong>",
+                        "use_body_font": false,
+                        "head_size_d": 30,
+                        "head_size_m": 24,
+                        "margin_bottom": 15,
+                        "subtitle": "<p>Tack vare snabb uppvärmning får du perfekta lockar på sekunder. Slipp väntetiden och börja styla direkt för ett snabbt och enkelt resultat.<\/p>",
+                        "text_size_d": 16,
+                        "text_size_m": 14,
+                        "button-text": "Upptäck omedelbara lockar",
+                        "button_link": "shopify:\/\/products\/locktang",
+                        "show_secondary": false,
+                        "desktop_content_alignment": "center",
+                        "show_border": true,
+                        "border_color": "#eeeeee",
+                        "bg_color": "#ffffff",
+                        "head_color": "#212121",
+                        "text_color": "#212121"
+                    }
+                },
+                "card_aDBHBq": {
+                    "type": "card",
+                    "settings": {
+                        "large_up_hide": false,
+                        "grid_width_desktop": "33.3333333",
+                        "medium_hide": false,
+                        "grid_width_tablet": "33.3333333",
+                        "small_hide": false,
+                        "grid_width_mobile": "100",
+                        "desktop_card_height": "auto",
+                        "padding_size": 30,
+                        "padding_size_mobile": 30,
+                        "padding_left_mobile": 30,
+                        "text_border": 0,
+                        "icon": "shopify:\/\/shop_images\/kvinna-locktang-svart-vit-lockar.webp",
+                        "use_video": false,
+                        "media_ratio": "100%",
+                        "icon_size": 100,
+                        "icon_corner": 0,
+                        "head": "Stil, Elegans och Välbefinnande med Hållbara Lockar",
+                        "use_body_font": false,
+                        "head_size_d": 30,
+                        "head_size_m": 24,
+                        "margin_bottom": 15,
+                        "subtitle": "<p>Med locktång får du perfekta lockar som håller hela dagen. Snabb uppvärmning och hållbara resultat för en självsäker och vacker look, varje dag.<\/p>",
+                        "text_size_d": 16,
+                        "text_size_m": 14,
+                        "button-text": "Se eleganta lockar",
+                        "button_link": "shopify:\/\/products\/locktang",
+                        "show_secondary": false,
+                        "desktop_content_alignment": "center",
+                        "show_border": true,
+                        "border_color": "#eeeeee",
+                        "bg_color": "#ffffff",
+                        "head_color": "#212121",
+                        "text_color": "#212121"
+                    }
+                }
+            },
+            "block_order": [
+                "card_pq4htH",
+                "card_EUCLHY",
+                "card_aDBHBq"
+            ],
+            "name": "Lumin Cards",
+            "settings": {
+                "video_border": 14,
+                "zoom_hover": true,
+                "loading_color": "#f2f2f2",
+                "grid_gap": 18,
+                "color_scheme": "scheme-52650f17-4d3d-4be4-aa3c-4ef82f95ed07",
+                "padding_top": 36,
+                "padding_bottom": 36,
+                "margin_top": 36,
+                "margin_bottom": 36
+            }
+        },
+        "rich_text_PFUUdK": {
+            "type": "rich-text",
+            "blocks": {
+                "heading_TdwPKy": {
+                    "type": "heading",
+                    "settings": {
+                        "heading": "#MEDVETENLOCKTÅNG",
+                        "heading_size": "h1"
+                    }
+                },
+                "text_aJiNeN": {
+                    "type": "text",
+                    "settings": {
+                        "text": "<p>Vi stödjer ett medvetet och ansvarsfullt förhållningssätt till hårvård, med fokus på högkvalitativa locktänger som är miljövänliga och bra för hårets hälsa.<\/p>"
+                    }
+                }
+            },
+            "block_order": [
+                "heading_TdwPKy",
+                "text_aJiNeN"
+            ],
+            "name": "t:sections.rich-text.presets.name",
+            "settings": {
+                "desktop_content_position": "center",
+                "content_alignment": "center",
+                "color_scheme": "",
+                "full_width": true,
+                "padding_top": 40,
+                "padding_bottom": 0
+            }
+        },
+        "multicolumn_mR3wFQ": {
+            "type": "multicolumn",
+            "blocks": {
+                "column_tHewJX": {
+                    "type": "column",
+                    "settings": {
+                        "title": "",
+                        "text": "",
+                        "link_label": "",
+                        "link": ""
+                    }
+                },
+                "column_YVBTpb": {
+                    "type": "column",
+                    "settings": {
+                        "title": "",
+                        "text": "",
+                        "link_label": "",
+                        "link": ""
+                    }
+                },
+                "column_Fbhcfd": {
+                    "type": "column",
+                    "settings": {
+                        "title": "",
+                        "text": "",
+                        "link_label": "",
+                        "link": ""
+                    }
+                }
+            },
+            "block_order": [
+                "column_tHewJX",
+                "column_YVBTpb",
+                "column_Fbhcfd"
+            ],
+            "name": "t:sections.multicolumn.presets.name",
+            "settings": {
+                "title": "",
+                "heading_size": "h1",
+                "heading_center": "left",
+                "image_width": "half",
+                "image_ratio": "adapt",
+                "columns_desktop": 3,
+                "column_alignment": "center",
+                "background_style": "primary",
+                "button_label": "",
+                "button_link": "",
+                "color_scheme": "",
+                "columns_mobile": "2",
+                "swipe_on_mobile": true,
+                "navigation_on_mobile": false,
+                "padding_top": 20,
+                "padding_bottom": 36
+            }
+        },
+        "lumin_mega_PPtWt9": {
+            "type": "lumin-mega",
+            "blocks": {
+                "heading_j6AhCq": {
+                    "type": "heading",
+                    "settings": {
+                        "heading": "Avslöja ditt hårs skönhet utan kompromisser",
+                        "heading_size": "h2"
+                    }
+                },
+                "percent_AKBG6j": {
+                    "type": "percent",
+                    "settings": {
+                        "icon_size": 70,
+                        "circle_width": 4,
+                        "percent_bg": "#191919",
+                        "percent_border": "#f2f2f2",
+                        "circle_value_1": 100,
+                        "percent_text": 10,
+                        "heading": "Alla hårtyper",
+                        "heading_size_alt": 20,
+                        "text": "<p>Lämplig för kort, långt, tjockt, fint och torrt hår. <\/p>"
+                    }
+                },
+                "percent_MqaBhj": {
+                    "type": "percent",
+                    "settings": {
+                        "icon_size": 70,
+                        "circle_width": 4,
+                        "percent_bg": "#191919",
+                        "percent_border": "#f2f2f2",
+                        "circle_value_1": 100,
+                        "percent_text": 10,
+                        "heading": "Fina lockar",
+                        "heading_size_alt": 20,
+                        "text": "<p>Skapar feminina, eleganta och varierade lockar. <\/p>"
+                    }
+                },
+                "percent_neckea": {
+                    "type": "percent",
+                    "settings": {
+                        "icon_size": 70,
+                        "circle_width": 4,
+                        "percent_bg": "#191919",
+                        "percent_border": "#f2f2f2",
+                        "circle_value_1": 100,
+                        "percent_text": 10,
+                        "heading": "Specialistgodkänd",
+                        "heading_size_alt": 20,
+                        "text": "<p>Testat och godkänt av hårspecialister, Locktång ger hållbara krullar utan risk för brännskador.<\/p>"
+                    }
+                },
+                "percent_tjX8LE": {
+                    "type": "percent",
+                    "settings": {
+                        "icon_size": 70,
+                        "circle_width": 4,
+                        "percent_bg": "#191919",
+                        "percent_border": "#f2f2f2",
+                        "circle_value_1": 100,
+                        "percent_text": 10,
+                        "heading": "Ekologiskt Respekt",
+                        "heading_size_alt": 20,
+                        "text": "<p>En locktång som respekterar miljön med hållbara material.<\/p>"
+                    }
+                }
+            },
+            "block_order": [
+                "heading_j6AhCq",
+                "percent_AKBG6j",
+                "percent_MqaBhj",
+                "percent_neckea",
+                "percent_tjX8LE"
+            ],
+            "name": "Lumin Mega Section",
+            "settings": {
+                "color_scheme_main": "background-1",
+                "full-width": false,
+                "image": "shopify:\/\/shop_images\/kvinna-locktang-svart-vit-lockar-1.webp",
+                "height": "large",
+                "desktop_image_width": "medium",
+                "layout": "image_first",
+                "desktop_content_position": "middle",
+                "desktop_content_alignment": "left",
+                "content_layout": "no-overlap",
+                "color_scheme": "",
+                "image_behavior": "none",
+                "mobile_content_alignment": "left",
+                "margin_top": 36,
+                "margin_bottom": 36,
+                "padding_top": 36,
+                "padding_bottom": 36
+            }
+        },
+        "lumin_slider_2_ywTNEg": {
+            "type": "lumin-slider-2",
+            "blocks": {
+                "review_image_Cgergj": {
+                    "type": "review_image",
+                    "settings": {
+                        "review_image": "shopify:\/\/shop_images\/keramisk-locktang-utan-frizz.webp"
+                    }
+                },
+                "review_image_8fpLyr": {
+                    "type": "review_image",
+                    "settings": {
+                        "review_image": "shopify:\/\/shop_images\/locktang-for-tjockt-och-fint-har.webp"
+                    }
+                },
+                "review_image_qGx4x7": {
+                    "type": "review_image",
+                    "settings": {
+                        "review_image": "shopify:\/\/shop_images\/locktang-skyddar-mot-varme.webp"
+                    }
+                },
+                "review_image_rQrc9B": {
+                    "type": "review_image",
+                    "settings": {
+                        "review_image": "shopify:\/\/shop_images\/locktang-resa-kompakt.webp"
+                    }
+                },
+                "review_image_YY9AU3": {
+                    "type": "review_image",
+                    "settings": {
+                        "review_image": "shopify:\/\/shop_images\/locktang-enkelt-att-anvanda.webp"
+                    }
+                },
+                "review_image_bUDH6Y": {
+                    "type": "review_image",
+                    "settings": {
+                        "review_image": "shopify:\/\/shop_images\/locktang-for-tjockt-och-fint-har.webp"
+                    }
+                }
+            },
+            "block_order": [
+                "review_image_Cgergj",
+                "review_image_8fpLyr",
+                "review_image_qGx4x7",
+                "review_image_rQrc9B",
+                "review_image_YY9AU3",
+                "review_image_bUDH6Y"
+            ],
+            "name": "Lumin Slider #2",
+            "settings": {
+                "content_alignment": "center",
+                "layout": "1",
+                "heading": "Se hur andra älskar sin Locktång !",
+                "subheading": "Äkta recensioner från riktiga människor",
+                "button_text": "Köp din Locktång idag",
+                "button_link": "",
+                "rating_text": "Betygsatt 4,8\/5 av 14 428+ glada kunder",
+                "color_scheme": "",
+                "button_color": "#212121",
+                "star_color": "#ffd700",
+                "navigation_color": "#212121",
+                "auto_play": true,
+                "show_navigation": false,
+                "scroll_speed": 4,
+                "head_size": 42,
+                "head_size_mb": 32,
+                "subhead_size": 18,
+                "subhead_size_mb": 16,
+                "review_size": 10,
+                "padding_top": 36,
+                "padding_bottom": 36,
+                "margin_top": 36,
+                "margin_bottom": 36
+            }
+        },
+        "lumin_pro_aFLr4d": {
+            "type": "lumin-pro",
+            "blocks": {
+                "feature_text_VqeAjA": {
+                    "type": "feature-text",
+                    "settings": {
+                        "text": "<em>★★★★★<\/em> Utmärkt <strong>4.8\/5<\/strong>",
+                        "font_size": 14,
+                        "text_bg": "#ffffff",
+                        "italic_text": "#ffa600",
+                        "bold_text": "#ff9fbc",
+                        "border": "#ff9fbc"
+                    }
+                },
+                "heading_J3ynND": {
+                    "type": "heading",
+                    "settings": {
+                        "heading": "💨 <strong>Snabba och symmetriska lockar<\/strong>",
+                        "heading_size": "h1"
+                    }
+                },
+                "text_UGDGaa": {
+                    "type": "text",
+                    "settings": {
+                        "text": "<p>Tack vare den <strong>automatiska rotationen<\/strong> på locktång får du jämna och hållbara lockar utan ansträngning.<\/p>",
+                        "text_style": "body"
+                    }
+                },
+                "button_BBC4gH": {
+                    "type": "button",
+                    "settings": {
+                        "button_label": "",
+                        "button_link": "shopify:\/\/products\/locktang",
+                        "button_style_secondary": false
+                    }
+                },
+                "testimonial_images_dGBCQB": {
+                    "type": "testimonial-images",
+                    "settings": {
+                        "image_size": 1,
+                        "image_space": -18,
+                        "hide_img_2": false,
+                        "hide_img_3": false,
+                        "hide_img_4": false,
+                        "hide_img_5": false,
+                        "text": "<p>Betygsatt 4,8\/5 av över 73 567 kunder<\/p>",
+                        "text_size": 13,
+                        "text_style": "body"
+                    }
+                }
+            },
+            "block_order": [
+                "feature_text_VqeAjA",
+                "heading_J3ynND",
+                "text_UGDGaa",
+                "button_BBC4gH",
+                "testimonial_images_dGBCQB"
+            ],
+            "name": "Lumin Pro Section",
+            "settings": {
+                "color_scheme_main": "scheme-b4f5e471-39ab-4d0b-b66b-c098f27883a4",
+                "full-width": false,
+                "image": "shopify:\/\/shop_images\/locktang-lockigt-har-naturligt.webp",
+                "height": "adapt",
+                "desktop_image_width": "medium",
+                "layout": "text_first",
+                "desktop_content_position": "middle",
+                "desktop_content_alignment": "left",
+                "image_behavior": "none",
+                "mobile_content_alignment": "left",
+                "margin_top": 36,
+                "margin_bottom": 36,
+                "padding_top": 36,
+                "padding_bottom": 36
+            }
+        },
+        "video_with_text_GAx8wW": {
+            "type": "video-with-text",
+            "name": "Video Text Overlay",
+            "settings": {
+                "layout": "full_bleed",
+                "video_border": 0,
+                "video": "shopify:\/\/files\/videos\/kvinna-lockig-frisyr.mp4",
+                "video_height": "medium",
+                "image_overlay_opacity": 0,
+                "desktop_content_position": "middle-left",
+                "show_text_box": false,
+                "video_content_border": 0,
+                "mobile_content_position": "middle",
+                "color_scheme": "scheme-52650f17-4d3d-4be4-aa3c-4ef82f95ed07",
+                "desktop_content_alignment": "center",
+                "heading": "Respekt för hårfibrerna",
+                "heading_size": "h1",
+                "text": "Denna locktång, med sin <strong>turmalin-keramiska<\/strong> beläggning, avger en mild och jämn värme samtidigt som den minskar frizz och statisk elektricitet, för perfekt definierade lockar.",
+                "button_label_1": "Utforska hårvänlig locktång",
+                "button_link_1": "shopify:\/\/products\/locktang",
+                "button_style_secondary_1": false,
+                "padding_top": 36,
+                "padding_bottom": 36
+            }
+        },
+        "lumin_grids_gYDx9K": {
+            "type": "lumin-grids",
+            "blocks": {
+                "image_MWrPWN": {
+                    "type": "image",
+                    "settings": {
+                        "large_up_hide": false,
+                        "grid_width_desktop": "50",
+                        "medium_hide": false,
+                        "grid_width_tablet": "33.3333333",
+                        "small_hide": false,
+                        "image": "shopify:\/\/shop_images\/locktang-temperatur-justerbar-konstant.webp",
+                        "overlay_opacity": 0,
+                        "opacity_color": "#000000",
+                        "opacity_color_full": false,
+                        "padding_size": 15,
+                        "padding_size_in": 10,
+                        "text_border": 0,
+                        "bg_color": "rgba(0,0,0,0)",
+                        "head": "📏 Full kontroll över temperaturen",
+                        "head_color": "#ffffff",
+                        "head_size_d": 27,
+                        "head_size_m": 14,
+                        "margin_bottom": 15,
+                        "text": "Med sina 6 <strong>justerbara nivåer<\/strong> <strong>(160 och 200 °C)<\/strong> anpassar den sig till alla hårtyper tunt, normalt eller tjockt hår.",
+                        "text_color": "#ffffff",
+                        "text_size_d": 16,
+                        "text_size_m": 10,
+                        "button-text": "button",
+                        "button_link": "",
+                        "desktop_content_alignment": "center",
+                        "image_content_position": "bottom-center",
+                        "grid-url": ""
+                    }
+                },
+                "text_xGNyrq": {
+                    "type": "text",
+                    "settings": {
+                        "large_up_hide": false,
+                        "grid_width_desktop": "25",
+                        "medium_hide": false,
+                        "grid_width_tablet": "25",
+                        "small_hide": false,
+                        "show_border": false,
+                        "border_color": "#eeeeee",
+                        "padding_size": 30,
+                        "padding_size_mobile": 30,
+                        "padding_left_mobile": 30,
+                        "text_border": 0,
+                        "bg_color": "#fce1e1",
+                        "icon_size": 25,
+                        "icon_corner": 0,
+                        "head": "Ny kollektion",
+                        "use_body_font": false,
+                        "head_color": "#212121",
+                        "head_size_d": 30,
+                        "head_size_m": 24,
+                        "margin_bottom": 15,
+                        "subtitle": "",
+                        "text_color": "#212121",
+                        "text_size_d": 16,
+                        "text_size_m": 14,
+                        "button-text": "Upptäcka",
+                        "show_secondary": false,
+                        "button_link": "shopify:\/\/products\/locktang",
+                        "image_content_position": "middle-center",
+                        "desktop_content_alignment": "center",
+                        "grid-url": ""
+                    }
+                },
+                "image_638NPi": {
+                    "type": "image",
+                    "settings": {
+                        "large_up_hide": false,
+                        "grid_width_desktop": "25",
+                        "medium_hide": false,
+                        "grid_width_tablet": "25",
+                        "small_hide": false,
+                        "image": "shopify:\/\/shop_images\/harstran-lockigt-alla-hartyper.webp",
+                        "overlay_opacity": 0,
+                        "opacity_color": "#000000",
+                        "opacity_color_full": false,
+                        "padding_size": 30,
+                        "padding_size_in": 10,
+                        "text_border": 0,
+                        "bg_color": "rgba(0,0,0,0)",
+                        "head": "Maximal hårskydd",
+                        "head_color": "#ffffff",
+                        "head_size_d": 27,
+                        "head_size_m": 24,
+                        "margin_bottom": 15,
+                        "text": "",
+                        "text_color": "#212121",
+                        "text_size_d": 16,
+                        "text_size_m": 14,
+                        "button-text": "button",
+                        "button_link": "",
+                        "desktop_content_alignment": "left",
+                        "image_content_position": "bottom-center",
+                        "grid-url": ""
+                    }
+                }
+            },
+            "block_order": [
+                "image_MWrPWN",
+                "text_xGNyrq",
+                "image_638NPi"
+            ],
+            "name": "Lumin Grids",
+            "settings": {
+                "video_border": 0,
+                "zoom_hover": true,
+                "loading_color": "#f2f2f2",
+                "grid_gap": 8,
+                "color_scheme": "background-1",
+                "padding_top": 36,
+                "padding_bottom": 36,
+                "margin_top": 36,
+                "margin_bottom": 36
+            }
+        },
+        "announcement_bar_iUp7qf": {
+            "type": "announcement-bar",
+            "blocks": {
+                "announcement_GCCwkX": {
+                    "type": "announcement",
+                    "settings": {
+                        "text": "Testat av 70 000 kvinnor: Varför de älskar vår automatiska locktång !",
+                        "link": "shopify:\/\/products\/locktang"
+                    }
+                }
+            },
+            "block_order": [
+                "announcement_GCCwkX"
+            ],
+            "name": "t:sections.announcement-bar.presets.name",
+            "settings": {
+                "color_scheme": "background-2",
+                "show_line_separator": true,
+                "show_social": false,
+                "auto_rotate": false,
+                "hide_arrows": false,
+                "change_slides_speed": 5,
+                "enable_country_selector": false,
+                "enable_language_selector": false
+            }
+        },
+        "testimonial_slider_AGaAFj": {
+            "type": "testimonial-slider",
+            "blocks": {
+                "icon_wkikFr": {
+                    "type": "icon",
+                    "settings": {
+                        "image": "shopify:\/\/shop_images\/locktang_enkel_praktisk.gif",
+                        "slide_radius": 50,
+                        "link": "",
+                        "show_icon": true,
+                        "title": "Enkel och praktisk",
+                        "text": "<p>\"Som mamma med lite tid, har denna produkt förändrat mitt liv. Jag behöver inte längre spendera timmar framför spegeln eller bränna mitt hår med klassiska locktänger. Den är superenkel att använda, och lockarna håller hela dagen. Jag älskar det!\"<\/p><p>💬 <strong>Lindström Astrid.<\/strong> ⭐⭐⭐⭐⭐<\/p>"
+                    }
+                },
+                "icon_U7JHF8": {
+                    "type": "icon",
+                    "settings": {
+                        "image": "shopify:\/\/shop_images\/Locktang_professionellt_resultat_hemma.gif",
+                        "slide_radius": 50,
+                        "link": "",
+                        "show_icon": true,
+                        "title": "Ett professionellt resultat hemma",
+                        "text": "<p>\"Jag behöver inte längre gå till frisören för att få perfekta lockar. Denna locktång är lätt att använda, lätt och mycket effektiv. Jag kan göra lockar som är lika vackra som de man får på salongen. Jag är mer än nöjd!\"<\/p><p>💬 <strong>Eriksson Freja.<\/strong> ⭐⭐⭐⭐☆<\/p>"
+                    }
+                },
+                "icon_iKkBgV": {
+                    "type": "icon",
+                    "settings": {
+                        "image": "shopify:\/\/shop_images\/Locktang_perfekta_langvariga_lockar.gif",
+                        "slide_radius": 50,
+                        "link": "",
+                        "show_icon": true,
+                        "title": "Perfekta och långvariga lockar",
+                        "text": "<p>\"Jag har testat många produkter för mitt fina hår, och detta är utan tvekan det bästa. Det tar lite plats, är lätt att transportera och ger mig vackra lockar utan att riskera att bränna mitt hår. Resultatet håller hela dagen, och jag känner mig verkligen vackrare och mer självsäker. Rekommenderas starkt!\"<\/p><p>💬 <strong>Johansson Ingrid.<\/strong> ⭐⭐⭐⭐⭐<\/p>"
+                    }
+                },
+                "icon_QnVwN4": {
+                    "type": "icon",
+                    "settings": {
+                        "image": "shopify:\/\/shop_images\/Locktang_tillfredsstallelse_garanterad.gif",
+                        "slide_radius": 50,
+                        "link": "",
+                        "show_icon": true,
+                        "title": "Full tillfredsställelse garanterad",
+                        "text": "<p>\"Denna locktång har helt och hållet vunnit mig över. Den är inte bara väldigt praktisk, utan den skapar också underbara lockar som håller hela dagen. Jag behöver inte längre oroa mig för att bränna mina händer eller mitt hår. Jag rekommenderar den till alla som vill ha ett snabbt och effektivt resultat.\"<\/p><p>💬 <strong>Andersson Birgitta.<\/strong> ⭐⭐⭐⭐⭐<\/p>"
+                    }
+                }
+            },
+            "block_order": [
+                "icon_wkikFr",
+                "icon_U7JHF8",
+                "icon_iKkBgV",
+                "icon_QnVwN4"
+            ],
+            "name": "Testimonial Slider",
+            "settings": {
+                "icon_alignment": "center",
+                "icon_size": 30,
+                "per_row": 3,
+                "gap": 20,
+                "show_arrows": "true",
+                "auto_rotate": true,
+                "change_slides_speed": 2,
+                "text_size": 100,
+                "heading_color": "#000000",
+                "text_color": "#666666",
+                "color_scheme": "",
+                "color_scheme_main": "",
+                "show_border": false,
+                "content_border_color": "rgba(0,0,0,0)",
+                "content_buttons_radius": 0,
+                "mobile_icon_alignment": "center",
+                "mobile_icon_size": 30,
+                "mobile_per_row": "1",
+                "base_width": 100,
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "padding_top": 40,
+                "padding_bottom": 40
+            }
+        },
+        "slideshow_yTTPJW": {
+            "type": "slideshow",
+            "blocks": {
+                "slide_QXVjDU": {
+                    "type": "slide",
+                    "settings": {
+                        "image": "shopify:\/\/shop_images\/kvinna-locktang-vagigt-har.webp",
+                        "image_mob": "shopify:\/\/shop_images\/kvinna-locktang-lockiga-harstran.webp",
+                        "caption": "Behöver hjälp?",
+                        "block_cap_size": 34,
+                        "cap_color": "#222222",
+                        "heading": "",
+                        "block_head_size-2": 20,
+                        "block_head_size-mobile": 20,
+                        "block_head_line": 1.4,
+                        "heading_size": "h1",
+                        "subheading": "",
+                        "button_label": "Kontakta oss",
+                        "link": "shopify:\/\/pages\/contact",
+                        "link-2": "",
+                        "button_style_secondary": false,
+                        "box_align": "middle-center",
+                        "show_text_box": true,
+                        "text_alignment": "center",
+                        "image_overlay_opacity": 20,
+                        "color_scheme": "",
+                        "text_alignment_mobile": "center",
+                        "mobile_box_align": "center",
+                        "mobile_text_spacing": 0
+                    }
+                }
+            },
+            "block_order": [
+                "slide_QXVjDU"
+            ],
+            "name": "Lumin Slidshow",
+            "settings": {
+                "layout": "full_bleed",
+                "banner_border": 0,
+                "slide_height": "medium",
+                "slider_visual": "dots",
+                "auto_rotate": false,
+                "hide_navigation": false,
+                "change_slides_speed": 5,
+                "show_text_below": true,
+                "accessibility_info": ""
+            }
+        },
+        "collapsible_content_yK8aTm": {
+            "type": "collapsible-content",
+            "blocks": {
+                "collapsible_row_NYzBib": {
+                    "type": "collapsible_row",
+                    "settings": {
+                        "heading": "Är denna locktång lämplig för alla hårtyper?",
+                        "icon": "question_mark",
+                        "row_content": "<p>Absolut! Tack vare sina flera temperaturinställningar passar denna locktång alla hårtyper, från de finaste till de tjockaste. Den garanterar en perfekt slätning utan att skada hårstrået.<\/p>",
+                        "page": ""
+                    }
+                },
+                "collapsible_row_7JamFa": {
+                    "type": "collapsible_row",
+                    "settings": {
+                        "heading": "Kan man justera temperaturen?",
+                        "icon": "question_mark",
+                        "row_content": "<p>Absolut! Den här locktång erbjuder <strong>sex temperaturinställningar<\/strong> från 150 °C till 200 °C, så att den kan anpassas till alla hårtyper: 150 °C för fint hår, 160 °C för något fint hår, 170 °C för normalt hår, 180 °C för tjockt hår, 190 °C för vågigt hår och 200 °C för mycket tjockt eller torrt hår.<\/p>",
+                        "page": ""
+                    }
+                },
+                "collapsible_row_Czp4C6": {
+                    "type": "collapsible_row",
+                    "settings": {
+                        "heading": "Är locktång farlig för håret?",
+                        "icon": "question_mark",
+                        "row_content": "<p>Nej, tack vare den <strong>keramiska turmalinen<\/strong> skyddar den hårfibern och minskar överdriven värme.<\/p>",
+                        "page": ""
+                    }
+                },
+                "collapsible_row_8QW7cQ": {
+                    "type": "collapsible_row",
+                    "settings": {
+                        "heading": "Fungerar det med kort hår?",
+                        "icon": "question_mark",
+                        "row_content": "<p>Ja, så länge locken är tillräckligt lång för att kunna rullas.<\/p>",
+                        "page": ""
+                    }
+                },
+                "collapsible_row_WQFzN7": {
+                    "type": "collapsible_row",
+                    "settings": {
+                        "heading": "Hur man rengör järnet?",
+                        "icon": "question_mark",
+                        "row_content": "<p>För att rengöra locktång, stäng av den och koppla ur den, låt den sedan svalna helt. Använd en mjuk trasa som är lätt fuktad för att torka av plattorna. Undvik abrasiva eller kemiska produkter som kan skada den keramiska beläggningen. Se till att locktång är helt torr innan du förvarar den eller använder den igen.<\/p>",
+                        "page": ""
+                    }
+                },
+                "collapsible_row_6nKPBx": {
+                    "type": "collapsible_row",
+                    "settings": {
+                        "heading": "Är locktång transportabel och lätt att ta med?",
+                        "icon": "question_mark",
+                        "row_content": "<p>Ja, denna locktång är <strong>transportabel<\/strong> och <strong>tar lite plats<\/strong>. Den är utrustad med ett <strong>batteri som håller i 50 minuter<\/strong>, vilket gör den lätt att ta med för att justera dina lockar även utanför hemmet.<\/p>",
+                        "page": ""
+                    }
+                },
+                "collapsible_row_tJncxV": {
+                    "type": "collapsible_row",
+                    "settings": {
+                        "heading": "Är materialen i locktången verkligen ekologiska?",
+                        "icon": "question_mark",
+                        "row_content": "<p>Ja, vår locktång är tillverkad av hållbara och ekologiska material som är noggrant utvalda för att minska miljöpåverkan. Vi strävar efter att erbjuda en produkt som både är effektiv och miljövänlig.<\/p>",
+                        "page": ""
+                    }
+                },
+                "collapsible_row_3NLxki": {
+                    "type": "collapsible_row",
+                    "settings": {
+                        "heading": "Hur fungerar frakt och returer?",
+                        "icon": "question_mark",
+                        "row_content": "<p>Vi erbjuder snabb och pålitlig frakt. Din beställning skickas vanligtvis inom 1-2 arbetsdagar. Om du inte är nöjd med din produkt erbjuder vi enkel retur inom 30 dagar. Returavgifter kan tillkomma beroende på din plats. Se vår returpolicy för mer information.<\/p>",
+                        "page": ""
+                    }
+                }
+            },
+            "block_order": [
+                "collapsible_row_NYzBib",
+                "collapsible_row_7JamFa",
+                "collapsible_row_Czp4C6",
+                "collapsible_row_8QW7cQ",
+                "collapsible_row_WQFzN7",
+                "collapsible_row_6nKPBx",
+                "collapsible_row_tJncxV",
+                "collapsible_row_3NLxki"
+            ],
+            "name": "t:sections.collapsible_content.presets.name",
+            "settings": {
+                "caption": "",
+                "heading": "FAQ",
+                "heading_size": "h0",
+                "heading_alignment": "center",
+                "layout": "row",
+                "color_scheme": "background-2",
+                "container_color_scheme": "inverse",
+                "open_first_collapsible_row": false,
+                "image_ratio": "adapt",
+                "desktop_layout": "image_second",
+                "padding_top": 36,
+                "padding_bottom": 36
+            }
+        },
+        "7c49854d-841e-4486-a518-217b88181104": {
+            "type": "rich-text",
+            "blocks": {
+                "95cd312d-868a-41cb-ba80-25ac4c47391b": {
+                    "type": "caption",
+                    "settings": {
+                        "caption": "NOTRE PHILOSOPHIE PRODUIT",
+                        "text_style": "caption-with-letter-spacing",
+                        "text_size": "large"
+                    }
+                },
+                "template--15124687650899__7c49854d-841e-4486-a518-217b88181104-heading-1": {
+                    "type": "heading",
+                    "settings": {
+                        "heading": "Nous croyons en la fabrication de produits qui non seulement répondent aux attentes, mais les dépassent.",
+                        "heading_size": "h1"
+                    }
+                },
+                "template--15124687650899__7c49854d-841e-4486-a518-217b88181104-text-1": {
+                    "type": "text",
+                    "settings": {
+                        "text": "<p>En savoir plus<\/p>"
+                    }
+                }
+            },
+            "block_order": [
+                "95cd312d-868a-41cb-ba80-25ac4c47391b",
+                "template--15124687650899__7c49854d-841e-4486-a518-217b88181104-heading-1",
+                "template--15124687650899__7c49854d-841e-4486-a518-217b88181104-text-1"
+            ],
+            "disabled": true,
+            "settings": {
+                "desktop_content_position": "center",
+                "content_alignment": "center",
+                "color_scheme": "background-1",
+                "full_width": true,
+                "padding_top": 52,
+                "padding_bottom": 52
+            }
+        },
+        "7ac15ddf-2ba5-42fc-bdeb-400fd4438378": {
+            "type": "featured-blog",
+            "disabled": true,
+            "settings": {
+                "heading": "Articles de blogs",
+                "heading_size": "h1",
+                "collection_text_alignment": "left",
+                "blog": "",
+                "post_limit": 3,
+                "columns_desktop": 3,
+                "navigation_show": true,
+                "color_scheme": "scheme-cd8ff304-8858-43d4-8ace-1ba168cff031",
+                "show_image": true,
+                "show_date": true,
+                "show_author": false,
+                "show_view_all": true,
+                "padding_top": 36,
+                "padding_bottom": 36
+            }
+        }
+    },
+    "order": [
+        "3a5233be-52a6-4aad-9337-d3037c87a1a7",
+        "featured_collection_LHDawE",
+        "rich_text_WLCUrB",
+        "brands_Y9NhHL",
+        "shoppable_video_new_dU797a",
+        "lumin_cards_3aJzVd",
+        "rich_text_PFUUdK",
+        "multicolumn_mR3wFQ",
+        "lumin_mega_PPtWt9",
+        "lumin_slider_2_ywTNEg",
+        "lumin_pro_aFLr4d",
+        "video_with_text_GAx8wW",
+        "lumin_grids_gYDx9K",
+        "announcement_bar_iUp7qf",
+        "testimonial_slider_AGaAFj",
+        "slideshow_yTTPJW",
+        "collapsible_content_yK8aTm",
+        "7c49854d-841e-4486-a518-217b88181104",
+        "7ac15ddf-2ba5-42fc-bdeb-400fd4438378"
+    ]
+}

@@ -1,0 +1,275 @@
+{
+    "name": "t:sections.footer.name",
+    "type": "footer",
+    "sections": {
+        "back_to_top_Ca7nbV": {
+            "type": "back-to-top",
+            "settings": {
+                "hide_on_mobile": false,
+                "show_when_precent_of_page": 60,
+                "button_position": "center",
+                "button_bg_color": "#ffffff",
+                "button_border_color": "#dddddd",
+                "icon_color": "#000000",
+                "button_diameter": 48,
+                "icon_size": 24,
+                "horizontal_padding": 20,
+                "vertical_padding": 100
+            }
+        },
+        "lumin_scrolling_text_LXqjeA": {
+            "type": "lumin-scrolling-text",
+            "blocks": {
+                "announcement_9dgFVn": {
+                    "type": "announcement",
+                    "settings": {
+                        "Announcement": "<p>Skönheten arbetar till din fördel.<strong> —   <\/strong><a href=\"\/pages\/vara-produkter\" title=\"Våra produkter\"><strong>Köp nu<\/strong><\/a><\/p>",
+                        "announcement_size": 18,
+                        "announcement_size_m": 16,
+                        "text_spacing": 0,
+                        "text_transform": "uppercase",
+                        "announcement_color": "#212121",
+                        "icon": "none",
+                        "text_link": ""
+                    }
+                },
+                "announcement_h987xe": {
+                    "type": "announcement",
+                    "settings": {
+                        "Announcement": "<p>Skönheten arbetar till din fördel.<strong> —   <\/strong><a href=\"\/collections\/all\" title=\"All products\"><strong>Köp nu<\/strong><\/a><\/p>",
+                        "announcement_size": 18,
+                        "announcement_size_m": 16,
+                        "text_spacing": 0,
+                        "text_transform": "uppercase",
+                        "announcement_color": "#212121",
+                        "icon": "none",
+                        "text_link": ""
+                    }
+                }
+            },
+            "block_order": [
+                "announcement_9dgFVn",
+                "announcement_h987xe"
+            ],
+            "name": "Scrolling text",
+            "settings": {
+                "scroll_speed": 40,
+                "reverse": false,
+                "fade": false,
+                "color_scheme": "background-2",
+                "padding_desktop": 16,
+                "padding_mobile": 8,
+                "padding_item_desktop": 36,
+                "padding_item_mobile": 8,
+                "padding_top": 40,
+                "padding_bottom": 40
+            }
+        },
+        "trust_badges_LN3iJX": {
+            "type": "trust-badges",
+            "blocks": {
+                "image_xMgRGk": {
+                    "type": "image",
+                    "settings": {
+                        "feature_title": "<strong>100 % TILLFREDSHET<\/strong>",
+                        "feature_text": "<p>Tusentals nöjda kunder, prova utan risk.<\/p>",
+                        "feature_image": "shopify:\/\/shop_images\/100_TILLFREDSHET.webp",
+                        "feature_url": "",
+                        "hide_image": false
+                    }
+                },
+                "image_RgRA8N": {
+                    "type": "image",
+                    "settings": {
+                        "feature_title": "<strong>ENKEL OCH SNABB BYTNING<\/strong>",
+                        "feature_text": "<p>Förenklad retur utan besvär.<\/p>",
+                        "feature_image": "shopify:\/\/shop_images\/ENKEL_OCH_SNABB_BYTNING.webp",
+                        "feature_url": "",
+                        "hide_image": false
+                    }
+                },
+                "image_kh6e7A": {
+                    "type": "image",
+                    "settings": {
+                        "feature_title": "<strong>EXPRESSLEVERANS<\/strong>",
+                        "feature_text": "<p>Snabb leverans till din adress.<\/p>",
+                        "feature_image": "shopify:\/\/shop_images\/EXPRESSLEVERANS.webp",
+                        "feature_url": "",
+                        "hide_image": false
+                    }
+                },
+                "image_Jpgbqc": {
+                    "type": "image",
+                    "settings": {
+                        "feature_title": "<strong>SÄKER BETALNING<\/strong>",
+                        "feature_text": "<p>Dina bankuppgifter är krypterade och skyddade genom strikta säkerhetsprotokoll.<\/p>",
+                        "feature_image": "shopify:\/\/shop_images\/SAKER_BETALNING.webp",
+                        "feature_url": "",
+                        "hide_image": false
+                    }
+                }
+            },
+            "block_order": [
+                "image_xMgRGk",
+                "image_RgRA8N",
+                "image_kh6e7A",
+                "image_Jpgbqc"
+            ],
+            "settings": {
+                "feature_row": 4,
+                "feature_row_mobile": 2,
+                "feature_gap": 20,
+                "feature_gap_mobile": 20,
+                "feature_padding_horizontal": 0,
+                "feature_padding_vertical": 0,
+                "feature_radius": 16,
+                "feature_border_thickness": 0,
+                "feature_shadow": false,
+                "feature_heading_size": 14,
+                "feature_heading_size_mobile": 12,
+                "feature_heading_height": 130,
+                "feature_heading_mt": 8,
+                "feature_text_size": 12,
+                "feature_text_size_mobile": 12,
+                "feature_text_height": 130,
+                "feature_text_mt": 4,
+                "feature_icon_size": 42,
+                "feature_icon_size_mobile": 42,
+                "feature_bg": "#fce1e1",
+                "feature_border_color": "#000000",
+                "feature_shadow_color": "#000000",
+                "feature_heading_color": "#000000",
+                "feature_text_color": "#000000",
+                "feature_icon_color": "#000000",
+                "background_color": "#fce1e1",
+                "background_gradient": "",
+                "border_color": "#000000",
+                "margin_top": 24,
+                "margin_bottom": 24,
+                "padding_top": 16,
+                "padding_bottom": 16,
+                "padding_horizontal": 5,
+                "padding_horizontal_mobile": 1.5,
+                "full_width": false,
+                "content_width": 120,
+                "border_thickness": 0,
+                "lazy": true
+            }
+        },
+        "420dbb1b-f872-4861-99ec-c6ce83df4831": {
+            "type": "newsletter",
+            "blocks": {
+                "sections--15124688797779__420dbb1b-f872-4861-99ec-c6ce83df4831-heading-1": {
+                    "type": "heading",
+                    "settings": {
+                        "heading": "Profiter av 10 % rabatt på din första beställning nu !",
+                        "heading_size": "h1"
+                    }
+                },
+                "sections--15124688797779__420dbb1b-f872-4861-99ec-c6ce83df4831-email_form-1": {
+                    "type": "email_form",
+                    "settings": {}
+                }
+            },
+            "block_order": [
+                "sections--15124688797779__420dbb1b-f872-4861-99ec-c6ce83df4831-heading-1",
+                "sections--15124688797779__420dbb1b-f872-4861-99ec-c6ce83df4831-email_form-1"
+            ],
+            "settings": {
+                "color_scheme": "background-1",
+                "full_width": true,
+                "text_align": "center",
+                "news_alignment": "horizontal",
+                "show_small_text": true,
+                "small_text": "Vi lovar att inte använda din e-post för spam! du kan när som helst avregistrera dig.",
+                "padding_top": 64,
+                "padding_bottom": 84,
+                "margin_top": 0,
+                "margin_bottom": 0
+            }
+        },
+        "waves_H7qRgj": {
+            "type": "waves",
+            "settings": {
+                "wave_color": "#ff9fbc",
+                "wave_height": 40,
+                "wave_speed": 25,
+                "padding_top": 0,
+                "padding_bottom": 0
+            }
+        },
+        "footer": {
+            "type": "footer",
+            "blocks": {
+                "brand_information_e8FriM": {
+                    "type": "brand_information",
+                    "settings": {
+                        "show_social": true
+                    }
+                },
+                "link_list_YkcPW4": {
+                    "type": "link_list",
+                    "settings": {
+                        "heading": "Information",
+                        "menu": "footer"
+                    }
+                },
+                "0dfe9e9f-d96e-442f-be6e-881afaba1771": {
+                    "type": "link_list",
+                    "settings": {
+                        "heading": "Butik",
+                        "menu": "main-menu"
+                    }
+                },
+                "text_y3qDPH": {
+                    "type": "text",
+                    "settings": {
+                        "heading": "Behöver hjälp?",
+                        "subtext": "<p>💬 Tillgänglig chatt måndag – fredag, 9:00 till 18:00<\/p>"
+                    }
+                }
+            },
+            "block_order": [
+                "brand_information_e8FriM",
+                "link_list_YkcPW4",
+                "0dfe9e9f-d96e-442f-be6e-881afaba1771",
+                "text_y3qDPH"
+            ],
+            "settings": {
+                "color_scheme": "background-2",
+                "show_collapse": true,
+                "show_border": false,
+                "show_body_font": "head",
+                "newsletter_enable": false,
+                "newsletter_heading": "Subscribe to our emails",
+                "enable_follow_on_shop": true,
+                "show_social": false,
+                "enable_country_selector": true,
+                "enable_language_selector": true,
+                "payment_enable": true,
+                "original": "custom",
+                "payment_icon": "visa,master,paypal,apple_pay,shopify-pay,google-pay",
+                "custom_icon_1_width": 34,
+                "custom_icon_2_width": 34,
+                "custom_icon_3_width": 34,
+                "hide_shopify": false,
+                "copyright": "- Theme by <a href=\"https:\/\/lumintheme.com\/\" target=\"_blank\" title=\"https:\/\/lumintheme.com\/\">Lumin<em>Theme<\/em><\/a> © 2024",
+                "show_bottom_text": true,
+                "bottom_text": "",
+                "color_bottom_text": "#868686",
+                "show_policy": true,
+                "margin_top": 0,
+                "padding_top": 60,
+                "padding_bottom": 12
+            }
+        }
+    },
+    "order": [
+        "back_to_top_Ca7nbV",
+        "lumin_scrolling_text_LXqjeA",
+        "trust_badges_LN3iJX",
+        "420dbb1b-f872-4861-99ec-c6ce83df4831",
+        "waves_H7qRgj",
+        "footer"
+    ]
+}

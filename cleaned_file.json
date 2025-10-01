@@ -62,7 +62,7 @@
         "text_aXxXRM": {
           "type": "text",
           "settings": {
-            "text": "\"Révélez votre éclat avec l'hydratation délicate de la rose !\"",
+            "text": "\"Révélez un éclat radieux avec Éclat Sublime – Hydratation et douceur en un seul geste !\"",
             "text_style": "body"
           }
         },
@@ -72,7 +72,7 @@
             "icon_size": 20,
             "heading": "",
             "heading_size": 20,
-            "text": "<p>Hydratation soyeuse pour un éclat radieux</p>",
+            "text": "<p>Hydratation intense pour un éclat radieux</p>",
             "text_size": 12,
             "padding_top": 12,
             "padding_bottom": 0
@@ -84,7 +84,7 @@
             "icon_size": 20,
             "heading": "",
             "heading_size": 20,
-            "text": "<p>Nourrit et illumine la peau</p>",
+            "text": "<p>Hydratation intense et éclat radieux</p>",
             "text_size": 12,
             "padding_top": 0,
             "padding_bottom": 0
@@ -96,7 +96,7 @@
             "icon_size": 20,
             "heading": "",
             "heading_size": 20,
-            "text": "<p>Hydratation intense et éclat radieux</p>",
+            "text": "<p>Éclat et hydratation intense</p>",
             "text_size": 12,
             "padding_top": 0,
             "padding_bottom": 14
@@ -140,7 +140,7 @@
             "show_per_unit": true,
             "badge_style": "ribbon top-short",
             "option_1_show_image": false,
-            "option_1_label": "1 Tube",
+            "option_1_label": "1 Pot",
             "option_1_quantity": 1,
             "option_1_fixed_discount": "0",
             "option_1_discount_percentage": 0,
@@ -150,25 +150,25 @@
             "option_1_save_text": "Free Shipping",
             "option_1_promo": "",
             "option_2_show_image": false,
-            "option_2_label": "Achetez 2, Profitez de 1 Offert !",
+            "option_2_label": "Achetez 2, Recevez 1 Offert !",
             "option_2_quantity": 3,
             "option_2_fixed_discount": "44",
             "option_2_discount_percentage": 20,
             "option_2_badge_enable": true,
             "option_2_badge_text": "OFFRE EXCLUSIVE - Dernières Heures !",
-            "option_2_unit_label": "Offre Spéciale : 6 Mois de Crème Hydratante Éclat Sublime – Livraison Gratuite",
+            "option_2_unit_label": "\"3 Mois de Fourniture | Livraison Gratuite\"",
             "option_2_save_text": "Économisez 20% - UN ACHAT, UN OFFERT !",
             "option_2_promo": "",
             "option_3_show_image": false,
-            "option_3_label": "Achetez 3, Recevez 2 Offerts !",
+            "option_3_label": "Achetez 3, Recevez 3 GRATUIT !",
             "option_3_quantity": 5,
             "option_3_fixed_discount": "88",
             "option_3_discount_percentage": 30,
             "option_3_badge_enable": true,
-            "option_3_badge_text": "VENTE FLASH — Saisissez-le avant qu'il ne disparaisse !",
-            "option_3_unit_label": "Offre Spéciale : 12 Mois d'Éclat Sublime – Crème Visage Hydratante Rose | Livraison Gratuite",
-            "option_3_save_text": "Économisez (%) - OBTENEZ DEUX GRATUITEMENT avec le lot Éclat Sublime – Crème Visage Hydratante Rose !",
-            "option_3_promo": "<strong>12</strong> Mois d'Approvisionnement | <strong>Livraison Gratuite</strong>",
+            "option_3_badge_text": "VENTE FLASH — Ne manquez pas Éclat Sublime !",
+            "option_3_unit_label": "\"12 Mois de Crème Visage Hydratante Éclat Sublime – Livraison Gratuite\"",
+            "option_3_save_text": "Économisez 20% - OBTENEZ DEUX GRATUITES !",
+            "option_3_promo": "<strong>12</strong> Mois de Fourniture | <strong>Livraison Gratuite</strong>",
             "option_4_show_image": false,
             "option_4_label": "4 Pack",
             "option_4_quantity": 0,
@@ -203,7 +203,7 @@
             "hide_lines": false,
             "show_head_border": false,
             "title_text_align": "center",
-            "quantity_title_text": "<h3>Économisez en vous offrant le Bundle Éclat Sublime – Crème Visage Hydratante Rose !</h3>",
+            "quantity_title_text": "<h3>Économisez avec notre offre groupée sur Éclat Sublime – Crème Visage Hydratante Rose !</h3>",
             "quantity_subtitle_text": "",
             "title_font_size": 1.8,
             "subtitle_font_size": 1.3,
@@ -278,7 +278,7 @@
             "hide_img_3": false,
             "hide_img_4": true,
             "hide_img_5": true,
-            "text_block": "<p><strong>Des milliers d'utilisateurs satisfaits</strong> recommandent Éclat Sublime pour une peau radieuse et nourrie.</p>",
+            "text_block": "<p><strong>Des milliers d'utilisateurs satisfaits</strong> recommandent Éclat Sublime pour une peau éclatante et hydratée.</p>",
             "text_size": 10,
             "text_style": "body"
           }
@@ -290,7 +290,7 @@
             "image_ani": "none",
             "text_size": 10,
             "text_style": "uppercase",
-            "text": "Commandez dans les <strong>(timer)</strong> et recevez la livraison avant le <strong>(date).</strong>",
+            "text": "Commandez dans les <strong>(heures)</strong> et recevez la livraison avant le <strong>(date).</strong>",
             "date_locale": "sv-SE",
             "ship_bg": "#f6f6f6",
             "show_border": true,
@@ -308,7 +308,7 @@
             "open_first_collapsible_row": false,
             "heading": "Détails du produit",
             "icon": "none",
-            "content": "<p>Découvrez la crème hydratante Éclat Sublime, conçue pour sublimer votre peau avec une formule riche en bienfaits.</p><ul>    <li><strong>Hydratation Intense :</strong> Enrichie en extraits de rose, elle pénètre profondément pour nourrir et hydrater votre peau.</li>    <li><strong>Réduction des Ridules :</strong> Sa texture légère aide à lisser les ridules, offrant un teint plus jeune et éclatant.</li>    <li><strong>Éclat Radieux :</strong> La vitamine E illumine votre visage, révélant un éclat naturel et sain.</li>    <li><strong>Sensation Soyeuse :</strong> Laisse une finition douce et raffinée, agréable au toucher.</li></ul><p>Adoptez cette crème pour une routine beauté efficace et un teint resplendissant.</p>",
+            "content": "<p>Découvrez la crème hydratante Éclat Sublime, formulée pour offrir à votre peau une hydratation optimale et un éclat naturel. Enrichie en extraits de rose et en vitamine E, elle procure des bienfaits exceptionnels pour un teint radieux.</p><ul>    <li><strong>Hydratation intense :</strong> Nourrit en profondeur et maintient l'hydratation tout au long de la journée.</li>    <li><strong>Réduction des ridules :</strong> Lisse visiblement les ridules, offrant une apparence plus jeune.</li>    <li><strong>Éclat lumineux :</strong> Révèle un teint éclatant et revitalisé.</li>    <li><strong>Texture soyeuse :</strong> Laisse une sensation douce et raffinée sur la peau.</li></ul><p>Idéale pour tous les types de peau, Éclat Sublime est votre alliée pour une beauté naturelle et éclatante.</p>",
             "page": ""
           }
         },
@@ -318,7 +318,7 @@
             "open_first_collapsible_row": false,
             "heading": "Avantages et bénéfices",
             "icon": "none",
-            "content": "<p>La crème Éclat Sublime – Crème Visage Hydratante Rose est votre alliée pour une peau parfaitement hydratée et radieuse. Formulée avec des extraits de rose et de vitamine E, elle offre de nombreux avantages :</p><ul>    <li><strong>Hydratation Intense :</strong> Nourrit en profondeur pour une peau souple et bien hydratée.</li>    <li><strong>Réduction des Ridules :</strong> Lisse les ridules pour un teint plus uniforme et jeune.</li>    <li><strong>Éclat Naturel :</strong> Révèle un éclat radieux, illuminant votre visage.</li>    <li><strong>Sensation Soigneuse :</strong> Laisse une texture soyeuse et raffinée sur la peau.</li></ul><p>Découvrez la douceur et la luminosité que votre peau mérite avec Éclat Sublime.</p>",
+            "content": "<p>Découvrez la <strong>Crème Visage Hydratante Rose Éclat Sublime</strong>, une formule délicate qui transforme votre routine de soins de la peau.</p><ul>    <li><strong>Hydratation Intense :</strong> Enrichie en extraits de rose et vitamine E, elle nourrit profondément la peau.</li>    <li><strong>Raffinement de la Peau :</strong> Lisse les ridules pour un teint plus uniforme et éclatant.</li>    <li><strong>Sensation Soyeuse :</strong> Laisse une texture légère et raffinée sur le visage.</li>    <li><strong>Éclat Radieux :</strong> Révèle un éclat naturel, illuminant votre beauté.</li></ul><p>Idéale pour tous les types de peau, cette crème est votre alliée pour une peau visiblement revitalisée.</p>",
             "page": ""
           }
         },
@@ -326,9 +326,9 @@
           "type": "collapsible_tab",
           "settings": {
             "open_first_collapsible_row": false,
-            "heading": "'Garantie de satisfaction de 30 jours'",
+            "heading": "'Satisfaction garantie 30 jours'",
             "icon": "none",
-            "content": "<p>Si vous n'êtes pas entièrement satisfait de votre expérience avec Éclat Sublime – Crème Visage Hydratante Rose, nous vous remboursons sans hésitation.</p>",
+            "content": "<p>Si vous n'êtes pas entièrement satisfait de votre expérience avec Éclat Sublime, nous vous remboursons sans hésitation.</p>",
             "page": ""
           }
         }
@@ -546,7 +546,7 @@
       "settings": {
         "color_scheme": "",
         "container": true,
-        "heading": "<strong>Révélez votre éclat avec Éclat Sublime !</strong>",
+        "heading": "<strong>Éclat radieux, douceur infinie !</strong>",
         "heading_size": "h1",
         "description": "",
         "slider_speed": 300,
@@ -578,14 +578,14 @@
         "heading_ecFkqP": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Éclat Radieux, Peau Soignée</strong>",
+            "heading": "<strong>Révélez votre éclat avec l'hydratation délicate à la rose.</strong>",
             "heading_size": "h1"
           }
         },
         "text_Wb3i4c": {
           "type": "text",
           "settings": {
-            "text": "<p>Découvrez la crème hydratante Éclat Sublime, une fusion parfaite d'ingrédients naturels conçue pour sublimer votre peau.</p><ul>    <li><strong>Hydratation Intense :</strong> Enrichie en extraits de rose, cette crème pénètre en profondeur pour nourrir et revitaliser la peau.</li>    <li><strong>Éclat Naturel :</strong> La vitamine E aide à lisser les ridules et à révéler un teint lumineux et radieux.</li>    <li><strong>Sensation Soyeuse :</strong> Sa texture légère laisse la peau douce, lisse et parfaitement hydratée.</li>    <li><strong>Formule Délicate :</strong> Adaptée à tous les types de peau, elle offre un confort optimal sans alourdir.</li></ul><p>Transformez votre routine beauté avec Éclat Sublime pour un visage éclatant de santé.</p>",
+            "text": "<p>Découvrez la crème hydratante Éclat Sublime, une formule délicate qui transforme votre routine de soins de la peau.</p><ul>    <li><strong>Hydratation Intense :</strong> Enrichie en extraits de rose, elle pénètre profondément pour nourrir la peau en profondeur.</li>    <li><strong>Raffinement de la Peau :</strong> Lisse les ridules visibles, laissant votre peau douce et souple.</li>    <li><strong>Éclat Radieux :</strong> Réveille le teint terne pour un aspect lumineux et revitalisé.</li>    <li><strong>Sensation Soyeuse :</strong> Apporte une texture légère et raffinée, parfaite pour un usage quotidien.</li>    <li><strong>Protection Antioxydante :</strong> La vitamine E aide à protéger la peau des agressions extérieures.</li></ul><p>Éveillez votre beauté naturelle avec Éclat Sublime – une crème qui allie luxe et efficacité.</p>",
             "text_style": "body"
           }
         }
@@ -653,11 +653,11 @@
       "settings": {
         "content_alignment": "center",
         "layout": "1",
-        "heading": "\"Révélez votre éclat avec la douceur de la rose !\"",
+        "heading": "\"Révélez votre éclat avec Éclat Sublime – Hydratation et douceur en un seul geste !\"",
         "subheading": "\"Éclat et douceur : votre peau sublimée par la rose.\"",
-        "button_text": "\"Révélez votre éclat avec Éclat Sublime – Hydratation soyeuse, beauté radieuse.\"",
+        "button_text": "\"Révélez votre éclat avec Éclat Sublime – Hydratation et douceur en un seul geste.\"",
         "button_link": "",
-        "rating_text": "<strong>Évaluée à 4,9/5 par plus de 10 000 utilisateurs satisfaits et recommandée par des experts en soins de la peau.</strong>",
+        "rating_text": "<strong>Évaluée à 4,9/5 par plus de 10 000 utilisateurs satisfaits et recommandée par des dermatologues.</strong>",
         "color_scheme": "",
         "button_color": "#212121",
         "star_color": "#ffd700",
@@ -748,7 +748,7 @@
         "logo_width": 90,
         "mobile_logo_width": 60,
         "us_label": "",
-        "others_label": "\"Éclat Radieux, Peau Sublime.\"",
+        "others_label": "\"Éclat Radieux, Peau Satinée.\"",
         "benefit_color_scheme": "background-1",
         "icon_cells_color_scheme": "background-1",
         "checkmark_color": "#008763",
@@ -800,7 +800,7 @@
       ],
       "name": "t:sections.collage.presets.name",
       "settings": {
-        "heading": "\"Éclat radieux, douceur veloutée.\"",
+        "heading": "\"Éclat Radieux, Peau Satinée.\"",
         "heading_size": "h1",
         "desktop_layout": "left",
         "mobile_layout": "collage",
@@ -816,14 +816,14 @@
         "heading_mVfaBV": {
           "type": "heading",
           "settings": {
-            "heading": "#ÉclatDeRose",
+            "heading": "#ÉclatRosePourVotrePeau",
             "heading_size": "h1"
           }
         },
         "text_zFjTwr": {
           "type": "text",
           "settings": {
-            "text": "<p>Découvrez Éclat Sublime – Crème Visage Hydratante Rose, une crème délicate conçue pour sublimer votre peau.</p><ul>    <li><strong>Hydratation Intense :</strong> Enrichie en extraits de rose, elle pénètre profondément pour une hydratation durable.</li>    <li><strong>Réduction des Ridules :</strong> Sa formule unique lisse les ridules, offrant un teint plus jeune et revitalisé.</li>    <li><strong>Éclat Radieux :</strong> Révèle un éclat naturel, illuminant votre visage d'une beauté saine.</li>    <li><strong>Sensation Soigneuse :</strong> Laisse la peau douce et soyeuse au toucher, pour un confort optimal.</li></ul><p>Offrez à votre peau le soin qu'elle mérite avec Éclat Sublime.</p>"
+            "text": "<p>Découvrez la crème hydratante Éclat Sublime, un soin luxueux conçu pour sublimer votre peau.</p><ul>    <li><strong>Hydratation Intense :</strong> Enrichie en extraits de rose et en vitamine E, elle nourrit en profondeur les peaux sèches.</li>    <li><strong>Réduction des Ridules :</strong> Sa formule unique lisse visiblement les ridules, offrant un aspect plus jeune.</li>    <li><strong>Éclat Radieux :</strong> Révèle un teint lumineux et éclatant, grâce à ses ingrédients naturels.</li>    <li><strong>Sensation Soyeuse :</strong> Laisse la peau douce et raffinée, sans effet gras.</li></ul><p>Offrez à votre peau le soin qu'elle mérite avec Éclat Sublime – Crème Visage Hydratante Rose.</p>"
           }
         }
       },
@@ -914,7 +914,7 @@
         "heading_8XLtDy": {
           "type": "heading",
           "settings": {
-            "heading": "\"Éclat Sublime : Nourrissez votre peau, révélez votre éclat.\"",
+            "heading": "\"Éclat Sublime : Hydratation et éclat en un seul geste.\"",
             "heading_size": "h1"
           }
         }
@@ -946,7 +946,7 @@
             "percent_text": 10,
             "heading": "'Hydratation Éclatante'",
             "heading_size_alt": 16,
-            "text": "<p>Découvrez notre crème hydratante délicate, enrichie en <strong>extraits de rose</strong> et <strong>vitamine E</strong>. Elle nourrit intensément la peau, lisse les ridules et révèle un éclat radieux, tout en laissant une sensation soyeuse et raffinée.</p>"
+            "text": "<p>Découvrez <strong>Éclat Sublime</strong>, une crème hydratante délicate enrichie en <em>extraits de rose</em> et <em>vitamine E</em>. Nourrissez intensément votre peau, lissez les ridules et révélez un éclat radieux tout en profitant d’une sensation soyeuse et raffinée.</p>"
           }
         },
         "percent_nJJhny": {
@@ -958,9 +958,9 @@
             "percent_border": "#f2f2f2",
             "circle_value_1": 100,
             "percent_text": 10,
-            "heading": "<strong>Crème Éclat Hydratante</strong>",
+            "heading": "<strong>Crème Éclat Rose</strong>",
             "heading_size_alt": 16,
-            "text": "<p>Une crème légère enrichie en extraits de rose et vitamine E, qui nourrit profondément la peau, réduit les ridules et révèle un éclat radieux, tout en offrant une texture soyeuse et raffinée.</p>"
+            "text": "<p>Une <em>crème hydratante</em> légère, enrichie en <strong>extraits de rose</strong> et <strong>vitamine E</strong>, qui nourrit en profondeur, lisse les ridules et révèle un éclat radieux. Elle laisse une sensation <strong>soyeuse</strong> et <strong>raffinée</strong> sur la peau.</p>"
           }
         },
         "percent_UUr9wc": {
@@ -974,7 +974,7 @@
             "percent_text": 10,
             "heading": "<strong>Hydratation Éclatante</strong>",
             "heading_size_alt": 16,
-            "text": "<p>Découvrez la <em>Crème Visage Hydratante Rose</em>, enrichie en extraits de rose et vitamine E. Elle nourrit intensément votre peau, lisse les ridules et révèle un éclat radieux, tout en offrant une texture soyeuse et raffinée.</p>"
+            "text": "<p>Une crème légère enrichie en <em>extraits de rose</em> et <em>vitamine E</em>, qui nourrit en profondeur, lisse les ridules et révèle un teint radieux, tout en offrant une sensation soyeuse et raffinée.</p>"
           }
         },
         "percent_A4eLEH": {
@@ -988,7 +988,7 @@
             "percent_text": 10,
             "heading": "<strong>Hydratation Éclatante</strong>",
             "heading_size_alt": 16,
-            "text": "<p>Une crème légère, enrichie en <em>extraits de rose</em> et <em>vitamine E</em>, qui nourrit profondément la peau, réduit les ridules et offre un <strong>éclat radieux</strong>, tout en laissant une texture <em>soyeuse</em> et <em>raffinée</em>.</p>"
+            "text": "<p>Une crème hydratante légère, enrichie d'extraits de rose et de vitamine E. Elle nourrit profondément la peau, atténue les ridules et dévoile un éclat radieux tout en offrant une texture soyeuse et raffinée.</p>"
           }
         }
       },
@@ -1031,7 +1031,7 @@
         "mobile_content_position": "middle",
         "color_scheme": "background-1",
         "desktop_content_alignment": "center",
-        "heading": "\"Éclat Sublime : Rayonnez de douceur avec l'hydratation des roses.\"",
+        "heading": "\"Éclat Sublime : Nourrissez votre peau, révélez votre éclat.\"",
         "heading_size": "h1",
         "text": "",
         "button_label_1": "",
@@ -1047,72 +1047,72 @@
         "template--15124688076883__c0ef23cf-5481-4b47-9b78-3c28134c079a-collapsible_row-1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "'Cette crème est-elle adaptée à tous les types de peau ?'",
+            "heading": "'Cette crème convient-elle à tous les types de peau ?'",
             "icon": "question_mark",
-            "row_content": "<p>Oui, grâce à sa formule délicate infusée d'extraits de rose et de vitamine E, elle convient à tous les types de peau, nourrissant intensément tout en offrant une sensation soyeuse.</p>",
+            "row_content": "<p>Oui, grâce à sa formule délicate infusée d'extraits de rose et de vitamine E, elle hydrate et nourrit intensément tous les types de peau.</p>",
             "page": ""
           }
         },
         "template--15124688076883__c0ef23cf-5481-4b47-9b78-3c28134c079a-collapsible_row-2": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "'Peut-on utiliser la crème sur tous les types de peau ?'",
+            "heading": "'Peut-on utiliser cette crème sur tous les types de peau ?'",
             "icon": "question_mark",
-            "row_content": "<p>Oui, la crème Éclat Sublime convient à tous les types de peau, offrant hydratation et éclat sans irriter.</p>",
+            "row_content": "<p>Oui, la crème Éclat Sublime convient à tous les types de peau. Elle hydrate intensément, lisse les ridules et apporte un éclat naturel, tout en laissant une sensation soyeuse.</p>",
             "page": ""
           }
         },
         "template--15124688076883__c0ef23cf-5481-4b47-9b78-3c28134c079a-collapsible_row-3": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "'La crème Éclat Sublime est-elle adaptée à tous les types de peau ?'",
+            "heading": "Éclat Sublime – Crème Visage Hydratante Rose est-elle bonne pour ma peau ?",
             "icon": "question_mark",
-            "row_content": "<p>Oui, grâce à sa formule délicate infusée d'extraits de rose et de vitamine E, elle nourrit intensément tous les types de peau, lissant les ridules et révélant un éclat radieux.</p>",
+            "row_content": "<p>Oui, grâce à ses extraits de rose et à la vitamine E, elle nourrit intensément, lisse les ridules et révèle un éclat radieux tout en laissant une sensation soyeuse.</p>",
             "page": ""
           }
         },
         "template--15124688076883__c0ef23cf-5481-4b47-9b78-3c28134c079a-collapsible_row-4": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Éclat Sublime – Crème Visage Hydratante Rose fonctionne-t-elle pour tous les types de peau ?",
+            "heading": "Éclat Sublime – Crème Visage Hydratante Rose fonctionne-t-elle pour les peaux sensibles ?",
             "icon": "question_mark",
-            "row_content": "<p>Oui, elle convient à tous les types de peau, nourrissant intensément et laissant une sensation soyeuse.</p>",
+            "row_content": "<p>Oui, cette crème est spécialement formulée pour être douce et nourrissante, idéale pour les peaux sensibles grâce à ses extraits de rose apaisants.</p>",
             "page": ""
           }
         },
         "collapsible_row_t3yhUa": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Éclat Sublime – Crème Visage Hydratante Rose : Comment l'appliquer ?",
+            "heading": "'Comment utiliser Éclat Sublime – Crème Visage Hydratante Rose ?'",
             "icon": "question_mark",
-            "row_content": "<p>Pour une efficacité optimale, appliquez une petite quantité de crème sur le visage et le cou, en massant délicatement jusqu'à absorption complète. Utilisez matin et soir pour une peau nourrie et éclatante.</p>",
+            "row_content": "<p>Pour une peau éclatante, appliquez une petite quantité de crème sur le visage et le cou chaque matin et soir. Massez délicatement jusqu'à absorption complète.</p>",
             "page": ""
           }
         },
         "collapsible_row_BMHKaN": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "'La Crème Visage Hydratante Rose est-elle adaptée à tous les types de peau ?'",
+            "heading": "'Cette crème hydratante est-elle adaptée à tous les types de peau ?'",
             "icon": "question_mark",
-            "row_content": "<p>Oui, cette crème délicate convient à tous les types de peau, nourrissant intensément et laissant une sensation soyeuse.</p>",
+            "row_content": "<p>Oui, la crème Éclat Sublime convient à tous les types de peau, nourrissant intensément et laissant une sensation soyeuse.</p>",
             "page": ""
           }
         },
         "collapsible_row_nAhDf7": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "'Les ingrédients de la crème Éclat Sublime sont-ils bio ?'",
+            "heading": "'Les ingrédients de la Crème Visage Hydratante Rose sont-ils naturels ?'",
             "icon": "question_mark",
-            "row_content": "<p>Oui, notre crème est formulée avec des extraits de rose naturels et des ingrédients soigneusement sélectionnés pour respecter l'environnement.</p>",
+            "row_content": "<p>Oui, notre crème est formulée avec des extraits de rose naturels et de la vitamine E pour nourrir profondément votre peau.</p>",
             "page": ""
           }
         },
         "collapsible_row_GiDN9z": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "COMMENT LA CRÈME ÉCLAT SUBLIME FONCTIONNE-T-ELLE ?",
+            "heading": "'Comment fonctionne l'hydratation avec Éclat Sublime – Crème Visage Hydratante Rose ?'",
             "icon": "question_mark",
-            "row_content": "<p>La Crème Éclat Sublime hydrate intensément, lissant les ridules grâce à ses extraits de rose et sa vitamine E, tout en offrant une sensation soyeuse et un éclat radieux.</p>",
+            "row_content": "<p>Cette crème délicate, enrichie en extraits de rose et en vitamine E, nourrit intensément la peau, lissant les ridules et révélant un éclat radieux tout en offrant une sensation soyeuse.</p>",
             "page": ""
           }
         }
@@ -1151,8 +1151,8 @@
             "star_rating": 5,
             "name_text": "Vivian.D",
             "date_text": "Maj 2025",
-            "review_head": "Une hydratation exceptionnelle",
-            "review_text": "J'adore la Crème Visage Hydratante Rose d'Éclat Sublime ! Elle pénètre rapidement et laisse ma peau douce et lumineuse. Les ridules sont visiblement atténuées et l'odeur de rose est divine. Un vrai coup de cœur !",
+            "review_head": "Une hydratation sublime !",
+            "review_text": "J'adore la crème Éclat Sublime ! Elle pénètre rapidement et laisse ma peau douce et lumineuse. Les ridules semblent atténuées et l'odeur de rose est un véritable plaisir. Je la recommande vivement !",
             "like_size": 63,
             "dislike_size": 1,
             "feature_font_size": 16
@@ -1164,8 +1164,8 @@
             "star_rating": 5,
             "name_text": "Lena.W",
             "date_text": "Januari 2025",
-            "review_head": "MAGIQUE !",
-            "review_text": "Cette crème hydratante est un véritable bijou. Sa texture légère pénètre rapidement et laisse ma peau douce et éclatante. Les extraits de rose ajoutent une touche de luxe, et je sens ma peau nourrie et revitalisée. Je ne peux plus m'en passer !",
+            "review_head": "MAGIQUE ET RÉCONFORTANTE !",
+            "review_text": "J'adore cette crème hydratante ! Elle pénètre rapidement et laisse ma peau douce et éclatante. Les ridules semblent moins visibles, et l'odeur de rose est tout simplement divine. Une véritable découverte pour ma routine beauté !",
             "like_size": 42,
             "dislike_size": 0,
             "feature_font_size": 16
@@ -1177,8 +1177,8 @@
             "star_rating": 5,
             "name_text": "Sophie.B",
             "date_text": "Mars 2025",
-            "review_head": "Crème hydratante exceptionnelle",
-            "review_text": "J'utilise Éclat Sublime depuis quelques semaines et je suis ravie des résultats. Ma peau est visiblement plus lisse et éclatante. L'odeur de rose est délicate et apaisante. Une sensation de douceur qui dure toute la journée !",
+            "review_head": "Crème hydratante parfaite pour ma peau",
+            "review_text": "J'utilise Éclat Sublime depuis quelques semaines et je suis conquise. Sa texture légère pénètre rapidement et laisse ma peau douce et lumineuse. Les ridules semblent atténuées et l'odeur de rose est délicate. Une vraie pépite pour un éclat naturel!",
             "like_size": 49,
             "dislike_size": 0,
             "feature_font_size": 16
@@ -1190,8 +1190,8 @@
             "star_rating": 5,
             "name_text": "Petra.B",
             "date_text": "Juli 2025",
-            "review_head": "Une merveille pour ma peau!",
-            "review_text": "J'adore la Crème Éclat Sublime! Sa texture légère pénètre rapidement et laisse ma peau douce et hydratée. Les ridules sont moins visibles et j'ai un éclat naturel. Je recommande vivement!",
+            "review_head": "Une merveille pour ma peau !",
+            "review_text": "J'adore cette crème hydratante Éclat Sublime. Sa texture légère pénètre rapidement et laisse ma peau douce et éclatante. L'arôme de rose est apaisant et j'ai remarqué une différence dans l'apparence de mes ridules. Je la recommande vivement !",
             "like_size": 66,
             "dislike_size": 0,
             "feature_font_size": 16
@@ -1204,7 +1204,7 @@
             "name_text": "Anna.M",
             "date_text": "Februari 2025",
             "review_head": "Une merveille pour ma peau!",
-            "review_text": "J'adore cette crème! Elle hydrate parfaitement, laisse ma peau douce et lumineuse. L'odeur de rose est délicate et apaisante. Un vrai coup de cœur!",
+            "review_text": "Cette crème hydratante est incroyable. Elle pénètre rapidement et laisse ma peau douce et radieuse. L'odeur de rose est délicate et apaisante. Mes ridules semblent moins visibles, et je me sens vraiment hydratée toute la journée. Je la recommande vivement!",
             "like_size": 33,
             "dislike_size": 0,
             "feature_font_size": 16
@@ -1216,8 +1216,8 @@
             "star_rating": 5,
             "name_text": "Clara.S",
             "date_text": "Juli 2025",
-            "review_head": "Une merveille pour ma peau!",
-            "review_text": "Cette crème hydratante est incroyable! Elle pénètre rapidement et laisse ma peau douce et éclatante. Les ridules sont visiblement réduites, et j'adore son parfum subtil de rose. Une vraie découverte!",
+            "review_head": "Un véritable bijou pour la peau",
+            "review_text": "Cette crème hydratante est un vrai plaisir à utiliser. Elle pénètre rapidement et laisse ma peau douce et éclatante. Les ridules sont visiblement réduites, et l'odeur de rose est divine ! Je ne peux plus m'en passer.",
             "like_size": 7,
             "dislike_size": 0,
             "feature_font_size": 16
@@ -1229,8 +1229,8 @@
             "star_rating": 5,
             "name_text": "Julia.F",
             "date_text": "April 2025",
-            "review_head": "Une hydratation exceptionnelle",
-            "review_text": "J'adore la Crème Éclat Sublime ! Sa texture légère pénètre rapidement et laisse ma peau douce et lumineuse. Les extraits de rose lui donnent une odeur délicate, et je remarque une réelle amélioration de l'éclat de ma peau. Parfaite pour un usage quotidien, je la recommande vivement !",
+            "review_head": "Crème hydratante exceptionnelle",
+            "review_text": "J'adore cette crème ! Sa texture légère pénètre rapidement et laisse ma peau douce et éclatante. Les extraits de rose apportent une odeur délicate, et je sens vraiment la différence sur mes ridules. Un indispensable dans ma routine beauté !",
             "like_size": 53,
             "dislike_size": 0,
             "feature_font_size": 16
@@ -1242,8 +1242,8 @@
             "star_rating": 5,
             "name_text": "Miriam.S",
             "date_text": "Augusti 2024",
-            "review_head": "🌹 Une crème magique pour ma peau !",
-            "review_text": "J'adore l'Éclat Sublime ! Sa texture légère pénètre rapidement et laisse ma peau douce et hydratée. Les ridules semblent moins visibles et mon teint est éclatant. Un vrai coup de cœur !",
+            "review_head": "🌹 Une merveille pour ma peau !",
+            "review_text": "J'ai essayé la Crème Visage Hydratante Rose et je suis ravie ! Elle hydrate parfaitement ma peau sans la rendre grasse. Les ridules sont visiblement atténuées et mon teint est éclatant. Une texture soyeuse qui fait du bien, je recommande vivement !",
             "like_size": 78,
             "dislike_size": 0,
             "feature_font_size": 16
@@ -1263,12 +1263,12 @@
       "settings": {
         "editing": true,
         "color_scheme": "inverse",
-        "header_text": "Avis clients",
+        "header_text": "Avis des clients",
         "show_top": true,
         "rating_text": "4.8",
         "rating_range": 4.5,
         "star_size_top": 0.6,
-        "rating_count": "<strong>Plus de 10 000+</strong> utilisateurs satisfaits et experts en soins de la peau recommandent <strong>Éclat Sublime – Crème Visage Hydratante Rose</strong> pour une hydratation intense et un éclat radieux.",
+        "rating_count": "<strong>Plus de 10 000+</strong> utilisateurs satisfaits et experts recommandent <strong>Éclat Sublime – Crème Visage Hydratante Rose</strong> pour une peau éclatante et soyeuse.",
         "review_column_mobile": "2",
         "review_column_tab": "1",
         "review_column_desk": "4",
