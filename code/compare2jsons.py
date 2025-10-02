@@ -5,43 +5,84 @@ import os
 import sys
 
 def fix_json_quotes_in_html(content):
-    """Fix unescaped quotes in HTML attributes within JSON strings"""
+    """Fix unescaped quotes in HTML attributes by replacing them with single quotes"""
     
-    # Pattern to find JSON string values containing HTML
-    # This looks for strings that contain HTML tags
-    def fix_html_quotes(match):
-        full_match = match.group(0)
-        key = match.group(1)
-        value = match.group(2)
-        
-        # Only process if it looks like HTML
-        if '<' not in value or '>' not in value:
-            return full_match
-        
-        # Fix unescaped quotes in HTML attributes
-        # Pattern: attribute="value" or attribute='value'
-        def escape_attr_quotes(attr_match):
-            attr_content = attr_match.group(0)
-            # Escape the quotes inside the attribute value
-            attr_content = attr_content.replace('href="', 'href=\\"')
-            attr_content = attr_content.replace('title="', 'title=\\"')
-            attr_content = attr_content.replace('src="', 'src=\\"')
-            attr_content = attr_content.replace('alt="', 'alt=\\"')
-            attr_content = attr_content.replace('class="', 'class=\\"')
-            # Close the escaped quotes
-            attr_content = re.sub(r'([^\\])"(\s|>)', r'\1\\"\2', attr_content)
-            return attr_content
-        
-        # Apply fixes to HTML attributes
-        fixed_value = re.sub(r'\w+="[^"]*"', escape_attr_quotes, value)
-        
-        return f'"{key}": "{fixed_value}"'
+    lines = content.split('\n')
+    fixed_lines = []
     
-    # Match JSON key-value pairs where value contains HTML
-    pattern = r'"([^"]+)":\s*"([^"]*<[^"]*>.*?)"(?=\s*[,}])'
-    fixed_content = re.sub(pattern, fix_html_quotes, content, flags=re.DOTALL)
+    for line in lines:
+        # Check if line contains HTML attributes
+        if 'href=' in line or 'src=' in line or 'title=' in line or 'alt=' in line:
+            # Replace double quotes in HTML attributes with single quotes
+            # This avoids the escaping issue entirely
+            fixed_line = line
+            
+            # Replace href="..." with href='...'
+            if 'href="' in fixed_line:
+                parts = fixed_line.split('href="')
+                result = [parts[0]]
+                for part in parts[1:]:
+                    # Find the closing quote
+                    end_idx = part.find('"')
+                    if end_idx != -1:
+                        result.append("href='" + part[:end_idx] + "'" + part[end_idx+1:])
+                    else:
+                        result.append('href="' + part)
+                fixed_line = ''.join(result)
+            
+            # Replace title="..." with title='...'
+            if 'title="' in fixed_line:
+                parts = fixed_line.split('title="')
+                result = [parts[0]]
+                for part in parts[1:]:
+                    end_idx = part.find('"')
+                    if end_idx != -1:
+                        result.append("title='" + part[:end_idx] + "'" + part[end_idx+1:])
+                    else:
+                        result.append('title="' + part)
+                fixed_line = ''.join(result)
+            
+            # Replace src="..." with src='...'
+            if 'src="' in fixed_line:
+                parts = fixed_line.split('src="')
+                result = [parts[0]]
+                for part in parts[1:]:
+                    end_idx = part.find('"')
+                    if end_idx != -1:
+                        result.append("src='" + part[:end_idx] + "'" + part[end_idx+1:])
+                    else:
+                        result.append('src="' + part)
+                fixed_line = ''.join(result)
+            
+            # Replace alt="..." with alt='...'
+            if 'alt="' in fixed_line:
+                parts = fixed_line.split('alt="')
+                result = [parts[0]]
+                for part in parts[1:]:
+                    end_idx = part.find('"')
+                    if end_idx != -1:
+                        result.append("alt='" + part[:end_idx] + "'" + part[end_idx+1:])
+                    else:
+                        result.append('alt="' + part)
+                fixed_line = ''.join(result)
+            
+            # Replace class="..." with class='...'
+            if 'class="' in fixed_line:
+                parts = fixed_line.split('class="')
+                result = [parts[0]]
+                for part in parts[1:]:
+                    end_idx = part.find('"')
+                    if end_idx != -1:
+                        result.append("class='" + part[:end_idx] + "'" + part[end_idx+1:])
+                    else:
+                        result.append('class="' + part)
+                fixed_line = ''.join(result)
+            
+            fixed_lines.append(fixed_line)
+        else:
+            fixed_lines.append(line)
     
-    return fixed_content
+    return '\n'.join(fixed_lines)
 
 def validate_and_fix_json_file(filepath):
     """Try to load JSON, fix if needed, and return the data"""
