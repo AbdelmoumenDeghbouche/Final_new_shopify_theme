@@ -1,408 +1,100 @@
 {
   "sections": {
-    "main": {
-      "type": "main-product",
+    "3a5233be-52a6-4aad-9337-d3037c87a1a7": {
+      "type": "slideshow",
       "blocks": {
-        "breadcrumbs_LcnbYa": {
-          "type": "breadcrumbs",
+        "template--15221093367891__3a5233be-52a6-4aad-9337-d3037c87a1a7-slide-1": {
+          "type": "slide",
           "settings": {
-            "title_home": "Accueil",
-            "padding_top": 0,
-            "padding_top_mb": 0,
-            "padding_bottom": 0,
-            "margin_top": 0,
-            "margin_bottom": 0
-          }
-        },
-        "7f391028-a103-4e66-bb50-bd71d4672af4": {
-          "type": "review",
-          "settings": {
-            "lrw_text": "4.8 | (14428)",
-            "text_size": 13,
-            "star_style": "star",
-            "star_size": 0.7,
-            "star_rating": 4.5,
-            "lrw_star_color": "#008763",
-            "lrw_star_color_disable": "#eeeeee",
-            "lrw_color": "#334641",
-            "margin_top": 10,
-            "margin_bottom": 0
-          }
-        },
-        "title": {
-          "type": "title",
-          "settings": {
-            "title_size": 24,
-            "title_height": 120,
-            "text_transform": "none"
-          }
-        },
-        "price": {
-          "type": "price",
-          "settings": {
-            "price_style": "price",
-            "price_size": 24,
-            "badge_text_1": 13,
-            "price_first": false,
-            "badge_bg_1": "#d10000",
-            "badge_price_1": "#ffffff",
-            "price_size_2": 1,
-            "badge_price": "#8b8d8f",
-            "price_bold_2": false,
-            "sale_price_color": "#c92127",
-            "regular_price_color": "#212121",
-            "price_bold": true,
-            "badge_hide": false,
-            "taxes_hide": true,
-            "shipping_hide": true,
-            "padding_top": 4,
-            "padding_bottom": 4
-          }
-        },
-        "text_aXxXRM": {
-          "type": "text",
-          "settings": {
-            "text": "\"Révélez un éclat radieux avec Éclat Sublime – Hydratation et douceur en un seul geste !\"",
-            "text_style": "body"
-          }
-        },
-        "feature_6cxT6B": {
-          "type": "feature",
-          "settings": {
-            "icon_size": 20,
-            "heading": "",
-            "heading_size": 20,
-            "text": "<p>Hydratation intense pour un éclat radieux</p>",
-            "text_size": 12,
-            "padding_top": 12,
-            "padding_bottom": 0
-          }
-        },
-        "feature_teRTgW": {
-          "type": "feature",
-          "settings": {
-            "icon_size": 20,
-            "heading": "",
-            "heading_size": 20,
-            "text": "<p>Hydratation intense et éclat radieux</p>",
-            "text_size": 12,
-            "padding_top": 0,
-            "padding_bottom": 0
-          }
-        },
-        "feature_HCBWrx": {
-          "type": "feature",
-          "settings": {
-            "icon_size": 20,
-            "heading": "",
-            "heading_size": 20,
-            "text": "<p>Éclat et hydratation intense</p>",
-            "text_size": 12,
-            "padding_top": 0,
-            "padding_bottom": 14
-          }
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "label_style": "uppercase",
-            "font_size": 12,
-            "font_style": "normal",
-            "swatchType": "color",
-            "optionName": "Color",
-            "swatchStyle": "round",
-            "swatchSize": 30,
-            "swatchHeight": 30,
-            "size_trigger": "",
-            "chart_id": "Size Chart",
-            "size_page": "",
-            "size_icon": "hanger",
-            "spaced_size": false
-          }
-        },
-        "quantity_selector_Q9d74M": {
-          "type": "quantity_selector",
-          "settings": {
-            "enable_quantity_discounts": false,
-            "show_on_all_products": true,
-            "selected_product": [],
-            "selected_collection": "",
-            "quantity_style": "horizontal",
-            "columns_block": "25",
-            "option_height": "1",
-            "preselected": "2",
-            "discount_type": "price",
-            "show_strikethrough_price": "calculated",
-            "hide_checkbox": false,
-            "show_strikethrough": true,
-            "show_total_pricing": true,
-            "show_per_unit": true,
-            "badge_style": "ribbon top-short",
-            "option_1_show_image": false,
-            "option_1_label": "1 Pot",
-            "option_1_quantity": 1,
-            "option_1_fixed_discount": "0",
-            "option_1_discount_percentage": 0,
-            "option_1_badge_enable": false,
-            "option_1_badge_text": "Most Popular",
-            "option_1_unit_label": "2 month Supply",
-            "option_1_save_text": "Free Shipping",
-            "option_1_promo": "",
-            "option_2_show_image": false,
-            "option_2_label": "Achetez 2, Recevez 1 Offert !",
-            "option_2_quantity": 3,
-            "option_2_fixed_discount": "44",
-            "option_2_discount_percentage": 20,
-            "option_2_badge_enable": true,
-            "option_2_badge_text": "OFFRE EXCLUSIVE - Dernières Heures !",
-            "option_2_unit_label": "\"3 Mois de Fourniture | Livraison Gratuite\"",
-            "option_2_save_text": "Économisez 20% - UN ACHAT, UN OFFERT !",
-            "option_2_promo": "",
-            "option_3_show_image": false,
-            "option_3_label": "Achetez 3, Recevez 3 GRATUIT !",
-            "option_3_quantity": 5,
-            "option_3_fixed_discount": "88",
-            "option_3_discount_percentage": 30,
-            "option_3_badge_enable": true,
-            "option_3_badge_text": "VENTE FLASH — Ne manquez pas Éclat Sublime !",
-            "option_3_unit_label": "\"12 Mois de Crème Visage Hydratante Éclat Sublime – Livraison Gratuite\"",
-            "option_3_save_text": "Économisez 20% - OBTENEZ DEUX GRATUITES !",
-            "option_3_promo": "<strong>12</strong> Mois de Fourniture | <strong>Livraison Gratuite</strong>",
-            "option_4_show_image": false,
-            "option_4_label": "4 Pack",
-            "option_4_quantity": 0,
-            "option_4_fixed_discount": "0",
-            "option_4_discount_percentage": 0,
-            "option_4_badge_enable": false,
-            "option_4_badge_text": "Most Popular",
-            "option_4_unit_label": "($)/Pcs",
-            "option_4_save_text": "Save (%)",
-            "option_4_promo": "",
-            "option_5_show_image": false,
-            "option_5_label": "5 Pack",
-            "option_5_quantity": 0,
-            "option_5_fixed_discount": "0",
-            "option_5_discount_percentage": 0,
-            "option_5_badge_enable": false,
-            "option_5_badge_text": "Most Popular",
-            "option_5_unit_label": "($)/Pcs",
-            "option_5_save_text": "Save (%)",
-            "option_5_promo": "",
-            "option_6_show_image": false,
-            "option_6_label": "6 Pack",
-            "option_6_quantity": 0,
-            "option_6_fixed_discount": "0",
-            "option_6_discount_percentage": 0,
-            "option_6_badge_enable": false,
-            "option_6_badge_text": "Most Popular",
-            "option_6_unit_label": "($)/Pcs",
-            "option_6_save_text": "Save (%)",
-            "option_6_promo": "",
-            "show_quantity_label": true,
-            "hide_lines": false,
-            "show_head_border": false,
-            "title_text_align": "center",
-            "quantity_title_text": "<h3>Économisez avec notre offre groupée sur Éclat Sublime – Crème Visage Hydratante Rose !</h3>",
-            "quantity_subtitle_text": "",
-            "title_font_size": 1.8,
-            "subtitle_font_size": 1.3,
-            "title_color": "#333333",
-            "subtitle_color": "#333333",
-            "title_line_color": "#e6e6e6",
-            "title_bg_color": "#ffffff",
-            "border_radius": 2,
-            "option_bottom_spacing": 2.5,
-            "option_height_spacing": 1.8,
-            "label_font_size": 1.7,
-            "compare_price_font_size": 1.3,
-            "final_price_font_size": 1.5,
-            "per_unit_font_size": 1,
-            "savings_label_font_size": 1.1,
-            "badge_font_size": 1,
-            "option_image_size": 60,
-            "bottom_image_size": 30,
-            "bottom_font_size": 12,
-            "buttons_border_thickness": 0.1,
-            "border_color_unselected": "#d2d0d0",
-            "text_color_unselected": "#333333",
-            "back_color_unselected": "#ffffff",
-            "border-color-hover-unselected": "#333333",
-            "text_color_selected": "#333333",
-            "selected_button_bg_color": "#c7e7dc",
-            "selected_button_dot_color": "#c92127",
-            "selected_button_border_color": "#c7e7dc",
-            "savings_text_color": "#ffffff",
-            "savings_bg_color": "#333333",
-            "badge_bg_color": "#e71717",
-            "badge_background_gradient": "",
-            "badge_font_color": "#ffffff",
-            "compare_font_color": "#e71717",
-            "promo_font_color": "#ffffff",
-            "promo_bg_color": "#000000",
-            "promo_border_color": "#000000"
-          }
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false,
-            "show_full_button": true,
-            "cart_btn_height": 5.3,
-            "cart_btn_font": 18,
-            "lm_main_button": "#000000",
-            "lm_main_button_gr": "",
-            "lm_main_text": "#ffffff",
-            "lm_button_animation": "soft",
-            "show_gift_card_recipient": true,
-            "skip_cart": false
-          }
-        },
-        "payment_VrzzTV": {
-          "type": "payment",
-          "settings": {
-            "original": "custom",
-            "payment_icon": "visa,master,paypal,apple_pay,shopify-pay,google-pay",
-            "payment_content_alignment": "center",
-            "custom_icon_1_width": 34,
-            "custom_icon_2_width": 34,
-            "custom_icon_3_width": 34
-          }
-        },
-        "testimonial_images_Xdr6Dm": {
-          "type": "testimonial-images",
-          "settings": {
-            "image_size": 1,
-            "image_space": -18,
-            "hide_img_2": false,
-            "hide_img_3": false,
-            "hide_img_4": true,
-            "hide_img_5": true,
-            "text_block": "<p><strong>Des milliers d'utilisateurs satisfaits</strong> recommandent Éclat Sublime pour une peau éclatante et hydratée.</p>",
-            "text_size": 10,
-            "text_style": "body"
-          }
-        },
-        "264e37ac-8ac8-475c-9f10-973d46bb217d": {
-          "type": "shipping",
-          "settings": {
-            "icon_size": 18,
-            "image_ani": "none",
-            "text_size": 10,
-            "text_style": "uppercase",
-            "text": "Commandez dans les <strong>(heures)</strong> et recevez la livraison avant le <strong>(date).</strong>",
-            "date_locale": "sv-SE",
-            "ship_bg": "#f6f6f6",
-            "show_border": true,
-            "ship_border": "#f6f6f6",
-            "border_radius": 0,
-            "padding_top": 4,
-            "padding_bottom": 12,
-            "margin_top": 16,
-            "margin_bottom": 16
-          }
-        },
-        "9ccffc8d-e4c7-404f-8007-8c5162f22285": {
-          "type": "collapsible_tab",
-          "settings": {
-            "open_first_collapsible_row": false,
-            "heading": "Détails du produit",
-            "icon": "none",
-            "content": "<p>Découvrez la crème hydratante Éclat Sublime, formulée pour offrir à votre peau une hydratation optimale et un éclat naturel. Enrichie en extraits de rose et en vitamine E, elle procure des bienfaits exceptionnels pour un teint radieux.</p><ul>    <li><strong>Hydratation intense :</strong> Nourrit en profondeur et maintient l'hydratation tout au long de la journée.</li>    <li><strong>Réduction des ridules :</strong> Lisse visiblement les ridules, offrant une apparence plus jeune.</li>    <li><strong>Éclat lumineux :</strong> Révèle un teint éclatant et revitalisé.</li>    <li><strong>Texture soyeuse :</strong> Laisse une sensation douce et raffinée sur la peau.</li></ul><p>Idéale pour tous les types de peau, Éclat Sublime est votre alliée pour une beauté naturelle et éclatante.</p>",
-            "page": ""
-          }
-        },
-        "f34ad5c4-50a9-4a95-a561-d8c51d1b76dd": {
-          "type": "collapsible_tab",
-          "settings": {
-            "open_first_collapsible_row": false,
-            "heading": "Avantages et bénéfices",
-            "icon": "none",
-            "content": "<p>Découvrez la <strong>Crème Visage Hydratante Rose Éclat Sublime</strong>, une formule délicate qui transforme votre routine de soins de la peau.</p><ul>    <li><strong>Hydratation Intense :</strong> Enrichie en extraits de rose et vitamine E, elle nourrit profondément la peau.</li>    <li><strong>Raffinement de la Peau :</strong> Lisse les ridules pour un teint plus uniforme et éclatant.</li>    <li><strong>Sensation Soyeuse :</strong> Laisse une texture légère et raffinée sur le visage.</li>    <li><strong>Éclat Radieux :</strong> Révèle un éclat naturel, illuminant votre beauté.</li></ul><p>Idéale pour tous les types de peau, cette crème est votre alliée pour une peau visiblement revitalisée.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_HK7dGX": {
-          "type": "collapsible_tab",
-          "settings": {
-            "open_first_collapsible_row": false,
-            "heading": "'Satisfaction garantie 30 jours'",
-            "icon": "none",
-            "content": "<p>Si vous n'êtes pas entièrement satisfait de votre expérience avec Éclat Sublime, nous vous remboursons sans hésitation.</p>",
-            "page": ""
+            "caption": "",
+            "block_cap_size": 20,
+            "cap_color": "#000000",
+            "heading": "Résultats éclatants, simplicité sublime!",
+            "block_head_size-2": 33,
+            "block_head_size-mobile": 31,
+            "block_head_line": 0.9,
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "DÉCOUVRIR",
+            "link": "shopify://products/locktang",
+            "link-2": "",
+            "button_style_secondary": false,
+            "box_align": "middle-right",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center",
+            "mobile_box_align": "center",
+            "mobile_text_spacing": 0
           }
         }
       },
       "block_order": [
-        "breadcrumbs_LcnbYa",
-        "7f391028-a103-4e66-bb50-bd71d4672af4",
-        "title",
-        "price",
-        "text_aXxXRM",
-        "feature_6cxT6B",
-        "feature_teRTgW",
-        "feature_HCBWrx",
-        "variant_picker",
-        "quantity_selector_Q9d74M",
-        "buy_buttons",
-        "payment_VrzzTV",
-        "testimonial_images_Xdr6Dm",
-        "264e37ac-8ac8-475c-9f10-973d46bb217d",
-        "9ccffc8d-e4c7-404f-8007-8c5162f22285",
-        "f34ad5c4-50a9-4a95-a561-d8c51d1b76dd",
-        "collapsible_tab_HK7dGX"
+        "template--15221093367891__3a5233be-52a6-4aad-9337-d3037c87a1a7-slide-1"
       ],
-      "custom_css": [],
       "settings": {
-        "enable_sticky_info": true,
-        "display_variant_image_first": false,
-        "color_scheme": "inverse",
-        "show_container": true,
-        "container_radius": 10,
-        "container_padding": 30,
-        "container_color": "#ffffff",
-        "container_border_color": "#d9e7e3",
-        "container_text": "",
-        "container_text_bg": "#212121",
-        "container_text_txt": "#ffffff",
-        "show_container_mb": true,
-        "container_padding_mb": 20,
-        "container_radius_mb": 10,
-        "container_color_mb": "#ffffff",
-        "container_border_color_mb": "#d9e7e3",
-        "media_size": "large",
-        "constrain_to_viewport": false,
-        "media_fit": "contain",
-        "gallery_layout": "columns",
-        "thumbnail_size": 70,
-        "thumbnail_radius": 4,
-        "media_position": "left",
-        "image_zoom": "hover",
-        "mobile_thumbnails": "show",
-        "show_full_image": false,
-        "first_image_size": 100,
-        "second_image_size": 0,
-        "hide_variants": false,
-        "enable_video_looping": true,
-        "padding_top": 36,
-        "padding_bottom": 8,
-        "padding_top_mb": 12,
-        "padding_bottom_mb": 36
+        "layout": "full_bleed",
+        "banner_border": 8,
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "hide_navigation": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Diaporama sur notre marque"
       }
     },
-    "rich_text_CpwdqB": {
+    "featured_collection_LHDawE": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "title": "",
+        "description": "",
+        "collection_text_alignment": "left",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "frontpage",
+        "show_collection_image": false,
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "navigation_on_desk": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_no_crop": true,
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "show_scroll_tags": false,
+        "enable_quick_desc": false,
+        "quick_desc_legth": 90,
+        "quick_desc_size": 14,
+        "enable_quick_add": false,
+        "show_secondary_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "navigation_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_WLCUrB": {
       "type": "rich-text",
       "blocks": {
-        "heading_hdyJPj": {
+        "heading_iBPirp": {
           "type": "heading",
           "settings": {
-            "heading": "Mis en avant dans la presse",
+            "heading": "Mis dans la presse",
             "heading_size": "h1"
           }
         }
       },
       "block_order": [
-        "heading_hdyJPj"
+        "heading_iBPirp"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
@@ -411,49 +103,49 @@
         "color_scheme": "",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 12
+        "padding_bottom": 0
       }
     },
-    "brands_haxL4R": {
+    "brands_Y9NhHL": {
       "type": "brands",
       "blocks": {
-        "image_EKgWqf": {
+        "image_aVNkXg": {
           "type": "image",
           "settings": {
             "logo_image_width": 110
           }
         },
-        "image_7BmQUW": {
+        "image_3HNtAh": {
           "type": "image",
           "settings": {
-            "logo_image_width": 140
+            "logo_image_width": 152
           }
         },
-        "image_C6Xq4d": {
+        "image_gXcxtt": {
           "type": "image",
           "settings": {
             "logo_image_width": 130
           }
         },
-        "image_LePexr": {
+        "image_gyP9xK": {
           "type": "image",
           "settings": {
-            "logo_image_width": 120
+            "logo_image_width": 130
           }
         },
-        "image_QbPbYy": {
+        "image_T4fb6V": {
           "type": "image",
           "settings": {
-            "logo_image_width": 134
+            "logo_image_width": 130
           }
         }
       },
       "block_order": [
-        "image_EKgWqf",
-        "image_7BmQUW",
-        "image_C6Xq4d",
-        "image_LePexr",
-        "image_QbPbYy"
+        "image_aVNkXg",
+        "image_3HNtAh",
+        "image_gXcxtt",
+        "image_gyP9xK",
+        "image_T4fb6V"
       ],
       "name": "LOGO Slider",
       "settings": {
@@ -468,14 +160,14 @@
         "padding_bottom": 0
       }
     },
-    "shoppable_video_new_iwXYfK": {
+    "shoppable_video_new_dU797a": {
       "type": "shoppable-video-new",
       "blocks": {
-        "item_Agihiy": {
+        "item_B4W8ee": {
           "type": "item",
           "settings": {
             "video_autoplay": true,
-            "badge": "NY",
+            "badge": "NOUVEAU",
             "badge_bg_color": "#f6f6f6",
             "badge_color": "#000000",
             "icon": "eye",
@@ -487,11 +179,11 @@
             "product_text_color": "#000000"
           }
         },
-        "item_GhKycQ": {
+        "item_3HxLiT": {
           "type": "item",
           "settings": {
             "video_autoplay": true,
-            "badge": "NY",
+            "badge": "NEW_SHOPPABLE-VIDEO-NEW_U4V5_TRANSLATED",
             "badge_bg_color": "#f6f6f6",
             "badge_color": "#000000",
             "icon": "eye",
@@ -503,11 +195,11 @@
             "product_text_color": "#000000"
           }
         },
-        "item_YfAYw6": {
+        "item_Rc44GY": {
           "type": "item",
           "settings": {
             "video_autoplay": true,
-            "badge": "NY",
+            "badge": "NEW_SHOPPABLE-VIDEO-NEW_W6X7_TRANSLATED",
             "badge_bg_color": "#f6f6f6",
             "badge_color": "#000000",
             "icon": "eye",
@@ -519,11 +211,11 @@
             "product_text_color": "#000000"
           }
         },
-        "item_HWAFY6": {
+        "item_RdcedB": {
           "type": "item",
           "settings": {
             "video_autoplay": true,
-            "badge": "NY",
+            "badge": "NEW_SHOPPABLE-VIDEO-NEW_Y8Z9_TRANSLATED",
             "badge_bg_color": "#f6f6f6",
             "badge_color": "#000000",
             "icon": "eye",
@@ -537,16 +229,16 @@
         }
       },
       "block_order": [
-        "item_Agihiy",
-        "item_GhKycQ",
-        "item_YfAYw6",
-        "item_HWAFY6"
+        "item_B4W8ee",
+        "item_3HxLiT",
+        "item_Rc44GY",
+        "item_RdcedB"
       ],
       "name": "Shoppable videos",
       "settings": {
         "color_scheme": "",
         "container": true,
-        "heading": "<strong>Éclat radieux, douceur infinie !</strong>",
+        "heading": "<strong>Découvrez l'Éclat Sublime en Action : Vidéos de notre Crème Visage Hydratante Rose !</strong>",
         "heading_size": "h1",
         "description": "",
         "slider_speed": 300,
@@ -555,7 +247,7 @@
         "slider_pagination_type": "bullets",
         "slider_scrollbar": true,
         "slider_partial_slides_mobile": true,
-        "slider_autoplay": 3,
+        "slider_autoplay": 4,
         "gap": 10,
         "card_border_width": 1,
         "card_border_radius": 16,
@@ -572,33 +264,305 @@
         "padding_bottom": 80
       }
     },
-    "lumin_mega_4E64qa": {
-      "type": "lumin-mega",
+    "lumin_cards_3aJzVd": {
+      "type": "lumin-cards",
       "blocks": {
-        "heading_ecFkqP": {
-          "type": "heading",
+        "card_pq4htH": {
+          "type": "card",
           "settings": {
-            "heading": "<strong>Révélez votre éclat avec l'hydratation délicate à la rose.</strong>",
-            "heading_size": "h1"
+            "large_up_hide": false,
+            "grid_width_desktop": "33.3333333",
+            "medium_hide": false,
+            "grid_width_tablet": "33.3333333",
+            "small_hide": false,
+            "grid_width_mobile": "100",
+            "desktop_card_height": "auto",
+            "padding_size": 30,
+            "padding_size_mobile": 30,
+            "padding_left_mobile": 30,
+            "text_border": 0,
+            "use_video": false,
+            "media_ratio": "100%",
+            "icon_size": 100,
+            "icon_corner": 0,
+            "head": "Crème Visage Éclatante, Certifiée pour une Peau Radieuse.",
+            "use_body_font": false,
+            "head_size_d": 30,
+            "head_size_m": 24,
+            "margin_bottom": 15,
+            "subtitle": "<p>La crème hydratante Éclat Sublime, enrichie d'extraits de rose et de vitamine E, nourrit intensément votre peau, lissant les ridules pour un éclat radieux et une sensation soyeuse inégalée.</p>",
+            "text_size_d": 16,
+            "text_size_m": 14,
+            "button-text": "Découvrez Éclat Sublime",
+            "button_link": "shopify://products/locktang",
+            "show_secondary": false,
+            "desktop_content_alignment": "center",
+            "show_border": true,
+            "border_color": "#eeeeee",
+            "bg_color": "#ffffff",
+            "head_color": "#212121",
+            "text_color": "#212121"
           }
         },
-        "text_Wb3i4c": {
-          "type": "text",
+        "card_EUCLHY": {
+          "type": "card",
           "settings": {
-            "text": "<p>Découvrez la crème hydratante Éclat Sublime, une formule délicate qui transforme votre routine de soins de la peau.</p><ul>    <li><strong>Hydratation Intense :</strong> Enrichie en extraits de rose, elle pénètre profondément pour nourrir la peau en profondeur.</li>    <li><strong>Raffinement de la Peau :</strong> Lisse les ridules visibles, laissant votre peau douce et souple.</li>    <li><strong>Éclat Radieux :</strong> Réveille le teint terne pour un aspect lumineux et revitalisé.</li>    <li><strong>Sensation Soyeuse :</strong> Apporte une texture légère et raffinée, parfaite pour un usage quotidien.</li>    <li><strong>Protection Antioxydante :</strong> La vitamine E aide à protéger la peau des agressions extérieures.</li></ul><p>Éveillez votre beauté naturelle avec Éclat Sublime – une crème qui allie luxe et efficacité.</p>",
-            "text_style": "body"
+            "large_up_hide": false,
+            "grid_width_desktop": "33.3333333",
+            "medium_hide": false,
+            "grid_width_tablet": "33.3333333",
+            "small_hide": false,
+            "grid_width_mobile": "100",
+            "desktop_card_height": "auto",
+            "padding_size": 30,
+            "padding_size_mobile": 30,
+            "padding_left_mobile": 30,
+            "text_border": 0,
+            "use_video": false,
+            "media_ratio": "100%",
+            "icon_size": 100,
+            "icon_corner": 0,
+            "head": "Hydratation Instantanée : Éclat Radieux Sans Attente.",
+            "use_body_font": false,
+            "head_size_d": 30,
+            "head_size_m": 24,
+            "margin_bottom": 15,
+            "subtitle": "<p>Grâce à sa formule délicate enrichie en extraits de rose et en vitamine E, la Crème Visage Hydratante Rose nourrit intensément votre peau, lissant les ridules pour un éclat radieux et une douceur soyeuse en un instant.</p>",
+            "text_size_d": 16,
+            "text_size_m": 14,
+            "button-text": "Découvrez l'éclat instantané",
+            "button_link": "shopify://products/locktang",
+            "show_secondary": false,
+            "desktop_content_alignment": "center",
+            "show_border": true,
+            "border_color": "#eeeeee",
+            "bg_color": "#ffffff",
+            "head_color": "#212121",
+            "text_color": "#212121"
+          }
+        },
+        "card_aDBHBq": {
+          "type": "card",
+          "settings": {
+            "large_up_hide": false,
+            "grid_width_desktop": "33.3333333",
+            "medium_hide": false,
+            "grid_width_tablet": "33.3333333",
+            "small_hide": false,
+            "grid_width_mobile": "100",
+            "desktop_card_height": "auto",
+            "padding_size": 30,
+            "padding_size_mobile": 30,
+            "padding_left_mobile": 30,
+            "text_border": 0,
+            "use_video": false,
+            "media_ratio": "100%",
+            "icon_size": 100,
+            "icon_corner": 0,
+            "head": "Éclat, Élégance et Bien-être avec la Crème Hydratante Éclat Sublime.",
+            "use_body_font": false,
+            "head_size_d": 30,
+            "head_size_m": 24,
+            "margin_bottom": 15,
+            "subtitle": "<p>Avec Éclat Sublime – Crème Visage Hydratante Rose, offrez à votre peau une hydratation intense et un éclat radieux grâce à ses extraits de rose et à la vitamine E, tout en profitant d'une texture soyeuse et raffinée qui lisse les ridules.</p>",
+            "text_size_d": 16,
+            "text_size_m": 14,
+            "button-text": "Rayonnez avec éclat",
+            "button_link": "shopify://products/locktang",
+            "show_secondary": false,
+            "desktop_content_alignment": "center",
+            "show_border": true,
+            "border_color": "#eeeeee",
+            "bg_color": "#ffffff",
+            "head_color": "#212121",
+            "text_color": "#212121"
           }
         }
       },
       "block_order": [
-        "heading_ecFkqP",
-        "text_Wb3i4c"
+        "card_pq4htH",
+        "card_EUCLHY",
+        "card_aDBHBq"
+      ],
+      "name": "Lumin Cards",
+      "settings": {
+        "video_border": 14,
+        "zoom_hover": true,
+        "loading_color": "#f2f2f2",
+        "grid_gap": 18,
+        "color_scheme": "scheme-52650f17-4d3d-4be4-aa3c-4ef82f95ed07",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "margin_top": 36,
+        "margin_bottom": 36
+      }
+    },
+    "rich_text_PFUUdK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_TdwPKy": {
+          "type": "heading",
+          "settings": {
+            "heading": "#ÉCLATSUBLIME",
+            "heading_size": "h1"
+          }
+        },
+        "text_aJiNeN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Nous soutenons une approche consciente et responsable des soins capillaires, en mettant l'accent sur des fers à friser de haute qualité qui sont respectueux de l'environnement et bénéfiques pour la santé des cheveux.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_TdwPKy",
+        "text_aJiNeN"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_mR3wFQ": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_tHewJX": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_YVBTpb": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Fbhcfd": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_tHewJX",
+        "column_YVBTpb",
+        "column_Fbhcfd"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "heading_center": "left",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "navigation_on_mobile": false,
+        "padding_top": 20,
+        "padding_bottom": 36
+      }
+    },
+    "lumin_mega_PPtWt9": {
+      "type": "lumin-mega",
+      "blocks": {
+        "heading_j6AhCq": {
+          "type": "heading",
+          "settings": {
+            "heading": "Révélez un éclat sublime avec Éclat Sublime – La crème qui transforme votre peau en douceur.",
+            "heading_size": "h2"
+          }
+        },
+        "percent_AKBG6j": {
+          "type": "percent",
+          "settings": {
+            "icon_size": 70,
+            "circle_width": 4,
+            "percent_bg": "#191919",
+            "percent_border": "#f2f2f2",
+            "circle_value_1": 100,
+            "percent_text": 10,
+            "heading": "Éclat Radieux ",
+            "heading_size_alt": 20,
+            "text": " <p>Une crème hydratante à la rose qui nourrit, lisse et illumine la peau pour un éclat soyeux et raffiné.</p>"
+          }
+        },
+        "percent_MqaBhj": {
+          "type": "percent",
+          "settings": {
+            "icon_size": 70,
+            "circle_width": 4,
+            "percent_bg": "#191919",
+            "percent_border": "#f2f2f2",
+            "circle_value_1": 100,
+            "percent_text": 10,
+            "heading": "Éclat Rosé ",
+            "heading_size_alt": 20,
+            "text": " <p>Une crème hydratante délicate qui nourrit la peau, lissant les ridules et révélant un éclat radieux grâce à ses extraits de rose et de vitamine E.</p>"
+          }
+        },
+        "percent_neckea": {
+          "type": "percent",
+          "settings": {
+            "icon_size": 70,
+            "circle_width": 4,
+            "percent_bg": "#191919",
+            "percent_border": "#f2f2f2",
+            "circle_value_1": 100,
+            "percent_text": 10,
+            "heading": "Éclat de Rose ",
+            "heading_size_alt": 20,
+            "text": " <p>Une crème hydratante délicate qui nourrit intensément la peau tout en lissant les ridules et en révélant un éclat radieux.</p>"
+          }
+        },
+        "percent_tjX8LE": {
+          "type": "percent",
+          "settings": {
+            "icon_size": 70,
+            "circle_width": 4,
+            "percent_bg": "#191919",
+            "percent_border": "#f2f2f2",
+            "circle_value_1": 100,
+            "percent_text": 10,
+            "heading": "Éclat de Rose ",
+            "heading_size_alt": 20,
+            "text": " <p>Une crème hydratante délicate enrichie d'extraits de rose et de vitamine E, qui nourrit la peau en profondeur tout en lissant les ridules pour un éclat radieux et une sensation soyeuse.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_j6AhCq",
+        "percent_AKBG6j",
+        "percent_MqaBhj",
+        "percent_neckea",
+        "percent_tjX8LE"
       ],
       "name": "Lumin Mega Section",
       "settings": {
-        "color_scheme_main": "",
+        "color_scheme_main": "background-1",
         "full-width": false,
-        "height": "adapt",
+        "height": "large",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",
@@ -613,51 +577,51 @@
         "padding_bottom": 36
       }
     },
-    "lumin_slider_2_diHYQE": {
+    "lumin_slider_2_ywTNEg": {
       "type": "lumin-slider-2",
       "blocks": {
-        "review_image_htnDmr": {
+        "review_image_Cgergj": {
           "type": "review_image",
           "settings": {}
         },
-        "review_image_qyKExn": {
+        "review_image_8fpLyr": {
           "type": "review_image",
           "settings": {}
         },
-        "review_image_nJXbLD": {
+        "review_image_qGx4x7": {
           "type": "review_image",
           "settings": {}
         },
-        "review_image_P4BjJj": {
+        "review_image_rQrc9B": {
           "type": "review_image",
           "settings": {}
         },
-        "review_image_Byggbb": {
+        "review_image_YY9AU3": {
           "type": "review_image",
           "settings": {}
         },
-        "review_image_Rj3yAn": {
+        "review_image_bUDH6Y": {
           "type": "review_image",
           "settings": {}
         }
       },
       "block_order": [
-        "review_image_htnDmr",
-        "review_image_qyKExn",
-        "review_image_nJXbLD",
-        "review_image_P4BjJj",
-        "review_image_Byggbb",
-        "review_image_Rj3yAn"
+        "review_image_Cgergj",
+        "review_image_8fpLyr",
+        "review_image_qGx4x7",
+        "review_image_rQrc9B",
+        "review_image_YY9AU3",
+        "review_image_bUDH6Y"
       ],
       "name": "Lumin Slider #2",
       "settings": {
         "content_alignment": "center",
         "layout": "1",
-        "heading": "\"Révélez votre éclat avec Éclat Sublime – Hydratation et douceur en un seul geste !\"",
-        "subheading": "\"Éclat et douceur : votre peau sublimée par la rose.\"",
-        "button_text": "\"Révélez votre éclat avec Éclat Sublime – Hydratation et douceur en un seul geste.\"",
+        "heading": "Découvrez ce que nos clients adorent sur l'Éclat Sublime !",
+        "subheading": "Vraies critiques de vraies personnes",
+        "button_text": "Achetez Éclat Sublime maintenant!",
         "button_link": "",
-        "rating_text": "<strong>Évaluée à 4,9/5 par plus de 10 000 utilisateurs satisfaits et recommandée par des dermatologues.</strong>",
+        "rating_text": "Betygsatt 4,8/5 par 14 428+ clients satisfaits",
         "color_scheme": "",
         "button_color": "#212121",
         "star_color": "#ffd700",
@@ -676,457 +640,460 @@
         "margin_bottom": 36
       }
     },
-    "comparison_table_9j8NnQ": {
-      "type": "comparison-table",
+    "lumin_pro_aFLr4d": {
+      "type": "lumin-pro",
       "blocks": {
-        "row_EiHe6y": {
-          "type": "row",
+        "feature_text_VqeAjA": {
+          "type": "feature-text",
           "settings": {
-            "benefit": "Hydratation Intense (Anti-déshydratation)",
-            "us": true,
-            "others": false
+            "text": "<em>★★★★★</em> Excellent <strong>4.8/5</strong>",
+            "font_size": 14,
+            "text_bg": "#ffffff",
+            "italic_text": "#ffa600",
+            "bold_text": "#ff9fbc",
+            "border": "#ff9fbc"
           }
         },
-        "row_rERJgf": {
-          "type": "row",
-          "settings": {
-            "benefit": "Hydratation Intense (Anti-déshydratation)_1",
-            "us": true,
-            "others": false
-          }
-        },
-        "row_yK9Aef": {
-          "type": "row",
-          "settings": {
-            "benefit": "Hydratation Intense (Anti-déshydratation)_2",
-            "us": true,
-            "others": false
-          }
-        },
-        "row_GTdKwH": {
-          "type": "row",
-          "settings": {
-            "benefit": "Hydratation Intense (Anti-déshydratation)_3",
-            "us": true,
-            "others": false
-          }
-        },
-        "row_Mexmbk": {
-          "type": "row",
-          "settings": {
-            "benefit": "Hydratation Intense (Anti-déshydratation)_4",
-            "us": true,
-            "others": false
-          }
-        },
-        "row_E8zVdq": {
-          "type": "row",
-          "settings": {
-            "benefit": "Hydratation Intense (Anti-déshydratation)_5",
-            "us": true,
-            "others": false
-          }
-        }
-      },
-      "block_order": [
-        "row_EiHe6y",
-        "row_rERJgf",
-        "row_yK9Aef",
-        "row_GTdKwH",
-        "row_Mexmbk",
-        "row_E8zVdq"
-      ],
-      "settings": {
-        "title": "\"Éclat et douceur, révélés par la rose.\"",
-        "heading_size": "h1",
-        "text": "",
-        "button_label": "",
-        "link": "",
-        "button_style_secondary": false,
-        "layout": "table_second",
-        "color_scheme": "inverse",
-        "logo_width": 90,
-        "mobile_logo_width": 60,
-        "us_label": "",
-        "others_label": "\"Éclat Radieux, Peau Satinée.\"",
-        "benefit_color_scheme": "background-1",
-        "icon_cells_color_scheme": "background-1",
-        "checkmark_color": "#008763",
-        "x_color": "#ff9fbc",
-        "checkmark_active_color": "#000000",
-        "x_active_color": "#000000",
-        "active_color": "#fce1e1",
-        "active_text_color": "#ffffff",
-        "active_border_color": "#000000",
-        "table_corner_radius": 8,
-        "font_size": 16,
-        "table_shadow_opacity": 15,
-        "table_shadow_horizontal_offset": 0,
-        "table_shadow_vertical_offset": 0,
-        "table_shadow_blur": 5,
-        "table_border_thickness": 1,
-        "padding_top": 56,
-        "padding_bottom": 56
-      }
-    },
-    "collage_AtKBPz": {
-      "type": "collage",
-      "blocks": {
-        "image_349JKR": {
-          "type": "image",
-          "settings": {}
-        },
-        "image_JfL9DQ": {
-          "type": "image",
-          "settings": {}
-        },
-        "image_gBVz8Y": {
-          "type": "image",
-          "settings": {}
-        },
-        "product_PCrmNE": {
-          "type": "product",
-          "settings": {
-            "product": "locktang",
-            "second_image": false
-          }
-        }
-      },
-      "block_order": [
-        "image_349JKR",
-        "image_JfL9DQ",
-        "image_gBVz8Y",
-        "product_PCrmNE"
-      ],
-      "name": "t:sections.collage.presets.name",
-      "settings": {
-        "heading": "\"Éclat Radieux, Peau Satinée.\"",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "rich_text_aNGmLw": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_mVfaBV": {
+        "heading_J3ynND": {
           "type": "heading",
           "settings": {
-            "heading": "#ÉclatRosePourVotrePeau",
+            "heading": "🌹 <strong>Hydratation intense et éclat radieux</strong>",
             "heading_size": "h1"
           }
         },
-        "text_zFjTwr": {
+        "text_UGDGaa": {
           "type": "text",
           "settings": {
-            "text": "<p>Découvrez la crème hydratante Éclat Sublime, un soin luxueux conçu pour sublimer votre peau.</p><ul>    <li><strong>Hydratation Intense :</strong> Enrichie en extraits de rose et en vitamine E, elle nourrit en profondeur les peaux sèches.</li>    <li><strong>Réduction des Ridules :</strong> Sa formule unique lisse visiblement les ridules, offrant un aspect plus jeune.</li>    <li><strong>Éclat Radieux :</strong> Révèle un teint lumineux et éclatant, grâce à ses ingrédients naturels.</li>    <li><strong>Sensation Soyeuse :</strong> Laisse la peau douce et raffinée, sans effet gras.</li></ul><p>Offrez à votre peau le soin qu'elle mérite avec Éclat Sublime – Crème Visage Hydratante Rose.</p>"
+            "text": "<p>Grâce à sa formule délicate, la <strong>crème hydratante Éclat Sublime</strong> nourrit intensément la peau, lissant les ridules et révélant un éclat radieux.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_BBC4gH": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "shopify://products/locktang",
+            "button_style_secondary": false
+          }
+        },
+        "testimonial_images_dGBCQB": {
+          "type": "testimonial-images",
+          "settings": {
+            "image_size": 1,
+            "image_space": -18,
+            "hide_img_2": false,
+            "hide_img_3": false,
+            "hide_img_4": false,
+            "hide_img_5": false,
+            "text": "<p>Évalué 4,8/5 par plus de 73 567 clients</p>",
+            "text_size": 13,
+            "text_style": "body"
           }
         }
       },
       "block_order": [
-        "heading_mVfaBV",
-        "text_zFjTwr"
+        "feature_text_VqeAjA",
+        "heading_J3ynND",
+        "text_UGDGaa",
+        "button_BBC4gH",
+        "testimonial_images_dGBCQB"
       ],
-      "name": "t:sections.rich-text.presets.name",
+      "name": "Lumin Pro Section",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 12
-      }
-    },
-    "multicolumn_4dXcbP": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_KGEKma": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_KEW4CW": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_KbHrwH": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_KGEKma",
-        "column_KEW4CW",
-        "column_KbHrwH"
-      ],
-      "name": "t:sections.multicolumn.presets.name",
-      "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "heading_center": "center",
-        "image_width": "half",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "navigation_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "waves_79peG9": {
-      "type": "waves",
-      "name": "Waves",
-      "settings": {
-        "wave_color": "#ff9fbc",
-        "wave_height": 40,
-        "wave_speed": 10,
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
-    "rich_text_EkzFWE": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_8XLtDy": {
-          "type": "heading",
-          "settings": {
-            "heading": "\"Éclat Sublime : Hydratation et éclat en un seul geste.\"",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "heading_8XLtDy"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-2",
-        "full_width": true,
-        "padding_top": 8,
-        "padding_bottom": 20
-      }
-    },
-    "lumin_mega_9waax9": {
-      "type": "lumin-mega",
-      "blocks": {
-        "percent_TBmnaV": {
-          "type": "percent",
-          "settings": {
-            "icon_size": 70,
-            "circle_width": 4,
-            "percent_bg": "#ffffff",
-            "percent_border": "#f2f2f2",
-            "circle_value_1": 100,
-            "percent_text": 10,
-            "heading": "'Hydratation Éclatante'",
-            "heading_size_alt": 16,
-            "text": "<p>Découvrez <strong>Éclat Sublime</strong>, une crème hydratante délicate enrichie en <em>extraits de rose</em> et <em>vitamine E</em>. Nourrissez intensément votre peau, lissez les ridules et révélez un éclat radieux tout en profitant d’une sensation soyeuse et raffinée.</p>"
-          }
-        },
-        "percent_nJJhny": {
-          "type": "percent",
-          "settings": {
-            "icon_size": 70,
-            "circle_width": 4,
-            "percent_bg": "#ffffff",
-            "percent_border": "#f2f2f2",
-            "circle_value_1": 100,
-            "percent_text": 10,
-            "heading": "<strong>Crème Éclat Rose</strong>",
-            "heading_size_alt": 16,
-            "text": "<p>Une <em>crème hydratante</em> légère, enrichie en <strong>extraits de rose</strong> et <strong>vitamine E</strong>, qui nourrit en profondeur, lisse les ridules et révèle un éclat radieux. Elle laisse une sensation <strong>soyeuse</strong> et <strong>raffinée</strong> sur la peau.</p>"
-          }
-        },
-        "percent_UUr9wc": {
-          "type": "percent",
-          "settings": {
-            "icon_size": 70,
-            "circle_width": 4,
-            "percent_bg": "#ffffff",
-            "percent_border": "#f2f2f2",
-            "circle_value_1": 96,
-            "percent_text": 10,
-            "heading": "<strong>Hydratation Éclatante</strong>",
-            "heading_size_alt": 16,
-            "text": "<p>Une crème légère enrichie en <em>extraits de rose</em> et <em>vitamine E</em>, qui nourrit en profondeur, lisse les ridules et révèle un teint radieux, tout en offrant une sensation soyeuse et raffinée.</p>"
-          }
-        },
-        "percent_A4eLEH": {
-          "type": "percent",
-          "settings": {
-            "icon_size": 70,
-            "circle_width": 4,
-            "percent_bg": "#ffffff",
-            "percent_border": "#f2f2f2",
-            "circle_value_1": 96,
-            "percent_text": 10,
-            "heading": "<strong>Hydratation Éclatante</strong>",
-            "heading_size_alt": 16,
-            "text": "<p>Une crème hydratante légère, enrichie d'extraits de rose et de vitamine E. Elle nourrit profondément la peau, atténue les ridules et dévoile un éclat radieux tout en offrant une texture soyeuse et raffinée.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "percent_TBmnaV",
-        "percent_nJJhny",
-        "percent_UUr9wc",
-        "percent_A4eLEH"
-      ],
-      "name": "Lumin Mega Section",
-      "settings": {
-        "color_scheme_main": "background-2",
+        "color_scheme_main": "scheme-b4f5e471-39ab-4d0b-b66b-c098f27883a4",
         "full-width": false,
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-2",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "margin_top": 0,
+        "margin_top": 36,
         "margin_bottom": 36,
-        "padding_top": 0,
+        "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "video_with_text_jBwHRV": {
+    "video_with_text_GAx8wW": {
       "type": "video-with-text",
       "name": "Video Text Overlay",
       "settings": {
         "layout": "full_bleed",
         "video_border": 0,
-        "video_height": "adapt",
+        "video_height": "medium",
         "image_overlay_opacity": 0,
-        "desktop_content_position": "middle-center",
+        "desktop_content_position": "middle-left",
         "show_text_box": false,
         "video_content_border": 0,
         "mobile_content_position": "middle",
-        "color_scheme": "background-1",
+        "color_scheme": "scheme-52650f17-4d3d-4be4-aa3c-4ef82f95ed07",
         "desktop_content_alignment": "center",
-        "heading": "\"Éclat Sublime : Nourrissez votre peau, révélez votre éclat.\"",
+        "heading": "Révélez votre éclat : Éclat Sublime – La crème hydratante qui sublime votre peau.",
         "heading_size": "h1",
-        "text": "",
-        "button_label_1": "",
-        "button_link_1": "",
+        "text": "Cette crème hydratante, enrichie en <strong>extraits de rose</strong> et <strong>vitamine E</strong>, nourrit intensément la peau, lissant les ridules pour un éclat radieux et une sensation soyeuse.",
+        "button_label_1": "Découvrez la crème rose",
+        "button_link_1": "shopify://products/locktang",
         "button_style_secondary_1": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "c0ef23cf-5481-4b47-9b78-3c28134c079a": {
+    "lumin_grids_gYDx9K": {
+      "type": "lumin-grids",
+      "blocks": {
+        "image_MWrPWN": {
+          "type": "image",
+          "settings": {
+            "large_up_hide": false,
+            "grid_width_desktop": "50",
+            "medium_hide": false,
+            "grid_width_tablet": "33.3333333",
+            "small_hide": false,
+            "overlay_opacity": 0,
+            "opacity_color": "#000000",
+            "opacity_color_full": false,
+            "padding_size": 15,
+            "padding_size_in": 10,
+            "text_border": 0,
+            "bg_color": "rgba(0,0,0,0)",
+            "head": "🌹 <strong>Hydratation éclatante pour une peau radieuse et soyeuse</strong>",
+            "head_color": "#ffffff",
+            "head_size_d": 27,
+            "head_size_m": 14,
+            "margin_bottom": 15,
+            "text": "Med sin <strong>delikata formula</strong> och <strong>ros- och vitamin E-extrakt</strong> ger den intensiv näring, slätar ut linjer och ger en <strong>strålande glans</strong> med en <strong>silkeslen känsla</strong>.",
+            "text_color": "#ffffff",
+            "text_size_d": 16,
+            "text_size_m": 10,
+            "button-text": "button",
+            "button_link": "",
+            "desktop_content_alignment": "center",
+            "image_content_position": "bottom-center",
+            "grid-url": ""
+          }
+        },
+        "text_xGNyrq": {
+          "type": "text",
+          "settings": {
+            "large_up_hide": false,
+            "grid_width_desktop": "25",
+            "medium_hide": false,
+            "grid_width_tablet": "25",
+            "small_hide": false,
+            "show_border": false,
+            "border_color": "#eeeeee",
+            "padding_size": 30,
+            "padding_size_mobile": 30,
+            "padding_left_mobile": 30,
+            "text_border": 0,
+            "bg_color": "#fce1e1",
+            "icon_size": 25,
+            "icon_corner": 0,
+            "head": "Nouvelle collection",
+            "use_body_font": false,
+            "head_color": "#212121",
+            "head_size_d": 30,
+            "head_size_m": 24,
+            "margin_bottom": 15,
+            "subtitle": "",
+            "text_color": "#212121",
+            "text_size_d": 16,
+            "text_size_m": 14,
+            "button-text": "Découvrir",
+            "show_secondary": false,
+            "button_link": "shopify://products/locktang",
+            "image_content_position": "middle-center",
+            "desktop_content_alignment": "center",
+            "grid-url": ""
+          }
+        },
+        "image_638NPi": {
+          "type": "image",
+          "settings": {
+            "large_up_hide": false,
+            "grid_width_desktop": "25",
+            "medium_hide": false,
+            "grid_width_tablet": "25",
+            "small_hide": false,
+            "overlay_opacity": 0,
+            "opacity_color": "#000000",
+            "opacity_color_full": false,
+            "padding_size": 30,
+            "padding_size_in": 10,
+            "text_border": 0,
+            "bg_color": "rgba(0,0,0,0)",
+            "head": "Révélez votre éclat : Hydratation sublime à la rose pour une peau radieuse et soyeuse.",
+            "head_color": "#ffffff",
+            "head_size_d": 27,
+            "head_size_m": 24,
+            "margin_bottom": 15,
+            "text": "",
+            "text_color": "#212121",
+            "text_size_d": 16,
+            "text_size_m": 14,
+            "button-text": "button",
+            "button_link": "",
+            "desktop_content_alignment": "left",
+            "image_content_position": "bottom-center",
+            "grid-url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_MWrPWN",
+        "text_xGNyrq",
+        "image_638NPi"
+      ],
+      "name": "Lumin Grids",
+      "settings": {
+        "video_border": 0,
+        "zoom_hover": true,
+        "loading_color": "#f2f2f2",
+        "grid_gap": 8,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "margin_top": 36,
+        "margin_bottom": 36
+      }
+    },
+    "announcement_bar_iUp7qf": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_GCCwkX": {
+          "type": "announcement",
+          "settings": {
+            "text": "Découvrez Éclat Sublime : La crème hydratante qui sublime votre peau avec douceur et éclat !",
+            "link": "shopify://products/locktang"
+          }
+        }
+      },
+      "block_order": [
+        "announcement_GCCwkX"
+      ],
+      "name": "t:sections.announcement-bar.presets.name",
+      "settings": {
+        "color_scheme": "background-2",
+        "show_line_separator": true,
+        "show_social": false,
+        "auto_rotate": false,
+        "hide_arrows": false,
+        "change_slides_speed": 5,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
+    },
+    "testimonial_slider_AGaAFj": {
+      "type": "testimonial-slider",
+      "blocks": {
+        "icon_wkikFr": {
+          "type": "icon",
+          "settings": {
+            "slide_radius": 50,
+            "link": "",
+            "show_icon": true,
+            "title": "Éclat immédiat pour ma peau ",
+            "text": " <p>Éclat Sublime a transformé ma routine beauté ! En tant que professionnelle occupée, j'apprécie sa capacité à hydrater intensément ma peau tout en lissant les ridules. Mon teint est devenu radieux et frais en un rien de temps.</p><p>💬 <strong>Claire D.</strong> ⭐⭐⭐⭐⭐</p>"
+          }
+        },
+        "icon_U7JHF8": {
+          "type": "icon",
+          "settings": {
+            "slide_radius": 50,
+            "link": "",
+            "show_icon": true,
+            "title": "Éclat et hydratation au quotidien ",
+            "text": " <p>J'adore la crème Éclat Sublime ! Elle hydrate ma peau tout en lui donnant un éclat radieux, parfait pour mes journées à l'université.</p><p>💬 <strong>Marie Dupont.</strong> ⭐⭐⭐⭐⭐</p>"
+          }
+        },
+        "icon_iKkBgV": {
+          "type": "icon",
+          "settings": {
+            "slide_radius": 50,
+            "link": "",
+            "show_icon": true,
+            "title": "Éclat et douceur au rendez-vous ",
+            "text": " <p>Éclat Sublime a transformé ma peau ! Elle est tellement hydratée et radieuse, et les ridules sont atténuées. Une vraie merveille ! </p><p>💬 <strong>Marie Dupont.</strong> ⭐⭐⭐⭐⭐</p>"
+          }
+        },
+        "icon_QnVwN4": {
+          "type": "icon",
+          "settings": {
+            "slide_radius": 50,
+            "link": "",
+            "show_icon": true,
+            "title": "Éclat et douceur en un seul pot! ",
+            "text": " <p>J'adore l'Éclat Sublime! Cette crème hydratante à la rose a transformé ma peau. Elle est nourrissante, lisse mes ridules et me donne un éclat incroyable. La texture est si légère et soyeuse, un vrai régal!</p><p>💬 <strong>Influenceuse Beauté.</strong> ⭐⭐⭐⭐⭐</p>"
+          }
+        }
+      },
+      "block_order": [
+        "icon_wkikFr",
+        "icon_U7JHF8",
+        "icon_iKkBgV",
+        "icon_QnVwN4"
+      ],
+      "name": "Testimonial Slider",
+      "settings": {
+        "icon_alignment": "center",
+        "icon_size": 30,
+        "per_row": 3,
+        "gap": 20,
+        "show_arrows": "true",
+        "auto_rotate": true,
+        "change_slides_speed": 2,
+        "text_size": 100,
+        "heading_color": "#000000",
+        "text_color": "#666666",
+        "color_scheme": "",
+        "color_scheme_main": "",
+        "show_border": false,
+        "content_border_color": "rgba(0,0,0,0)",
+        "content_buttons_radius": 0,
+        "mobile_icon_alignment": "center",
+        "mobile_icon_size": 30,
+        "mobile_per_row": "1",
+        "base_width": 100,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "slideshow_yTTPJW": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_QXVjDU": {
+          "type": "slide",
+          "settings": {
+            "caption": "Besoin d'aide ?",
+            "block_cap_size": 34,
+            "cap_color": "#222222",
+            "heading": "",
+            "block_head_size-2": 20,
+            "block_head_size-mobile": 20,
+            "block_head_line": 1.4,
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Contactez-nous",
+            "link": "shopify://pages/contact",
+            "link-2": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 20,
+            "color_scheme": "",
+            "text_alignment_mobile": "center",
+            "mobile_box_align": "center",
+            "mobile_text_spacing": 0
+          }
+        }
+      },
+      "block_order": [
+        "slide_QXVjDU"
+      ],
+      "name": "Lumin Slidshow",
+      "settings": {
+        "layout": "full_bleed",
+        "banner_border": 0,
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "hide_navigation": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": ""
+      }
+    },
+    "collapsible_content_yK8aTm": {
       "type": "collapsible-content",
       "blocks": {
-        "template--15124688076883__c0ef23cf-5481-4b47-9b78-3c28134c079a-collapsible_row-1": {
+        "collapsible_row_NYzBib": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "'Cette crème convient-elle à tous les types de peau ?'",
+            "heading": "Q: Cette crème convient-elle à tous les types de peau ? ",
             "icon": "question_mark",
-            "row_content": "<p>Oui, grâce à sa formule délicate infusée d'extraits de rose et de vitamine E, elle hydrate et nourrit intensément tous les types de peau.</p>",
+            "row_content": " <p>Oui, Éclat Sublime est formulée pour convenir à tous les types de peau, nourrissant et hydratant en profondeur.</p>",
             "page": ""
           }
         },
-        "template--15124688076883__c0ef23cf-5481-4b47-9b78-3c28134c079a-collapsible_row-2": {
+        "collapsible_row_7JamFa": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "'Peut-on utiliser cette crème sur tous les types de peau ?'",
+            "heading": "Q: Cette crème convient-elle aux peaux sensibles ?",
             "icon": "question_mark",
-            "row_content": "<p>Oui, la crème Éclat Sublime convient à tous les types de peau. Elle hydrate intensément, lisse les ridules et apporte un éclat naturel, tout en laissant une sensation soyeuse.</p>",
+            "row_content": "<p>Oui, Éclat Sublime est formulée avec des ingrédients doux, comme des extraits de rose, pour apaiser et hydrater même les peaux les plus sensibles.</p>",
             "page": ""
           }
         },
-        "template--15124688076883__c0ef23cf-5481-4b47-9b78-3c28134c079a-collapsible_row-3": {
+        "collapsible_row_Czp4C6": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Éclat Sublime – Crème Visage Hydratante Rose est-elle bonne pour ma peau ?",
+            "heading": "Q: Est-ce que la crème Éclat Sublime convient à tous les types de peau ?",
             "icon": "question_mark",
-            "row_content": "<p>Oui, grâce à ses extraits de rose et à la vitamine E, elle nourrit intensément, lisse les ridules et révèle un éclat radieux tout en laissant une sensation soyeuse.</p>",
+            "row_content": "<p>Oui, grâce à sa formule délicate enrichie en <strong>extraits de rose</strong> et <strong>vitamine E</strong>, elle est idéale pour tous les types de peau, apportant hydratation et éclat sans alourdir.</p>",
             "page": ""
           }
         },
-        "template--15124688076883__c0ef23cf-5481-4b47-9b78-3c28134c079a-collapsible_row-4": {
+        "collapsible_row_8QW7cQ": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Éclat Sublime – Crème Visage Hydratante Rose fonctionne-t-elle pour les peaux sensibles ?",
+            "heading": "Q: Est-ce que cette crème convient aux peaux sensibles ?",
             "icon": "question_mark",
-            "row_content": "<p>Oui, cette crème est spécialement formulée pour être douce et nourrissante, idéale pour les peaux sensibles grâce à ses extraits de rose apaisants.</p>",
+            "row_content": "<p>Oui, Éclat Sublime est formulée pour être douce et apaisante, idéale pour les peaux sensibles.</p>",
             "page": ""
           }
         },
-        "collapsible_row_t3yhUa": {
+        "collapsible_row_WQFzN7": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "'Comment utiliser Éclat Sublime – Crème Visage Hydratante Rose ?'",
+            "heading": "Q: Comment appliquer la Crème Visage Hydratante Rose ?",
             "icon": "question_mark",
-            "row_content": "<p>Pour une peau éclatante, appliquez une petite quantité de crème sur le visage et le cou chaque matin et soir. Massez délicatement jusqu'à absorption complète.</p>",
+            "row_content": "<p>Pour une application optimale, prélevez une petite quantité de crème et massez délicatement sur le visage et le cou, en évitant le contour des yeux. Utilisez matin et soir pour une peau nourrie et éclatante.</p>",
             "page": ""
           }
         },
-        "collapsible_row_BMHKaN": {
+        "collapsible_row_6nKPBx": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "'Cette crème hydratante est-elle adaptée à tous les types de peau ?'",
+            "heading": "Q: Cette crème hydratante convient-elle à tous les types de peau ?",
             "icon": "question_mark",
-            "row_content": "<p>Oui, la crème Éclat Sublime convient à tous les types de peau, nourrissant intensément et laissant une sensation soyeuse.</p>",
+            "row_content": "<p>Oui, la crème Éclat Sublime est formulée pour convenir à tous les types de peau, offrant une hydratation douce et efficace.</p>",
             "page": ""
           }
         },
-        "collapsible_row_nAhDf7": {
+        "collapsible_row_tJncxV": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "'Les ingrédients de la Crème Visage Hydratante Rose sont-ils naturels ?'",
+            "heading": "Q: Cette crème contient-elle des ingrédients naturels? ",
             "icon": "question_mark",
-            "row_content": "<p>Oui, notre crème est formulée avec des extraits de rose naturels et de la vitamine E pour nourrir profondément votre peau.</p>",
+            "row_content": " <p>Oui, Éclat Sublime est infusée d'extraits de rose naturels et de vitamine E pour une hydratation optimale.</p>",
             "page": ""
           }
         },
-        "collapsible_row_GiDN9z": {
+        "collapsible_row_3NLxki": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "'Comment fonctionne l'hydratation avec Éclat Sublime – Crème Visage Hydratante Rose ?'",
+            "heading": "Q: Quels sont les bienfaits de la Crème Visage Hydratante Rose? ",
             "icon": "question_mark",
-            "row_content": "<p>Cette crème délicate, enrichie en extraits de rose et en vitamine E, nourrit intensément la peau, lissant les ridules et révélant un éclat radieux tout en offrant une sensation soyeuse.</p>",
+            "row_content": " <p>La Crème Visage Hydratante Rose nourrit intensément la peau, lisse les ridules et révèle un éclat radieux. Enrichie en extraits de rose et en vitamine E, elle laisse une sensation soyeuse et raffinée.</p>",
             "page": ""
           }
         }
       },
       "block_order": [
-        "template--15124688076883__c0ef23cf-5481-4b47-9b78-3c28134c079a-collapsible_row-1",
-        "template--15124688076883__c0ef23cf-5481-4b47-9b78-3c28134c079a-collapsible_row-2",
-        "template--15124688076883__c0ef23cf-5481-4b47-9b78-3c28134c079a-collapsible_row-3",
-        "template--15124688076883__c0ef23cf-5481-4b47-9b78-3c28134c079a-collapsible_row-4",
-        "collapsible_row_t3yhUa",
-        "collapsible_row_BMHKaN",
-        "collapsible_row_nAhDf7",
-        "collapsible_row_GiDN9z"
+        "collapsible_row_NYzBib",
+        "collapsible_row_7JamFa",
+        "collapsible_row_Czp4C6",
+        "collapsible_row_8QW7cQ",
+        "collapsible_row_WQFzN7",
+        "collapsible_row_6nKPBx",
+        "collapsible_row_tJncxV",
+        "collapsible_row_3NLxki"
       ],
+      "name": "t:sections.collapsible_content.presets.name",
       "settings": {
         "caption": "",
         "heading": "FAQ",
@@ -1135,215 +1102,93 @@
         "layout": "row",
         "color_scheme": "background-2",
         "container_color_scheme": "inverse",
-        "open_first_collapsible_row": true,
+        "open_first_collapsible_row": false,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
-        "padding_top": 44,
-        "padding_bottom": 44
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
-    "3475a8f9-021f-4acd-8e57-163ef2a26740": {
-      "type": "lumin-review",
+    "7c49854d-841e-4486-a518-217b88181104": {
+      "type": "rich-text",
       "blocks": {
-        "30900101-e5c8-4c0e-b5bd-0fcf8eea85cf": {
-          "type": "review",
+        "95cd312d-868a-41cb-ba80-25ac4c47391b": {
+          "type": "caption",
           "settings": {
-            "star_rating": 5,
-            "name_text": "Vivian.D",
-            "date_text": "Maj 2025",
-            "review_head": "Une hydratation sublime !",
-            "review_text": "J'adore la crème Éclat Sublime ! Elle pénètre rapidement et laisse ma peau douce et lumineuse. Les ridules semblent atténuées et l'odeur de rose est un véritable plaisir. Je la recommande vivement !",
-            "like_size": 63,
-            "dislike_size": 1,
-            "feature_font_size": 16
+            "caption": "NOTRE PHILOSOPHIE PRODUIT",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
           }
         },
-        "53a5b896-0517-4e05-80fe-b23de703e79b": {
-          "type": "review",
+        "template--15124687650899__7c49854d-841e-4486-a518-217b88181104-heading-1": {
+          "type": "heading",
           "settings": {
-            "star_rating": 5,
-            "name_text": "Lena.W",
-            "date_text": "Januari 2025",
-            "review_head": "MAGIQUE ET RÉCONFORTANTE !",
-            "review_text": "J'adore cette crème hydratante ! Elle pénètre rapidement et laisse ma peau douce et éclatante. Les ridules semblent moins visibles, et l'odeur de rose est tout simplement divine. Une véritable découverte pour ma routine beauté !",
-            "like_size": 42,
-            "dislike_size": 0,
-            "feature_font_size": 16
+            "heading": "Nous croyons en la fabrication de produits qui non seulement répondent aux attentes, mais les dépassent.",
+            "heading_size": "h1"
           }
         },
-        "3c322c1a-1e3a-47e6-8d7b-720d506eb595": {
-          "type": "review",
+        "template--15124687650899__7c49854d-841e-4486-a518-217b88181104-text-1": {
+          "type": "text",
           "settings": {
-            "star_rating": 5,
-            "name_text": "Sophie.B",
-            "date_text": "Mars 2025",
-            "review_head": "Crème hydratante parfaite pour ma peau",
-            "review_text": "J'utilise Éclat Sublime depuis quelques semaines et je suis conquise. Sa texture légère pénètre rapidement et laisse ma peau douce et lumineuse. Les ridules semblent atténuées et l'odeur de rose est délicate. Une vraie pépite pour un éclat naturel!",
-            "like_size": 49,
-            "dislike_size": 0,
-            "feature_font_size": 16
-          }
-        },
-        "f57735f1-30a6-4538-8c95-bfe08674506b": {
-          "type": "review",
-          "settings": {
-            "star_rating": 5,
-            "name_text": "Petra.B",
-            "date_text": "Juli 2025",
-            "review_head": "Une merveille pour ma peau !",
-            "review_text": "J'adore cette crème hydratante Éclat Sublime. Sa texture légère pénètre rapidement et laisse ma peau douce et éclatante. L'arôme de rose est apaisant et j'ai remarqué une différence dans l'apparence de mes ridules. Je la recommande vivement !",
-            "like_size": 66,
-            "dislike_size": 0,
-            "feature_font_size": 16
-          }
-        },
-        "review_jEy9MV": {
-          "type": "review",
-          "settings": {
-            "star_rating": 5,
-            "name_text": "Anna.M",
-            "date_text": "Februari 2025",
-            "review_head": "Une merveille pour ma peau!",
-            "review_text": "Cette crème hydratante est incroyable. Elle pénètre rapidement et laisse ma peau douce et radieuse. L'odeur de rose est délicate et apaisante. Mes ridules semblent moins visibles, et je me sens vraiment hydratée toute la journée. Je la recommande vivement!",
-            "like_size": 33,
-            "dislike_size": 0,
-            "feature_font_size": 16
-          }
-        },
-        "review_wjUU4N": {
-          "type": "review",
-          "settings": {
-            "star_rating": 5,
-            "name_text": "Clara.S",
-            "date_text": "Juli 2025",
-            "review_head": "Un véritable bijou pour la peau",
-            "review_text": "Cette crème hydratante est un vrai plaisir à utiliser. Elle pénètre rapidement et laisse ma peau douce et éclatante. Les ridules sont visiblement réduites, et l'odeur de rose est divine ! Je ne peux plus m'en passer.",
-            "like_size": 7,
-            "dislike_size": 0,
-            "feature_font_size": 16
-          }
-        },
-        "review_tYgyVW": {
-          "type": "review",
-          "settings": {
-            "star_rating": 5,
-            "name_text": "Julia.F",
-            "date_text": "April 2025",
-            "review_head": "Crème hydratante exceptionnelle",
-            "review_text": "J'adore cette crème ! Sa texture légère pénètre rapidement et laisse ma peau douce et éclatante. Les extraits de rose apportent une odeur délicate, et je sens vraiment la différence sur mes ridules. Un indispensable dans ma routine beauté !",
-            "like_size": 53,
-            "dislike_size": 0,
-            "feature_font_size": 16
-          }
-        },
-        "review_BnzkjC": {
-          "type": "review",
-          "settings": {
-            "star_rating": 5,
-            "name_text": "Miriam.S",
-            "date_text": "Augusti 2024",
-            "review_head": "🌹 Une merveille pour ma peau !",
-            "review_text": "J'ai essayé la Crème Visage Hydratante Rose et je suis ravie ! Elle hydrate parfaitement ma peau sans la rendre grasse. Les ridules sont visiblement atténuées et mon teint est éclatant. Une texture soyeuse qui fait du bien, je recommande vivement !",
-            "like_size": 78,
-            "dislike_size": 0,
-            "feature_font_size": 16
+            "text": "<p>En savoir plus</p>"
           }
         }
       },
       "block_order": [
-        "30900101-e5c8-4c0e-b5bd-0fcf8eea85cf",
-        "53a5b896-0517-4e05-80fe-b23de703e79b",
-        "3c322c1a-1e3a-47e6-8d7b-720d506eb595",
-        "f57735f1-30a6-4538-8c95-bfe08674506b",
-        "review_jEy9MV",
-        "review_wjUU4N",
-        "review_tYgyVW",
-        "review_BnzkjC"
+        "95cd312d-868a-41cb-ba80-25ac4c47391b",
+        "template--15124687650899__7c49854d-841e-4486-a518-217b88181104-heading-1",
+        "template--15124687650899__7c49854d-841e-4486-a518-217b88181104-text-1"
       ],
-      "settings": {
-        "editing": true,
-        "color_scheme": "inverse",
-        "header_text": "Avis des clients",
-        "show_top": true,
-        "rating_text": "4.8",
-        "rating_range": 4.5,
-        "star_size_top": 0.6,
-        "rating_count": "<strong>Plus de 10 000+</strong> utilisateurs satisfaits et experts recommandent <strong>Éclat Sublime – Crème Visage Hydratante Rose</strong> pour une peau éclatante et soyeuse.",
-        "review_column_mobile": "2",
-        "review_column_tab": "1",
-        "review_column_desk": "4",
-        "review_load": "6",
-        "load_text": "",
-        "rw_img_size": 80,
-        "rw_img_radius": 4,
-        "block_name_size": 14,
-        "date_size": 10,
-        "block_head_size": 16,
-        "block_text_size": 12,
-        "star_style": "star_bg_2",
-        "star_size": 0.5,
-        "star_radius": 0,
-        "feature_svg_color": "#008763",
-        "inactive_star_color": "#e2e2e2",
-        "show_border": true,
-        "rw_border": "#e1f1ec",
-        "border_radius": 6,
-        "section_bg3": "#96cebb",
-        "section_bg2": "#96cebb",
-        "verify_text": "Achat vérifié",
-        "review_bg": "#ffffff",
-        "feature_acc_color": "#008763",
-        "review_pd": 16,
-        "review_pd_m": 26,
-        "show_footer": true,
-        "show_product": true,
-        "like_text": "Cela t'a-t-il été utile ?",
-        "rw_margin": 52,
-        "padding_top": 32,
-        "padding_bottom": 68
-      }
-    },
-    "related-products": {
-      "type": "related-products",
       "disabled": true,
       "settings": {
-        "heading": "Vous aimerez peut-être aussi",
-        "heading_size": "h2",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "7ac15ddf-2ba5-42fc-bdeb-400fd4438378": {
+      "type": "featured-blog",
+      "disabled": true,
+      "settings": {
+        "heading": "Articles de blogs",
+        "heading_size": "h1",
         "collection_text_alignment": "left",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "color_scheme": "scheme-db99ff9f-6edc-4519-b5ed-c65e6bf9d4bc",
-        "image_ratio": "adapt",
-        "image_no_crop": true,
-        "show_secondary_image": true,
-        "show_vendor": true,
-        "show_rating": true,
-        "enable_quick_desc": true,
-        "quick_desc_legth": 90,
-        "quick_desc_size": 11,
-        "columns_mobile": "2",
+        "blog": "",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "navigation_show": true,
+        "color_scheme": "scheme-cd8ff304-8858-43d4-8ace-1ba168cff031",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
         "padding_top": 36,
-        "padding_bottom": 100
+        "padding_bottom": 36
       }
     }
   },
   "order": [
-    "main",
-    "rich_text_CpwdqB",
-    "brands_haxL4R",
-    "shoppable_video_new_iwXYfK",
-    "lumin_mega_4E64qa",
-    "lumin_slider_2_diHYQE",
-    "comparison_table_9j8NnQ",
-    "collage_AtKBPz",
-    "rich_text_aNGmLw",
-    "multicolumn_4dXcbP",
-    "waves_79peG9",
-    "rich_text_EkzFWE",
-    "lumin_mega_9waax9",
-    "video_with_text_jBwHRV",
-    "c0ef23cf-5481-4b47-9b78-3c28134c079a",
-    "3475a8f9-021f-4acd-8e57-163ef2a26740",
-    "related-products"
+    "3a5233be-52a6-4aad-9337-d3037c87a1a7",
+    "featured_collection_LHDawE",
+    "rich_text_WLCUrB",
+    "brands_Y9NhHL",
+    "shoppable_video_new_dU797a",
+    "lumin_cards_3aJzVd",
+    "rich_text_PFUUdK",
+    "multicolumn_mR3wFQ",
+    "lumin_mega_PPtWt9",
+    "lumin_slider_2_ywTNEg",
+    "lumin_pro_aFLr4d",
+    "video_with_text_GAx8wW",
+    "lumin_grids_gYDx9K",
+    "announcement_bar_iUp7qf",
+    "testimonial_slider_AGaAFj",
+    "slideshow_yTTPJW",
+    "collapsible_content_yK8aTm",
+    "7c49854d-841e-4486-a518-217b88181104",
+    "7ac15ddf-2ba5-42fc-bdeb-400fd4438378"
   ]
 }

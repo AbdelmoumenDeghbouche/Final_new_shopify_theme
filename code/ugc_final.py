@@ -600,7 +600,7 @@ For each scene, provide:
 2. video_type: {campaign_config.get('video_types', 'one of: silent_demonstration, talking_review, unboxing, lifestyle')}
 3. character_profile: detailed character description including demographics
 4. setting_description: authentic, lived-in space description
-5. model: "veo3_fast" or "veo3_standard"
+5. model: "veo3_fast"
 6. aspect_ratio: "{campaign_config.get('aspect_ratio', '9:16')}"
 
 CRITICAL: Each scene must have different characters and settings for diversity.
@@ -720,11 +720,7 @@ Demographics requirement: {campaign_config.get('demographics', 'diverse')}"""
         print(f"🎥 Generating authentic amateur video...")
         print(f"📝 Prompt length: {len(prompt)} characters")
 
-        model_id = (
-            "veo-3.0-fast-generate-preview"
-            if model == "veo3_fast"
-            else "veo-3.0-generate-preview"
-        )
+        model_id = "veo-3.0-fast-generate-preview"
 
         url = f"https://{self.gcp_location}-aiplatform.googleapis.com/v1/projects/{self.gcp_project_id}/locations/{self.gcp_location}/publishers/google/models/{model_id}:predictLongRunning"
 
