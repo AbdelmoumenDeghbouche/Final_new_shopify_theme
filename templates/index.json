@@ -6,8 +6,8 @@
                 "template--15221093367891__3a5233be-52a6-4aad-9337-d3037c87a1a7-slide-1": {
                     "type": "slide",
                     "settings": {
-                        "image": "NEW_IMAGE_SLIDESHOW_T5A0",
-                        "image_mob": "NEW_IMAGE_SLIDESHOW_OG7E",
+                        "image": "NEW_THEME_HERO_BANNER",
+                        "image_mob": "NEW_THEME_HERO_BANNER",
                         "caption": "",
                         "block_cap_size": 20,
                         "cap_color": "#000000",
@@ -292,7 +292,7 @@
                         "padding_size_mobile": 30,
                         "padding_left_mobile": 30,
                         "text_border": 0,
-                        "icon": "NEW_IMAGE_LUMIN-CARDS_7GIM",
+                        "icon": "NEW_THEME_PRODUCT_SHOWCASE_IMAGE_1",
                         "use_video": false,
                         "media_ratio": "100%",
                         "icon_size": 100,
@@ -330,7 +330,7 @@
                         "padding_size_mobile": 30,
                         "padding_left_mobile": 30,
                         "text_border": 0,
-                        "icon": "NEW_IMAGE_LUMIN-CARDS_FRYH",
+                        "icon": "NEW_THEME_PRODUCT_SHOWCASE_IMAGE_2",
                         "use_video": false,
                         "media_ratio": "100%",
                         "icon_size": 100,
@@ -368,7 +368,7 @@
                         "padding_size_mobile": 30,
                         "padding_left_mobile": 30,
                         "text_border": 0,
-                        "icon": "NEW_IMAGE_LUMIN-CARDS_DFGB",
+                        "icon": "NEW_THEME_IMAGE_LUMIN_GRID_1",
                         "use_video": false,
                         "media_ratio": "100%",
                         "icon_size": 100,
@@ -576,7 +576,7 @@
             "settings": {
                 "color_scheme_main": "background-1",
                 "full-width": false,
-                "image": "NEW_IMAGE_LUMIN-MEGA_HPRV",
+                "image": "NEW_THEME_COLLECTION_IMAGE",
                 "height": "large",
                 "desktop_image_width": "medium",
                 "layout": "image_first",
@@ -598,47 +598,26 @@
                 "review_image_Cgergj": {
                     "type": "review_image",
                     "settings": {
-                        "review_image": "NEW_IMAGE_LUMIN-SLIDER-2_DYSV"
+                        "review_image": "NEW_THEME_TRANSFORMATION_IMAGE_1"
                     }
                 },
                 "review_image_8fpLyr": {
                     "type": "review_image",
                     "settings": {
-                        "review_image": "NEW_IMAGE_LUMIN-SLIDER-2_UIQ2"
+                        "review_image": "NEW_THEME_TRANSFORMATION_IMAGE_2"
                     }
                 },
                 "review_image_qGx4x7": {
                     "type": "review_image",
                     "settings": {
-                        "review_image": "NEW_IMAGE_LUMIN-SLIDER-2_ARTL"
-                    }
-                },
-                "review_image_rQrc9B": {
-                    "type": "review_image",
-                    "settings": {
-                        "review_image": "NEW_IMAGE_LUMIN-SLIDER-2_EH4H"
-                    }
-                },
-                "review_image_YY9AU3": {
-                    "type": "review_image",
-                    "settings": {
-                        "review_image": "NEW_IMAGE_LUMIN-SLIDER-2_3KEK"
-                    }
-                },
-                "review_image_bUDH6Y": {
-                    "type": "review_image",
-                    "settings": {
-                        "review_image": "NEW_IMAGE_LUMIN-SLIDER-2_0XG0"
+                        "review_image": "NEW_THEME_TRANSFORMATION_IMAGE_3"
                     }
                 }
             },
             "block_order": [
                 "review_image_Cgergj",
                 "review_image_8fpLyr",
-                "review_image_qGx4x7",
-                "review_image_rQrc9B",
-                "review_image_YY9AU3",
-                "review_image_bUDH6Y"
+                "review_image_qGx4x7"
             ],
             "name": "Lumin Slider #2",
             "settings": {
@@ -729,7 +708,7 @@
             "settings": {
                 "color_scheme_main": "scheme-b4f5e471-39ab-4d0b-b66b-c098f27883a4",
                 "full-width": false,
-                "image": "NEW_IMAGE_LUMIN-PRO_TCB8",
+                "image": "NEW_THEME_HOMEPAGE_IMPACT_IMAGE",
                 "height": "adapt",
                 "desktop_image_width": "medium",
                 "layout": "text_first",
@@ -1002,8 +981,8 @@
                 "slide_QXVjDU": {
                     "type": "slide",
                     "settings": {
-                        "image": "NEW_IMAGE_SLIDESHOW_8494",
-                        "image_mob": "NEW_IMAGE_SLIDESHOW_YACS",
+                        "image": "NEW_THEME_HOMEPAGE_LIFESTYLE_BANNER",
+                        "image_mob": "NEW_THEME_HOMEPAGE_LIFESTYLE_BANNER",
                         "caption": "NEW_SLIDESHOW_O2P3_TRANSLATED",
                         "block_cap_size": 34,
                         "cap_color": "#222222",
