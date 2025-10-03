@@ -129,7 +129,7 @@ def prompt_gpt_html_validated(prompt, expected_tags, max_retries=2):
 def generate_product_tagline_prompt(
     original_text, product_title, product_description, language
 ):
-    return f"The original tagline is '{original_text}'. Generate a new, short, and benefit-driven tagline for a product named '{product_title}' with this description: '{product_description}'. Language: {language}. Return only the text."
+    return f"The original tagline is '{original_text}'. Generate max of 4 words new, short, and benefit-driven tagline for a product named '{product_title}' with this description: '{product_description}'. Language: {language}. Max of 4 words(between 2 and 4). Return only the text."
 
 
 def generate_product_feature_prompt(
@@ -188,8 +188,14 @@ def generate_full_review_prompt(
     return f"The original customer review has the headline '{original_review_head}' and body '{original_review_text}'. Generate a new, realistic customer review for '{product_title}' (description: '{product_description}'). The review should have a title and a body. Language: {language}. The response should be in two parts separated by a pipe '|': TITLE|BODY. The body should be plain text."
 
 
-def generate_comparison_benefit_prompt(original_benefit, product_title, language):
-    return f"The original benefit in a comparison table is '{original_benefit}'. Generate a new, similar but unique benefit for the product '{product_title}'. Keep it short and clear. Language: {language}. Return only the text."
+def generate_comparison_benefit_prompt(
+    already_generated_specs,
+    original_benefit,
+    product_title,
+    product_description,
+    language,
+):
+    return f"HERE IS THE ALREADY GENERATED SPECIFICATIONS: {already_generated_specs} DO NOT GENERATE A SIMILAIRE ONE . THE original benefit in a comparison table is '{original_benefit}'(Put it only as ref for marketing angles and project it on the given product). Generate a new , similar but unique benefit for this new product '{product_title}' (description: '{product_description}'). Keep it short and clear. Language: {language}. Return only the text."
 
 
 def generate_marketing_hashtag_prompt(product_title, brand_name, language):
@@ -457,11 +463,17 @@ def main():
         "NEW_COMPARISON_TABLE_C1D2_GENERATED_4": "Ekonomi (Ingen frisörbesök)",
         "NEW_COMPARISON_TABLE_C1D2_GENERATED_5": "Hållbarhet (Lockar som håller)",
     }
+    generated_specifications = []
     for placeholder, original_text in comparison_benefits.items():
         prompt = generate_comparison_benefit_prompt(
-            original_text, product_title, language
+            generated_specifications,
+            original_text,
+            product_title,
+            product_description,
+            language,
         )
         result = prompt_gpt(prompt)
+        generated_specifications.append(result)
         replace_in_file(PRODUCT_JSON_PATH, placeholder, result)
 
     prompt = generate_product_tagline_prompt(
