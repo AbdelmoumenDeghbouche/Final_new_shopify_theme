@@ -220,30 +220,12 @@
                         "product_bg_color": "#ffffff",
                         "product_text_color": "#000000"
                     }
-                },
-                "item_RdcedB": {
-                    "type": "item",
-                    "settings": {
-                        "video": "NEW_VIDEO_SHOPPABLE-VIDEO-NEW_5DI6",
-                        "video_autoplay": true,
-                        "badge": "NEW_SHOPPABLE-VIDEO-NEW_Y8Z9_TRANSLATED",
-                        "badge_bg_color": "#f6f6f6",
-                        "badge_color": "#000000",
-                        "icon": "eye",
-                        "views": "",
-                        "views_bg_color": "#fff7f9",
-                        "views_color": "#d50000",
-                        "product": "",
-                        "product_bg_color": "#ffffff",
-                        "product_text_color": "#000000"
-                    }
                 }
             },
             "block_order": [
                 "item_B4W8ee",
                 "item_3HxLiT",
-                "item_Rc44GY",
-                "item_RdcedB"
+                "item_Rc44GY"
             ],
             "name": "Shoppable videos",
             "settings": {
@@ -728,7 +710,7 @@
             "settings": {
                 "layout": "full_bleed",
                 "video_border": 0,
-                "video": "NEW_VIDEO_VIDEO-WITH-TEXT_2ZIG",
+                "video": "NEW_THEME_PRODUCT_360_VIDEO",
                 "video_height": "medium",
                 "image_overlay_opacity": 0,
                 "desktop_content_position": "middle-left",

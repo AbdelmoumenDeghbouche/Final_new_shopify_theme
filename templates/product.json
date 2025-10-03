@@ -479,7 +479,7 @@
                 "item_Agihiy": {
                     "type": "item",
                     "settings": {
-                        "video": "NEW_VIDEO_SHOPPABLE-VIDEO-NEW_ENGO",
+                        "video": "NEW_VIDEO_SHOPPABLE-VIDEO-NEW_QSDP",
                         "video_autoplay": true,
                         "badge": "NEW_SHOPPABLE_VIDEO_K1L2_TRANSLATED",
                         "badge_bg_color": "#f6f6f6",
@@ -496,7 +496,7 @@
                 "item_GhKycQ": {
                     "type": "item",
                     "settings": {
-                        "video": "NEW_VIDEO_SHOPPABLE-VIDEO-NEW_66QM",
+                        "video": "NEW_VIDEO_SHOPPABLE-VIDEO-NEW_DUI2",
                         "video_autoplay": true,
                         "badge": "NEW_SHOPPABLE_VIDEO_K1L2_TRANSLATED",
                         "badge_bg_color": "#f6f6f6",
@@ -513,24 +513,7 @@
                 "item_YfAYw6": {
                     "type": "item",
                     "settings": {
-                        "video": "NEW_VIDEO_SHOPPABLE-VIDEO-NEW_ME00",
-                        "video_autoplay": true,
-                        "badge": "NEW_SHOPPABLE_VIDEO_K1L2_TRANSLATED",
-                        "badge_bg_color": "#f6f6f6",
-                        "badge_color": "#000000",
-                        "icon": "eye",
-                        "views": "",
-                        "views_bg_color": "#fff7f9",
-                        "views_color": "#d50000",
-                        "product": "",
-                        "product_bg_color": "#ffffff",
-                        "product_text_color": "#000000"
-                    }
-                },
-                "item_HWAFY6": {
-                    "type": "item",
-                    "settings": {
-                        "video": "NEW_VIDEO_SHOPPABLE-VIDEO-NEW_4GDL",
+                        "video": "NEW_VIDEO_SHOPPABLE-VIDEO-NEW_7OUW",
                         "video_autoplay": true,
                         "badge": "NEW_SHOPPABLE_VIDEO_K1L2_TRANSLATED",
                         "badge_bg_color": "#f6f6f6",
@@ -548,8 +531,7 @@
             "block_order": [
                 "item_Agihiy",
                 "item_GhKycQ",
-                "item_YfAYw6",
-                "item_HWAFY6"
+                "item_YfAYw6"
             ],
             "name": "Shoppable videos",
             "settings": {
@@ -607,7 +589,7 @@
             "settings": {
                 "color_scheme_main": "",
                 "full-width": false,
-                "image": "NEW_IMAGE_LUMIN-MEGA_ZBLM",
+                "image": "NEW_THEME_PRODUCT_PAGE_HERO",
                 "height": "adapt",
                 "desktop_image_width": "medium",
                 "layout": "image_first",
@@ -629,47 +611,26 @@
                 "review_image_htnDmr": {
                     "type": "review_image",
                     "settings": {
-                        "review_image": "NEW_IMAGE_LUMIN-SLIDER-2_F06L"
+                        "review_image": "NEW_THEME_TRANSFORMATION_IMAGE_1"
                     }
                 },
                 "review_image_qyKExn": {
                     "type": "review_image",
                     "settings": {
-                        "review_image": "NEW_IMAGE_LUMIN-SLIDER-2_ZOU8"
+                        "review_image": "NEW_THEME_TRANSFORMATION_IMAGE_2"
                     }
                 },
                 "review_image_nJXbLD": {
                     "type": "review_image",
                     "settings": {
-                        "review_image": "NEW_IMAGE_LUMIN-SLIDER-2_JKMT"
-                    }
-                },
-                "review_image_P4BjJj": {
-                    "type": "review_image",
-                    "settings": {
-                        "review_image": "NEW_IMAGE_LUMIN-SLIDER-2_CW16"
-                    }
-                },
-                "review_image_Byggbb": {
-                    "type": "review_image",
-                    "settings": {
-                        "review_image": "NEW_IMAGE_LUMIN-SLIDER-2_8FGO"
-                    }
-                },
-                "review_image_Rj3yAn": {
-                    "type": "review_image",
-                    "settings": {
-                        "review_image": "NEW_IMAGE_LUMIN-SLIDER-2_R33R"
+                        "review_image": "NEW_THEME_TRANSFORMATION_IMAGE_3"
                     }
                 }
             },
             "block_order": [
                 "review_image_htnDmr",
                 "review_image_qyKExn",
-                "review_image_nJXbLD",
-                "review_image_P4BjJj",
-                "review_image_Byggbb",
-                "review_image_Rj3yAn"
+                "review_image_nJXbLD"
             ],
             "name": "Lumin Slider #2",
             "settings": {
@@ -798,19 +759,19 @@
                 "image_349JKR": {
                     "type": "image",
                     "settings": {
-                        "image": "NEW_IMAGE_COLLAGE_RE7C"
+                        "image": "NEW_THEME_PRODUCT_FEATURE_HIGHLIGHT_1"
                     }
                 },
                 "image_JfL9DQ": {
                     "type": "image",
                     "settings": {
-                        "image": "NEW_IMAGE_COLLAGE_IVH9"
+                        "image": "NEW_THEME_PRODUCT_FEATURE_HIGHLIGHT_2"
                     }
                 },
                 "image_gBVz8Y": {
                     "type": "image",
                     "settings": {
-                        "image": "NEW_IMAGE_COLLAGE_RMPM"
+                        "image": "NEW_THEME_HOMEPAGE_IMPACT_IMAGE"
                     }
                 },
                 "product_PCrmNE": {
@@ -1031,7 +992,7 @@
             "settings": {
                 "color_scheme_main": "background-2",
                 "full-width": false,
-                "image": "NEW_IMAGE_LUMIN-MEGA_PBXX",
+                "image": "NEW_THEME_PRODUCT_TECH_SHOWCASE",
                 "height": "adapt",
                 "desktop_image_width": "medium",
                 "layout": "image_first",
@@ -1053,7 +1014,7 @@
             "settings": {
                 "layout": "full_bleed",
                 "video_border": 0,
-                "video": "NEW_VIDEO_VIDEO-WITH-TEXT_BV7G",
+                "video": "NEW_THEME_PRODUCT_360_VIDEO",
                 "video_height": "adapt",
                 "image_overlay_opacity": 0,
                 "desktop_content_position": "middle-center",
