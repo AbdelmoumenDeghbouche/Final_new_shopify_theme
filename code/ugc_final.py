@@ -36,77 +36,6 @@ class VideoStyle(Enum):
     HAUL = "haul"
 
 
-class ProductUsageAnalyzer:
-    """Analyzes how products should be used and generates realistic action sequences"""
-
-    @staticmethod
-    def analyze_product_usage(product_analysis: Dict, openai_client: OpenAI) -> Dict:
-        """
-        Generate detailed usage instructions based on product type
-        """
-        usage_prompt = f"""You are an expert in product demonstrations and UGC content creation.
-        
-        Based on this product analysis, provide EXTREMELY DETAILED usage instructions that will prevent unrealistic video generation (like teleporting or morphing).
-        
-        Product Details:
-        - Name: {product_analysis.get('product_name')}
-        - Category: {product_analysis.get('category')}
-        - Type: {product_analysis.get('shape_type')}
-        - Opening: {product_analysis.get('opening_type')}
-        - Description: {product_analysis.get('ultra_precise_description')}
-        
-        Create a JSON response with:
-        
-        1. "product_type_category": Identify the general category (beauty_tool, skincare_application, tech_device, food_consumption, fashion_accessory, home_appliance, etc.)
-        
-        2. "preparation_steps": List of actions BEFORE using the product
-        Example for hair tool: ["pick up product from table", "check temperature setting", "section hair with fingers"]
-        
-        3. "main_usage_sequence": DETAILED step-by-step usage (minimum 5 steps)
-        Example for curling iron: 
-        ["hold iron vertically with right hand",
-        "take small section of hair with left hand", 
-        "open iron clamp with thumb",
-        "place hair section near roots",
-        "close clamp gently",
-        "slowly rotate iron 180 degrees away from face",
-        "slide iron down hair length while rotating",
-        "hold at ends for 3 seconds",
-        "release clamp and pull iron away",
-        "let curl fall naturally"]
-        
-        4. "physical_interactions": How body parts interact with product
-        Example: {{"hands": "right hand holds handle, thumb operates clamp", "hair": "wrapped around barrel in sections", "face": "tilted slightly to side"}}
-        
-        5. "temporal_markers": Time-based cues for realistic pacing
-        Example: ["0-2 seconds: picking up product", "2-4 seconds: sectioning hair", "4-8 seconds: curling motion"]
-        
-        6. "common_mistakes_to_avoid": What NOT to show
-        Example: ["hair instantly curling", "product floating", "instant transformations"]
-        
-        7. "realistic_details": Small details that make it authentic
-        Example: ["slight steam from hot iron", "hair spring back after release", "adjusting grip mid-use"]
-        
-        8. "camera_friendly_angles": Best angles to show usage clearly
-        Example: ["side profile for curling", "over shoulder for application", "front view for results"]
-        
-        Be EXTREMELY specific about hand positions, movements, timing, and transitions."""
-
-        response = openai_client.chat.completions.create(
-            model="gpt-4o",
-            messages=[
-                {
-                    "role": "system",
-                    "content": "You are an expert in product demonstrations.",
-                },
-                {"role": "user", "content": usage_prompt},
-            ],
-            response_format={"type": "json_object"},
-        )
-
-        return json.loads(response.choices[0].message.content)
-
-
 class IntelligentPromptGenerator:
     """Generates highly detailed, sequential prompts for realistic video generation"""
 
@@ -114,7 +43,6 @@ class IntelligentPromptGenerator:
     def generate_sequential_prompt(
         scene_type: str,
         product_analysis: Dict,
-        usage_analysis: Dict,
         character_profile: Dict,
         setting: str,
     ) -> Tuple[str, str]:
@@ -126,19 +54,19 @@ class IntelligentPromptGenerator:
         if scene_type == VideoStyle.SILENT_DEMO.value:
             # Silent demonstration - focus on clear, sequential actions
             video_prompt = IntelligentPromptGenerator._build_silent_demo_prompt(
-                product_analysis, usage_analysis, character_profile, setting
+                product_analysis, character_profile, setting
             )
         elif scene_type == VideoStyle.TALKING_REVIEW.value:
             video_prompt = IntelligentPromptGenerator._build_talking_review_prompt(
-                product_analysis, usage_analysis, character_profile, setting
+                product_analysis, character_profile, setting
             )
         elif scene_type == VideoStyle.UNBOXING.value:
             video_prompt = IntelligentPromptGenerator._build_unboxing_prompt(
-                product_analysis, usage_analysis, character_profile, setting
+                product_analysis, character_profile, setting
             )
         else:
             video_prompt = IntelligentPromptGenerator._build_lifestyle_prompt(
-                product_analysis, usage_analysis, character_profile, setting
+                product_analysis, character_profile, setting
             )
 
         # Build matching image prompt
@@ -150,126 +78,55 @@ class IntelligentPromptGenerator:
 
     @staticmethod
     def _build_silent_demo_prompt(
-        product_analysis: Dict, usage_analysis: Dict, character: Dict, setting: str
+        product_analysis: Dict, character: Dict, setting: str
     ) -> str:
-        """Build detailed silent demonstration prompt with sequential actions"""
+        """Simplified silent demonstration - broad strokes only"""
 
-        # Get the main usage sequence
-        usage_steps = usage_analysis.get("main_usage_sequence", [])
-        prep_steps = usage_analysis.get("preparation_steps", [])
-        temporal_markers = usage_analysis.get("temporal_markers", [])
-        physical_interactions = usage_analysis.get("physical_interactions", {})
+        prompt = f"""SILENT PRODUCT DEMONSTRATION - NO TALKING
 
-        prompt = f"""SILENT PRODUCT DEMONSTRATION - NO TALKING, NATURAL AMBIENT SOUND ONLY
+    CHARACTER: {character.get('description')}
+    SETTING: {setting}
+    PRODUCT: {product_analysis.get('product_name')} - {product_analysis.get('primary_color')} {product_analysis.get('category')}
 
-CHARACTER: {character.get('description')}
-SETTING: {setting}
-PRODUCT: {product_analysis.get('ultra_precise_description')}
+    8-SECOND SEQUENCE:
+    - Character naturally picks up and uses the {product_analysis.get('product_name')} 
+    - Smooth, continuous application motion
+    - Shows the product result
+    - Natural satisfied expression
 
-CRITICAL: This is a SILENT demonstration. NO dialogue, NO talking. Only natural sounds.
+    VISUAL: Amateur iPhone video, natural lighting, handheld camera
+    AUDIO: Natural ambient sounds only
+    STYLE: Authentic UGC, casual demonstration
 
-SEQUENTIAL ACTION TIMELINE (8 seconds total):
-
-[0.0-1.0 sec] INTRODUCTION:
-- Character enters frame naturally
-- {prep_steps[0] if prep_steps else 'Reaches for product'}
-- Product clearly visible: {product_analysis.get('product_name')}
-
-[1.0-2.5 sec] PREPARATION:
-- {prep_steps[1] if len(prep_steps) > 1 else 'Prepares to use product'}
-- Hand position: {physical_interactions.get('hands', 'natural grip')}
-- Product held at {usage_analysis.get('camera_friendly_angles', ['front angle'])[0]}
-
-[2.5-6.0 sec] MAIN DEMONSTRATION:
-"""
-
-        # Add detailed usage steps with timing
-        for i, step in enumerate(usage_steps[:4]):  # Focus on first 4 key steps
-            start_time = 2.5 + (i * 0.875)
-            end_time = start_time + 0.875
-            prompt += f"\n[{start_time:.1f}-{end_time:.1f} sec]: {step}"
-
-        prompt += f"""
-
-[6.0-7.5 sec] COMPLETION:
-- {usage_steps[-1] if usage_steps else 'Finishing movement'}
-- Natural reaction to result
-- Product still clearly visible
-
-[7.5-8.0 sec] RESULT:
-- Show final effect/result
-- Satisfied expression
-- Natural ending
-
-VISUAL REQUIREMENTS:
-- Amateur iPhone quality video
-- Handheld with slight natural movement
-- {setting} with realistic background
-- Natural lighting, no filters
-- Focus on hands and product interaction
-- NO sudden transformations or unrealistic effects
-
-AUDIO: Natural ambient sounds only - NO music, NO talking
-
-AUTHENTICITY MARKERS:
-- {usage_analysis.get('realistic_details', ['natural movements'])[0]}
-- Slight camera shake
-- Occasional refocus
-- Real-time actions (no speed up/slow down)
-
-CRITICAL: Every action must flow naturally into the next. NO teleporting, NO instant changes."""
+    CRITICAL: Show OVERALL activity, not step-by-step micro-actions. One fluid motion."""
 
         return prompt
 
     @staticmethod
     def _build_talking_review_prompt(
-        product_analysis: Dict, usage_analysis: Dict, character: Dict, setting: str
+        product_analysis: Dict, character: Dict, setting: str
     ) -> str:
-        """Build talking review prompt with product interaction"""
 
-        prompt = f"""TALKING PRODUCT REVIEW - AUTHENTIC UGC STYLE
+        prompt = f"""TALKING REVIEW - AUTHENTIC UGC
 
-CHARACTER: {character.get('description')} speaking directly to camera
-SETTING: {setting}
-PRODUCT: {product_analysis.get('ultra_precise_description')}
+    CHARACTER: {character.get('description')}
+    SETTING: {setting}
+    PRODUCT: {product_analysis.get('product_name')}
 
-DIALOGUE & ACTION SEQUENCE:
+    8-SECOND SEQUENCE:
+    "Okay so I've been using this {product_analysis.get('product_name')}..." 
+    Character holds product naturally while talking to camera, showing it from different angles, genuine reactions and expressions.
+    "You guys need to try this"
 
-[0.0-2.0 sec] OPENING:
-- Looks at camera, slight smile
-- "Okay so... I've been using this {product_analysis.get('product_name')}..."
-- Holds product up naturally
-- Product clearly visible in frame
-
-[2.0-4.0 sec] DEMONSTRATION WHILE TALKING:
-- "Let me show you how it works..."
-- Begins {usage_analysis.get('main_usage_sequence', ['using product'])[0]}
-- Natural hand gestures
-- Maintains eye contact with camera occasionally
-
-[4.0-6.0 sec] CONTINUING USE:
-- "The thing I love about this is..."
-- {usage_analysis.get('main_usage_sequence', ['demonstrating'])[1]}
-- Genuine reaction to product working
-- "...wait, look at this..."
-
-[6.0-8.0 sec] CONCLUSION:
-- Shows result while talking
-- "Like... this is actually amazing"
-- Natural ending with product visible
-- "You guys need to try this"
-
-VISUAL: Amateur iPhone selfie video, natural lighting, {setting}
-AUDIO: Natural speech with occasional "um" or pause, ambient background noise
-AUTHENTICITY: Slight camera shake, natural facial expressions, genuine reactions
-
-NO professional presentation, NO scripted feeling, NO perfect grammar"""
+    VISUAL: iPhone selfie video, natural lighting
+    AUDIO: Natural speech, casual tone
+    STYLE: Authentic UGC, not scripted"""
 
         return prompt
 
     @staticmethod
     def _build_unboxing_prompt(
-        product_analysis: Dict, usage_analysis: Dict, character: Dict, setting: str
+        product_analysis: Dict, character: Dict, setting: str
     ) -> str:
         """Build unboxing prompt with excitement and discovery"""
 
@@ -317,41 +174,21 @@ DETAILS: Real unboxing pace, no jump cuts, natural discovery"""
 
     @staticmethod
     def _build_lifestyle_prompt(
-        product_analysis: Dict, usage_analysis: Dict, character: Dict, setting: str
+        product_analysis: Dict, character: Dict, setting: str
     ) -> str:
-        """Build lifestyle prompt showing product in daily use"""
 
-        prompt = f"""LIFESTYLE CONTENT - PRODUCT IN DAILY ROUTINE
+        prompt = f"""LIFESTYLE CONTENT - NATURAL PRODUCT USE
 
-CHARACTER: {character.get('description')} in their natural routine
-SETTING: {setting} - lived-in, authentic space
-PRODUCT: {product_analysis.get('ultra_precise_description')}
+    CHARACTER: {character.get('description')}
+    SETTING: {setting}
+    PRODUCT: {product_analysis.get('product_name')}
 
-NATURAL LIFESTYLE SEQUENCE:
+    SIMPLE 8-SECOND SCENE:
+    Character is getting ready in their natural routine. They casually reach for and use the {product_analysis.get('product_name')} as part of their everyday ritual. Natural, unhurried movements. Authentic moment.
 
-[0.0-2.0 sec] CONTEXT:
-- Character doing everyday activity
-- Product naturally placed in scene
-- Casual, unaware of camera initially
-
-[2.0-4.0 sec] NATURAL REACH:
-- Notices need for product
-- Reaches for it naturally
-- "{usage_analysis.get('preparation_steps', ['Picks up product'])[0]}"
-
-[4.0-6.0 sec] CASUAL USE:
-- Uses product as part of routine
-- Natural, unhurried movements
-- Focus on authenticity over demonstration
-
-[6.0-8.0 sec] CONTINUE ROUTINE:
-- Product integrated into activity
-- Natural satisfaction
-- Continues with daily routine
-
-VISUAL: Candid iPhone footage, natural home lighting, authentic environment
-AUDIO: Ambient home sounds, no music, natural movements
-STYLE: Documentary feel, not staged, genuine daily moment"""
+    VISUAL: Candid iPhone footage, natural lighting
+    AUDIO: Ambient sounds only
+    STYLE: Documentary feel, unposed, genuine"""
 
         return prompt
 
@@ -359,32 +196,29 @@ STYLE: Documentary feel, not staged, genuine daily moment"""
     def _build_image_prompt(
         scene_type: str, product_analysis: Dict, character: Dict, setting: str
     ) -> str:
-        """Build matching image prompt for reference"""
+        """Build SIMPLE image prompt with scene-appropriate framing"""
 
-        action_map = {
-            VideoStyle.SILENT_DEMO.value: f"holding and demonstrating the {product_analysis.get('product_name')}",
-            VideoStyle.TALKING_REVIEW.value: f"talking to camera while showing the {product_analysis.get('product_name')}",
-            VideoStyle.UNBOXING.value: f"excitedly unboxing the {product_analysis.get('product_name')}",
-            VideoStyle.LIFESTYLE.value: f"casually using the {product_analysis.get('product_name')} in daily routine",
-        }
+        product_name = product_analysis.get("product_name")
 
-        prompt = f"""Amateur iPhone photo, Reddit quality, unposed authentic moment
+        # Different framing based on video type
+        if scene_type == VideoStyle.TALKING_REVIEW.value:
+            action = f"holding up {product_name} while looking at camera"
+        elif scene_type == VideoStyle.UNBOXING.value:
+            action = f"holding unopened {product_name} with excited expression"
+        elif scene_type == VideoStyle.LIFESTYLE.value:
+            action = f"casually with {product_name} in natural setting"
+        else:  # SILENT_DEMO or default
+            action = f"naturally displaying {product_name}"
 
-SUBJECT: {character.get('description')}
-ACTION: {action_map.get(scene_type, 'using product')}
-PRODUCT VISIBLE: {product_analysis.get('ultra_precise_description')}
-SETTING: {setting}
+        prompt = f"""Amateur iPhone photo, casual authentic moment
 
-CRITICAL DETAILS:
-- Product held naturally and clearly visible
-- Natural expression, not posing
-- Realistic hand position
-- Amateur photography quality
-- Natural shadows and lighting
-- Slightly imperfect framing
-- Genuine moment captured
+    {character.get('description')} {action} in {setting}.
 
-STYLE: Snapchat story quality, authentic UGC, NOT professional photo"""
+    Product: {product_analysis.get('primary_color')} {product_name}, {product_analysis.get('shape_type')} shape, clearly visible.
+
+    ONE person, ONE product, natural hand position, casual pose, good product lighting, amateur photo quality.
+
+    NOT professional photography, NOT multiple products, NOT extra hands."""
 
         return prompt
 
@@ -408,7 +242,6 @@ class UltraRealisticUGCGenerator:
         )
 
         # Initialize analyzers
-        self.usage_analyzer = ProductUsageAnalyzer()
         self.prompt_generator = IntelligentPromptGenerator()
 
         # Veo3 setup
@@ -551,13 +384,6 @@ class UltraRealisticUGCGenerator:
             print(f"✅ Product DNA extracted: {analysis.get('product_name')}")
 
             # Enhance with usage analysis
-            usage_analysis = self.usage_analyzer.analyze_product_usage(
-                analysis, self.openai_client
-            )
-            analysis["usage_instructions"] = usage_analysis
-            print(
-                f"✅ Usage patterns analyzed: {usage_analysis.get('product_type_category')}"
-            )
 
             return analysis
 
@@ -576,35 +402,27 @@ class UltraRealisticUGCGenerator:
         print(f"🎬 Orchestrating {campaign_config.get('video_count', 3)} UGC scenes...")
 
         # Extract usage instructions
-        usage_instructions = product_analysis.get("usage_instructions", {})
 
         system_prompt = f"""You are an expert UGC content strategist creating ultra-realistic content.
 
-## PRODUCT INFORMATION
-Product: {product_analysis.get('product_name')}
-Category: {usage_instructions.get('product_type_category')}
-Description: {product_analysis.get('ultra_precise_description')}
+        ## PRODUCT INFORMATION
+        Product: {product_analysis.get('product_name')}
+        Category: {product_analysis.get('category')}
+        Description: {product_analysis.get('ultra_precise_description')}
 
-## USAGE INSTRUCTIONS (MUST FOLLOW)
-Preparation: {json.dumps(usage_instructions.get('preparation_steps', []))}
-Main Sequence: {json.dumps(usage_instructions.get('main_usage_sequence', []))}
-Physical Interactions: {json.dumps(usage_instructions.get('physical_interactions', {}))}
-Temporal Markers: {json.dumps(usage_instructions.get('temporal_markers', []))}
-Camera Angles: {json.dumps(usage_instructions.get('camera_friendly_angles', []))}
+        ## YOUR MISSION
+        Create {campaign_config.get('video_count', 3)} diverse UGC scenes.
 
-## YOUR MISSION
-Create {campaign_config.get('video_count', 3)} diverse UGC scenes.
+        For each scene, provide:
+        1. scene_id: unique identifier
+        2. video_type: one of: silent_demonstration, talking_review, unboxing, lifestyle
+        3. character_profile: detailed character description
+        4. setting_description: authentic space description
+        5. model: "veo3_fast" or "veo3_standard"
+        6. aspect_ratio: "{campaign_config.get('aspect_ratio', '9:16')}"
 
-For each scene, provide:
-1. scene_id: unique identifier
-2. video_type: {campaign_config.get('video_types', 'one of: silent_demonstration, talking_review, unboxing, lifestyle')}
-3. character_profile: detailed character description including demographics
-4. setting_description: authentic, lived-in space description
-5. model: "veo3_fast"
-6. aspect_ratio: "{campaign_config.get('aspect_ratio', '9:16')}"
-
-CRITICAL: Each scene must have different characters and settings for diversity.
-Demographics requirement: {campaign_config.get('demographics', 'diverse')}"""
+        CRITICAL: Each scene must have different characters and settings.
+        Demographics: {campaign_config.get('demographics', 'diverse')}"""
 
         user_prompt = f"""Generate {campaign_config.get('video_count', 3)} UGC video scenes for this product.
         
@@ -672,7 +490,6 @@ Demographics requirement: {campaign_config.get('demographics', 'diverse')}"""
                 self.prompt_generator.generate_sequential_prompt(
                     scene_type=scene["video_type"],
                     product_analysis=product_analysis,
-                    usage_analysis=usage_instructions,
                     character_profile=character_details,
                     setting=scene["setting_description"],
                 )
@@ -680,7 +497,6 @@ Demographics requirement: {campaign_config.get('demographics', 'diverse')}"""
 
             scene["image_prompt"] = image_prompt
             scene["video_prompt"] = video_prompt
-            scene["usage_sequence"] = usage_instructions.get("main_usage_sequence", [])
 
         print(
             f"✅ Generated {len(campaign['scenes'])} authentic UGC scenes with sequential prompts"
@@ -688,18 +504,31 @@ Demographics requirement: {campaign_config.get('demographics', 'diverse')}"""
         return campaign
 
     def generate_ultra_realistic_image(
-        self, prompt: str, product_description: str, save_path: str
+        self, prompt: str, reference_image_path: str, save_path: str
     ) -> str:
-        """Generate ultra-realistic amateur-style image with Nano Banana"""
-        print(f"📸 Generating authentic amateur image...")
+        """Generate UGC-style image using original product as reference"""
+        print(f"📸 Generating authentic amateur image with product reference...")
+
+        # Open image using PIL
+        from PIL import Image as PILImage
+
+        reference_image = PILImage.open(reference_image_path)
+
+        # Create multimodal prompt with reference image + instructions
+        full_prompt = f"""{prompt}
+
+    CRITICAL: The product in the reference image MUST be EXACTLY reproduced. 
+    Same colors, same shape, same text, same branding, same everything. 
+    Only change: add person holding it in amateur UGC style."""
 
         response = self.gemini_client.models.generate_content(
-            model="gemini-2.5-flash-image-preview", contents=[prompt]
+            model="gemini-2.5-flash-image-preview",
+            contents=[full_prompt, reference_image],  # Pass PIL Image object directly
         )
 
         for part in response.candidates[0].content.parts:
             if part.inline_data is not None:
-                image = Image.open(BytesIO(part.inline_data.data))
+                image = PILImage.open(BytesIO(part.inline_data.data))
                 os.makedirs(os.path.dirname(save_path), exist_ok=True)
                 image.save(save_path)
                 print(f"✅ Authentic image saved: {save_path}")
@@ -720,7 +549,11 @@ Demographics requirement: {campaign_config.get('demographics', 'diverse')}"""
         print(f"🎥 Generating authentic amateur video...")
         print(f"📝 Prompt length: {len(prompt)} characters")
 
-        model_id = "veo-3.0-fast-generate-preview"
+        model_id = (
+            "veo-3.0-fast-generate-preview"
+            if model == "veo3_fast"
+            else "veo-3.0-generate-preview"
+        )
 
         url = f"https://{self.gcp_location}-aiplatform.googleapis.com/v1/projects/{self.gcp_project_id}/locations/{self.gcp_location}/publishers/google/models/{model_id}:predictLongRunning"
 
@@ -755,11 +588,11 @@ Demographics requirement: {campaign_config.get('demographics', 'diverse')}"""
         payload = {
             "instances": [instance],
             "parameters": {
-                "durationSeconds": 8,
+                "durationSeconds": 6,
                 "aspectRatio": aspect_ratio,
                 "resolution": "1080p",
+                "generateAudio": False,
                 "sampleCount": 1,
-                "generateAudio": True,
             },
         }
 
@@ -774,7 +607,7 @@ Demographics requirement: {campaign_config.get('demographics', 'diverse')}"""
             return None
 
     def _poll_video_operation(
-        self, operation_name: str, model_id: str, save_dir: str, max_wait: int = 600
+        self, operation_name: str, model_id: str, save_dir: str, max_wait: int = 200
     ) -> str:
         """Poll for video completion"""
         url = f"https://{self.gcp_location}-aiplatform.googleapis.com/v1/projects/{self.gcp_project_id}/locations/{self.gcp_location}/publishers/google/models/{model_id}:fetchPredictOperation"
@@ -893,9 +726,7 @@ Demographics requirement: {campaign_config.get('demographics', 'diverse')}"""
             image_path = os.path.join(scene_dir, "reference.jpg")
             generated_image = self.generate_ultra_realistic_image(
                 prompt=scene["image_prompt"],
-                product_description=product_analysis.get(
-                    "ultra_precise_description", ""
-                ),
+                reference_image_path=product_image_path,  # ← Original product image
                 save_path=image_path,
             )
 
@@ -1003,8 +834,8 @@ CRITICAL REQUIREMENTS:
 # Example usage with enhanced sequential prompting
 if __name__ == "__main__":
     results = create_perfect_ugc_campaign(
-        product_image="test/UGC/images/lipstick.jpg",
-        videos=6,
+        product_image="/content/product_images/NEW_THEME_COLLECTION_IMAGE.png",
+        videos=3,
         style="mixed",
         demographics="young_female",
         platform="TikTok",
